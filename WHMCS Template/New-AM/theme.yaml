@@ -1,0 +1,4 @@
+name: "New AM"
+author: "Cmsbased.net"
+config:
+  parent: twenty-one
