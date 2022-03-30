@@ -84,7 +84,7 @@
     {/if}
 
     <section id="main-body">
-                {if $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
+                <!-- {if $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
                     <div class="col-lg-4 col-xl-3">
                         <div class="sidebar">
                             {include file="$template/includes/sidebar.tpl" sidebar=$primarySidebar}
@@ -95,5 +95,5 @@
                             </div>
                         {/if}
                     </div>
-                {/if}
-                <div class="{if  $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}col-lg-8 col-xl-9{else}{/if} primary-content">
+                {/if} -->
+                <div class="{if  $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}col-lg-12 col-xl-12{else}{/if} primary-content">
