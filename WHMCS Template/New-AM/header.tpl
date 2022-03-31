@@ -50,12 +50,22 @@
             <div class="Dasboard">
                 <span><img src="/templates/Armelin/assets/img/My-dasboard-icon.png"><!-- My Dashboard --></span>
                 <ul class="select">
-                    <li><a href="clientarea.php">My Dashboard</a></li>
+                  <!--  <li><a href="clientarea.php">My Dashboard</a></li>
                     <li><a href="clientarea.php?action=invoices">My invoices</a></li>
                     <li><a href="clientarea.php?action=products">My Plans &amp; services</a></li>
                     <li><a href="supporttickets.php">My Projects</a></li>
                     <li><a href="/Sandbox/index.php?rp=/user/profile">My Profile</a></li>
-                    <li><a href="/Sandbox/index.php?rp=/account/paymentmethods">My Payments</a></li>
+                    <li><a href="/Sandbox/index.php?rp=/account/paymentmethods">My Payments</a></li>-->
+                    
+                <li menuItemName="My Dashboard"><a href="clientarea.php">My Dashboard</a></li>
+                <li menuItemName="My Dashboard"><a href="clientarea.php">My Dashboard</a></li>
+                <li menuItemName="My Invoices"><a href="clientarea.php?action=invoice">My Invoices</a></li>
+                <li menuItemName="My Tickets"><a href="supporttickets.php">My Tickets</a></li>
+                <li menuItemName="My Quotes"><a href="clientarea.php?action=quotes">My Quotes</a></li>
+                <li menuItemName="My Plans & Services"><a href="clientarea.php?action=services">My Plans & Services</a></li>
+                <li menuItemName="My Projects"><a href="index.php?m=project_management">My Projects</a></li>
+                <li menuItemName="My Domains"><a href="clientarea.php?action=domains">My Domains</a></li>
+                    
                 </ul>
             </div>
             <div class="home-dashboard">

@@ -2926,7 +2926,7 @@ header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-
 .My-dasboard .billing-section .billing-title h2 img { vertical-align: bottom; margin-right: 12px; }
 
 .My-dasboard .Welcome-billing .Verificationbox { width: 100%; display: inline-block;  padding: 0 0 50px; }
-.My-dasboard .Welcome-billing .Verificationbox .verification-banner { width: 100%;display: inline-block; background-image: url(../img/Verificationbox-bg.png); background-repeat: no-repeat; background-size: cover; background-position: 100% 100%; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-top-left-radius: 10px; border-bottom-right-radius: 10px; padding: 41px 38px 29px 35px; }
+.My-dasboard .Welcome-billing .Verificationbox .verification-banner { width: 100%;display: inline-block;  background: rgb(141,37,102); background: -moz-linear-gradient(141deg, rgba(141,37,102,1) 40%, rgba(181,30,125,1) 60%, rgba(190,29,130,1) 100%); background: -webkit-linear-gradient(141deg, rgba(141,37,102,1) 40%, rgba(181,30,125,1) 60%, rgba(190,29,130,1) 100%); background: linear-gradient(141deg, rgba(141,37,102,1) 40%, rgba(181,30,125,1) 60%, rgba(190,29,130,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8d2566",endColorstr="#be1d82",GradientType=1); -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-top-left-radius: 10px; border-bottom-right-radius: 10px; padding: 41px 38px 29px 35px; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .container { width: 100%; max-width: 100%; padding: 0; margin: 0; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .row { display: inline-block; display: inline-block; -ms-flex-wrap: inline-block; flex-wrap: initial; margin: 0; width: 100%; display: inline-block; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .row .order-3 { display: none; }
@@ -3139,7 +3139,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 
 .table-container { position: relative; width: 94%; max-width: 1098px; margin: 0 auto; display: table; background: #ffffff; -webkit-box-shadow: 10px 20px 100px -10px rgb(0,0,0,0.3); -moz-box-shadow: 10px 20px 100px -10px rgb(0,0,0,0.3); box-shadow: 10px 20px 100px -10px rgb(0,0,0,0.3); border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; padding: 33px 20px 71px 0; margin-bottom: 40px; }
 .table-container .dataTables_wrapper { width: 100%; max-width: 748px !important; display: inline-block; margin: 0; }
-.table-container .dataTables_wrapper .listtable .dataTables_info { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; padding: 12px 0 12px 33px; }
+.table-container .dataTables_wrapper .listtable .dataTables_info { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; width: 50%; padding: 14px 0 12px 33px; }
 .table-container .dataTables_wrapper .listtable .dataTables_filter {  }
 .table-container .dataTables_wrapper .listtable .dataTables_filter::before { top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); left: 23px; color: #000000; }
 .table-container .dataTables_wrapper .listtable .dataTables_filter label { margin: 0 !important; }
@@ -3193,7 +3193,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 
 .table-container .Right-side { width: 310px; float: right; margin: 64px 0 0; }
 .table-container .Right-side .sidebar { width: 100%; display: inline-block; margin: 0 0 0; }
-.table-container .Right-side .sidebar .card-sidebar { width: 100%; display: inline-block; background: #f7f7f7; -webkit-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); -moz-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); border: none; border-radius: 0; padding: 0 26px 30px 36px; margin: 0 0 20px; }
+.table-container .Right-side .sidebar .card-sidebar { width: 100%; display: inline-block; background: #f7f7f7; -webkit-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); -moz-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); border: none; border-radius: 0; padding: 0 26px 0 36px; margin: 0 0 20px; }
 .table-container .Right-side .sidebar .card-sidebar .card-header { position: relative; width: 100%; display: inline-block; border: none; padding: 18px 0; }
 .table-container .Right-side .sidebar .card-sidebar .card-header:before { content: ""; position: absolute; top: 0; left: -27px; width: 12px; height: 45px; background: #0c0c0c; }
 .table-container .Right-side .sidebar .card-sidebar .card-header h3.card-title { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0; }
@@ -3201,17 +3201,69 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Right-side .sidebar .card-sidebar .card-header h3.card-title i.fas.float-right { margin: 0; }
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body { width: 100%; display: inline-block; padding: 0 0 0; }
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: 24px; color: #000000; letter-spacing: 0; padding: 0 0 12px; }
-.table-container .Right-side .sidebar .card-sidebar .card-footer { width: 100%; display: inline-block; border: none; padding: 0; }
+.table-container .Right-side .sidebar .card-sidebar .card-footer { width: 100%; display: inline-block; border: none; padding: 0 0 30px; }
 .table-container .Right-side .sidebar .card-sidebar .card-footer .col-xs-6 { float: left; margin-right: 7px; }
 .table-container .Right-side .sidebar .card-sidebar .card-footer .col-xs-6:last-child { margin: 0; }
 .table-container .Right-side .sidebar .card-sidebar .card-footer a.btn-block { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; border: none; -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28) !important; -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28) !important; box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28) !important; border-radius: 10px; display: inline-block; text-align: center; margin: 0; padding: 10px 17px; }
 .table-container .Right-side .sidebar .card-sidebar .card-footer a.btn-block i { margin: 0; padding: 0 5px 0 0; opacity: 1; }
 .table-container .Right-side .sidebar .card-sidebar .card-footer a.btn-block:hover { color: #ffffff; background: #000000; }
 
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group { width: 100%; display: inline-block !important; flex-direction: initial; padding: 0 0 49px; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; background: transparent; border: none; padding: 0; margin: 0 0 8px; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item:last-child { margin: 0; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item span.badge { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; margin-right: -1px; background: transparent; padding: 0; width: 18px; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item i.far { font-size: 15px; color: #000000; margin-right: 12px; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item span { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item.active { color: #bc2582; }
 
+/* BILLING Section */
+.billing-Invoices .dataTables_wrapper { width: 100%; max-width: 748px !important; display: inline-block; margin: 0; }
+.billing-Invoices .dataTables_wrapper .listtable .dataTables_info { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; width: 50%; padding: 14px 0 12px 33px; }
+.billing-Invoices .dataTables_wrapper .listtable .dataTables_filter {  }
+.billing-Invoices .dataTables_wrapper .listtable .dataTables_filter::before { top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); left: 23px; color: #000000; }
+.billing-Invoices .dataTables_wrapper .listtable .dataTables_filter label { margin: 0 !important; }
+.billing-Invoices .dataTables_wrapper .listtable .dataTables_filter label input.form-control { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; border: 2px solid #010001; border-radius: 0; display: inline-block; width: 310px; margin: 0 !important; padding: 11px 15px 11px 45px !important; }
 
+.billing-Invoices .dataTables_wrapper table { width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); border-radius: 0; margin: 0 !important; }
+.billing-Invoices .dataTables_wrapper table thead { width: 100%; display: inline-block; margin: 0; }
+.billing-Invoices .dataTables_wrapper table thead tr { width: 100%; display: inline-block; padding: 19px 0 36px; }
+.billing-Invoices .dataTables_wrapper table thead tr th { font-family: 'Raleway', sans-serif !important; font-weight: 500 !important; font-size: 17.71px !important; line-height: normal !important; color: #000000 !important; letter-spacing: 0 !important; text-transform: initial !important; width: auto !important; border: none !important; box-shadow: none !important; background: transparent !important; padding: 0 0 0 !important; float: left; }
+.billing-Invoices .dataTables_wrapper table thead tr th::before { content: ""; background-image: url(../img/arrow-1.png); background-size: cover; background-repeat: no-repeat; width: 8px; height: 19px; opacity: 1; top: 0; right: 12px; }
+.billing-Invoices .dataTables_wrapper table thead tr th::after { content: ""; background-image: url(../img/arrow-2.png); background-size: cover; background-repeat: no-repeat; width: 9px; height: 19px; opacity: 1; top: 0; right: 0; }
+.billing-Invoices .dataTables_wrapper table thead tr th:nth-child(1), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(1) { width: 19% !important; }
+.billing-Invoices .dataTables_wrapper table thead tr th:nth-child(2), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(2) { width: 22% !important; text-align: center; }
+.billing-Invoices .dataTables_wrapper table thead tr th:nth-child(3), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(3) { width: 19% !important; text-align: center; }
+.billing-Invoices .dataTables_wrapper table thead tr th:nth-child(4), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(4) { width: 14% !important; text-align: center; }
+.billing-Invoices .dataTables_wrapper table thead tr th:nth-child(5), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(5) { width: 15% !important; text-align: center; }
+.billing-Invoices .dataTables_wrapper table thead tr th:nth-child(6), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(6) { width: 11% !important; }
+.billing-Invoices .dataTables_wrapper table thead tr th:nth-child(6) { opacity: 0; }
+.billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(6) { text-align: right; }
 
+.billing-Invoices .dataTables_wrapper table tbody { width: 100%; display: inline-block; margin: 0; }
+.billing-Invoices .dataTables_wrapper table tbody tr { width: 100%; display: inline-block; box-shadow: none; background-image: url('../img/ticket-box-shadow.png'); background-repeat: no-repeat; background-size: cover; background-position: 100% 100%; border: none; margin: 0 0 2px; padding: 11px 12px 7px 26px; }
+.billing-Invoices .dataTables_wrapper table tbody tr:last-child { margin: 0 0 13px; }
+.billing-Invoices .dataTables_wrapper table tbody tr td { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; background: transparent; border: none; width: auto !important; padding: 0 0 0 !important; float: left; min-height: 25px; display: table !important; }
+.billing-Invoices .dataTables_wrapper table tbody tr td p { display: table-cell; vertical-align: middle; padding: 0; margin: 0; }
+.billing-Invoices .dataTables_wrapper table tbody tr td a { color: #000000 !important; }
+.billing-Invoices .dataTables_wrapper table tbody tr td a b { font-family: 'Raleway', sans-serif; font-weight: 600; }
+.billing-Invoices .dataTables_wrapper table tbody tr td a:hover { color: #bb2581 !important; }
 
+.billing-Invoices .dataTables_wrapper table tbody tr td span.label { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 8.85px; line-height: 1; color: #ffffff !important; letter-spacing: 0; text-transform: uppercase; background: #bc2582; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important;  border-radius: 50px; display: inline-block; text-align: center; width: 65px; height: 18px; margin: 0; padding: 5.3px; }
+.billing-Invoices .dataTables_wrapper table tbody tr td span.label.Paid { background: #1dbe58; color: #ffffff !important; }
+.billing-Invoices .dataTables_wrapper table tbody tr td span.label.Refunded { color: #ffffff !important; background: #000000; }
+.billing-Invoices .dataTables_wrapper table tbody tr td a.open-btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 10.33px; line-height: 1; color: #ffffff !important; background: #bb2581 !important; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; letter-spacing: 0; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; float: right; margin: 0; padding: 7.4px 8.9px; }
+.billing-Invoices .dataTables_wrapper table tbody tr td a.open-btn:hover { color: #ffffff !important; background: #000000 !important; }
+.billing-Invoices .dataTables_wrapper table tbody tr td a.open-btn img { margin-left: 9px; vertical-align: bottom; }
+
+.billing-Invoices .dataTables_wrapper .dataTables_paginate { display: none; }
+
+.billing-Invoices .Showing-section { width: 100%; max-width: 748px; float: initial; display: inline-block; text-align: right; background: #ffffff; -webkit-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); border-radius: 0; padding: 0; }
+.billing-Invoices .Showing-section .Showing-box { width: 100%; display: inline-block; margin: 0; list-style: none; white-space: initial; justify-content: initial; border-radius: 0; border: none; text-align: left; box-shadow: inset 0 40px 40px -30px rgb(0,0,0,0.3); padding: 35px 25px 27px 19px; }
+.billing-Invoices .Showing-section .Showing-box .Latest-invoices { float: left; padding: 8px 0; }
+.billing-Invoices .Showing-section .Showing-box .Latest-invoices p { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0; }
+.billing-Invoices .Showing-section .Showing-box .View-invoices { float: right; }
+.billing-Invoices .Showing-section .Showing-box .View-invoices a { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; }
+.billing-Invoices .Showing-section .Showing-box .View-invoices a img { margin-left: 16px; margin-top: -2px; }
 
 
 

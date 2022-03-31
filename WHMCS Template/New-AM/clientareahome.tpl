@@ -43,6 +43,17 @@
                 "info": false
             });
         $(
+                '#myBilling')
+            .DataTable({
+                "responsive": true,
+                "dom": '<"listtable"fit>pl',
+                "lengthChange": false,
+                "filter": false,
+                "sort": true,
+                "stateSave": true,
+                "info": false
+            });
+        $(
                 '#myServices')
             .DataTable({
                 "responsive": true,
@@ -217,7 +228,7 @@
             
 
             <div class="billing-Invoices">
-                <div class="well">
+                <!-- <div class="well">
                     <table class="table">
                         <tr>
                             <td><span class="glyphicon glyphicon-file"></span> {$LANG.statsdueinvoicesbalance}:</td>
@@ -234,6 +245,72 @@
                             </td>
                         </tr>
                     </table>
+                </div> -->
+                <table class="min-w-full divide-y divide-gray-100 dark:divide-gray-900" id="myBilling">
+                    <thead class="bg-transparent dark:bg-black">
+                        <tr>
+                            <th
+                                class="hidden px-6 py-3 text-xs font-medium tracking-wider text-center text-gray-500 uppercase lg:table-cell">
+                                Invoice #
+                            </th>
+                            <th class="px-6 py-3 text-xs font-medium tracking-wider text-center text-gray-500 uppercase">
+                                Invoice Date
+                            </th>
+                            
+                            <th
+                                class="hidden px-6 py-3 text-xs font-medium tracking-wider text-center text-gray-500 uppercase sm:table-cell">
+                                Due Date
+                            </th>
+                            <th
+                                class="hidden px-6 py-3 text-xs font-medium tracking-wider text-center text-gray-500 uppercase lg:table-cell">
+                                Total
+                            </th>
+                            <th
+                                class="hidden px-6 py-3 text-xs font-medium tracking-wider text-center text-gray-500 uppercase lg:table-cell">
+                                Status
+                            </th>
+                            <th
+                                class="hidden px-6 py-3 text-xs font-medium tracking-wider text-center text-gray-500 uppercase lg:table-cell">
+                                
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-100 dark:divide-gray-900 dark:bg-transparent">
+                        <tr>
+                            <td class="hidden px-6 py-4 lg:table-cell"><p>3816</p></td>
+                            <td class="px-6 py-4"><p>7/8/2021</p></td>
+                            <td class="px-6 py-4"><p>8/8/2021</p></td>
+                            <td class="px-6 py-4"><p>$100.00</p></td>
+                            <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label Paid">PAID</span></p></td>
+                            <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">PAY NOW</a></p></td>
+                        </tr>
+                        <tr>
+                            <td class="hidden px-6 py-4 lg:table-cell"><p>3816</p></td>
+                            <td class="px-6 py-4"><p>7/8/2021</p></td>
+                            <td class="px-6 py-4"><p>8/8/2021</p></td>
+                            <td class="px-6 py-4"><p>$100.00</p></td>
+                            <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label Refunded">REFUNDED</span></p></td>
+                            <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">PAY NOW</a></p></td>
+                        </tr>
+                        <tr>
+                            <td class="hidden px-6 py-4 lg:table-cell"><p>3816</p></td>
+                            <td class="px-6 py-4"><p>7/8/2021</p></td>
+                            <td class="px-6 py-4"><p>8/8/2021</p></td>
+                            <td class="px-6 py-4"><p>$100.00</p></td>
+                            <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label Unpaid">UNPAID</span></p></td>
+                            <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">PAY NOW</a></p></td>
+                        </tr>                                               
+                    </tbody>
+                </table>
+                <div class="Showing-section">
+                    <div class="Showing-box">
+                        <div class="Latest-invoices">
+                            <p>SHOWING 3 LATEST INVOICES</p>
+                        </div>
+                        <div class="View-invoices">
+                            <a href="clientarea.php?action=invoice">VIEW ALL INVOICES<img src="/templates/New-AM/img/View-invoices-arrow.png"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="Account-quicklinks">
@@ -410,39 +487,38 @@
                 </tr>
             </thead>
             <tbody class="bg-white divide-y divide-gray-100 dark:divide-gray-900 dark:bg-transparent">
-                    <tr>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
-                        <td class="px-6 py-4"><p>8/8/2021</p></td>
-                        <td class="px-6 py-4"><p>9/30/2021</p></td>
-                        <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label In-progress">IN  PROGRESS</span></p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
-                    </tr>
-                    <tr>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
-                        <td class="px-6 py-4"><p>8/8/2021</p></td>
-                        <td class="px-6 py-4"><p>9/30/2021</p></td>
-                        <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label Pending">PENDING</span></p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
-                    </tr>
-                    <tr>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
-                        <td class="px-6 py-4"><p>8/8/2021</p></td>
-                        <td class="px-6 py-4"><p>9/30/2021</p></td>
-                        <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label In-progress">IN  PROGRESS</span></p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
-                    </tr>
-                    <tr>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
-                        <td class="px-6 py-4"><p>8/8/2021</p></td>
-                        <td class="px-6 py-4"><p>9/30/2021</p></td>
-                        <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label Complete">COMPLETE</span></p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
-                        <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
-                    </tr>
-               
+                <tr>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
+                    <td class="px-6 py-4"><p>8/8/2021</p></td>
+                    <td class="px-6 py-4"><p>9/30/2021</p></td>
+                    <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label In-progress">IN  PROGRESS</span></p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
+                </tr>
+                <tr>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
+                    <td class="px-6 py-4"><p>8/8/2021</p></td>
+                    <td class="px-6 py-4"><p>9/30/2021</p></td>
+                    <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label Pending">PENDING</span></p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
+                </tr>
+                <tr>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
+                    <td class="px-6 py-4"><p>8/8/2021</p></td>
+                    <td class="px-6 py-4"><p>9/30/2021</p></td>
+                    <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label In-progress">IN  PROGRESS</span></p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
+                </tr>
+                <tr>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>Website Deisgn & Development - testdomain.com</p></td>
+                    <td class="px-6 py-4"><p>8/8/2021</p></td>
+                    <td class="px-6 py-4"><p>9/30/2021</p></td>
+                    <td class="hidden px-6 py-4 sm:table-cell"><p><span class="label Complete">COMPLETE</span></p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p>9/15/2021</p></td>
+                    <td class="hidden px-6 py-4 lg:table-cell"><p><a href="#" class="open-btn">Open<img src="/templates/New-AM/img/open-arrow.png"></a></p></td>                        
+                </tr>
             </tbody>
         </table>
     </div>
