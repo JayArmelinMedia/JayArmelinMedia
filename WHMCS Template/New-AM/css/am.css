@@ -2860,16 +2860,19 @@ header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-
 .breadcrumbs.full { width: 100%; display: inline-block; margin: 20px 0 0; }
 
 .Dasboard-home .Dasboard ul.select { display: inline-block; padding: 0; border-radius: 4px; position: relative; position: absolute; z-index: 9; }
-.Dasboard-home .Dasboard ul.select li { display: none; cursor: pointer; padding: 0; border: none; box-shadow: inset 0px 4px 32px 0px rgb(0,0,0,0.25); padding: 8px 10px; background: #ffffff; min-width: 395px; }
+.Dasboard-home .Dasboard ul.select li { display: none; cursor: pointer; padding: 0; border: none; padding: 3.5px 12px; background: #ffffff; border-left: 1px solid #ddd; border-right: 1px solid #ddd; min-width: 280px; }
 .Dasboard-home .Dasboard ul.select.open li { display: block; }
-.Dasboard-home .Dasboard ul.select li a { position: relative; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 9px; text-decoration: none; }
+.Dasboard-home .Dasboard ul.select li a { position: relative; font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 13.3px; line-height: 1.5; color: #555555; letter-spacing: 0; padding: 0; }
 .Dasboard-home .Dasboard ul.select li:hover { background: #bc2582; box-shadow: none; }
 .Dasboard-home .Dasboard ul.select li:hover a { color: #ffffff; }
-.Dasboard-home .Dasboard ul.select li:first-child { display: block; border-top: 0px; background: transparent; box-shadow: none; padding: 0 0 5px; }
-.Dasboard-home .Dasboard ul.select li:first-child a { padding-right: 28px; pointer-events: none; }
+.Dasboard-home .Dasboard ul.select li:first-child { display: block; border-top: 0px; background: transparent; box-shadow: none; border: none; padding: 0 0 5px; }
+.Dasboard-home .Dasboard ul.select li:first-child a { padding-right: 28px; pointer-events: none; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 9px; }
 .Dasboard-home .Dasboard ul.select li:hover:first-child a { color: #000000; }
 .Dasboard-home .Dasboard ul.select li:first-child a:before { content: ""; position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); right: 0; background: url(../img/select-arrow.png); background-repeat: no-repeat; background-size: cover; width: 11px; height: 7px; }
 .Dasboard-home .Dasboard ul.select li:first-child:hover { background-color: transparent; }
+.Dasboard-home .Dasboard ul.select li:last-child { border-bottom: 1px solid #ddd; }
+.Dasboard-home .Dasboard ul.select li:nth-child(2) { position: relative; border-top: 1px solid #ddd; }
+.Dasboard-home .Dasboard ul.select li:nth-child(2):before { content: ""; position: absolute; top: -7px; left: 50%; -webkit-transform: translate(-50%,0); transform: translate(-50%,0); width: 12px; height: 12px; border-top: 1px solid #dddddd; border-left: 1px solid #dddddd; background: #ffffff; transform: rotate(45deg); }
 
 .My-dasboard .clientarea-normal { width: 100%; display: inline-block; margin: 0 0 25px; }
 .My-dasboard .clientarea-normal .box { position: relative; width: calc(25% - 9px); height: 201px; float: left; background: #ffffff; -webkit-box-shadow: 10px 20px 100px -10px rgb(0,0,0,0.3); -moz-box-shadow: 10px 20px 100px -10px rgb(0,0,0,0.3); box-shadow: 10px 20px 100px -10px rgb(0,0,0,0.3); margin-right: 12px; border-top-left-radius: 12px; border-bottom-right-radius: 12px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; background: url(../img/box-shadow-image.png); background-repeat: no-repeat; background-size: cover; }
@@ -2935,7 +2938,7 @@ header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 .textbox { float: left; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 span.text { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 16px; line-height: 24px; color: #ffffff; text-transform: uppercase; letter-spacing: 0; padding: 0 0 2px; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 span { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: 24px; color: #ffffff; letter-spacing: 0; padding: 0; }
-.My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last { -ms-flex: initial; flex: initial; max-width: initial; order: initial; width: 50%; float: left; text-align: right; padding: 0; }
+.My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last { -ms-flex: initial; flex: initial; max-width: initial; order: initial; width: 50%; float: left; text-align: right; padding: 7px 0 0; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last .btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px !important; line-height: 1 !important; color: #ffffff; text-transform: uppercase; letter-spacing: 0; background: #000000; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-radius: 10px; width: auto; max-width: initial; display: inline-block; padding: 11.5px 51.5px; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last .btn:hover { background: #ffffff; color: #000000; }
 
@@ -3330,7 +3333,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .innerpage { padding-top: 140px; }
   .innerpage header { padding: 20px 0 !important; }
   /*.My-dasboard { padding: 25px 0 0; }*/
-  .My-dasboard .clientarea-normal { margin: 22px 0 20px; }
+  /*.My-dasboard .clientarea-normal { margin: 22px 0 20px; }*/
   .My-dasboard .clientarea-normal .box { height: 180px; }
   .My-dasboard .clientarea-normal .box a span.label { font-size: 100px; padding: 0 0 15px; }
   .My-dasboard .clientarea-normal .box a img { height: 115px; }
@@ -3366,7 +3369,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   /*.My-dasboard { padding: 18px 0 0; }*/
   .Dasboard-home .Dasboard span { font-size: 15px; letter-spacing: 7px; }
   .Dasboard-home .Dasboard span img { width: 25px; }
-  .My-dasboard .clientarea-normal { margin: 18px 0 15px; }
+  /*.My-dasboard .clientarea-normal { margin: 18px 0 15px; }*/
   .My-dasboard .Billing-payment { padding: 30px 16px 10px 0; height: calc(100vh - 332px); }
   .My-dasboard .Billing-payment .Billing-title { margin: 0 0 20px; }
   .My-dasboard .Billing-payment .Billing-section .box-section { padding: 15px 0 0; min-height: 149px; }
@@ -3422,7 +3425,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
     .loginpage .main-content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
   /* Dasboard Page */
   .innerpage { padding-top: 121px; }
-  .My-dasboard { padding: 30px 0 40px; }
+  .My-dasboard { padding: 0 0 40px; }
   .My-dasboard .Billing-payment .Billing-section { width: 530px; float: left; }
   .My-dasboard .Billing-payment .Payment-history { width: calc(100% - 540px); min-height: 200px; }
   .My-dasboard .Billing-payment .Billing-section .Invoices-balance { padding: 16.5px 22px 16.5px 83px; }
@@ -3430,26 +3433,49 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .My-dasboard .Billing-payment .Billing-section .box-section .box .date { width: 34%; }
   .My-dasboard .Billing-payment { padding: 30px 16px 10px 0; height: calc(100vh - 328px); }
   .My-dasboard .Billing-payment .Billing-title h4 { font-size: 16.71px; letter-spacing: 7.85px; }
-.My-dasboard .Welcome-billing { padding: 50px 16px 60px 18px; }
-.My-dasboard .Welcome-section { padding: 0 0 60px; }
-.My-dasboard .Welcome-section .Welcome-title, .My-dasboard .billing-section .billing-title { padding: 0 0 25px 38px; }
-.My-dasboard .Welcome-section .Welcome-invoices .Equal-box { padding: 30px; }
-.My-dasboard .Welcome-section .Welcome-invoices .box p { padding: 0 0 25px; }
-.My-dasboard .Welcome-section .Welcome-invoices .section-right .box:nth-child(n+2) { margin-top: 10px; }
-.My-dasboard .Welcome-section .Welcome-invoices .section-left { width: 100%; margin: 0 0 35px; }
-.My-dasboard .Welcome-section .Welcome-invoices .section-right { width: 100%; }
-.Myticket-section { padding: 50px 20px 60px 0; }
-.Myticket-section .Myticket-box .New__ticket { margin: -2px 0 30px; }
-.Myticket-section .Myticket-box table thead tr th { font-size: 17px !important; }
-.Myticket-section .Myticket-box table thead tr th::before { right: 19px; }
-.Myticket-section .Myticket-box table thead tr th::after { right: 5px; }
-.Myticket-section .Myticket-box .dataTables_paginate { padding: 35px 0 40px; }
-.Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(1), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(1) { width: 32% !important; }
-.Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(2), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(2) { width: 13% !important; }
-.Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(3), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(3) { width: 15% !important; }
-.Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(4), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(4) { width: 14% !important; }
-.Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(5), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(5) { width: 18% !important; }
-.Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(6), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(6) { width: 8% !important; }
+  .My-dasboard .Welcome-billing { padding: 50px 16px 60px 18px; }
+  .My-dasboard .Welcome-section .Welcome-title, .My-dasboard .billing-section .billing-title { padding: 0 0 25px 38px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .Equal-box { padding: 30px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .box p { padding: 0 0 25px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .section-right .box:nth-child(n+2) { margin-top: 10px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .section-left { width: 100%; margin: 0 0 35px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .section-right { width: 100%; }
+  .My-dasboard .Welcome-billing .Verificationbox { padding: 0 0 40px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner { padding: 35px 35px 25px 30px; }
+  .Myticket-section { padding: 50px 20px 60px 0; }
+  .Myticket-section .Myticket-box .New__ticket { margin: -2px 0 30px; }
+  .Myticket-section .Myticket-box table thead tr th { font-size: 17px !important; }
+  .Myticket-section .Myticket-box table thead tr th::before { right: 19px; }
+  .Myticket-section .Myticket-box table thead tr th::after { right: 5px; }
+  .Myticket-section .Myticket-box .dataTables_paginate { padding: 35px 0 40px; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(1), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(1) { width: 32% !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(2), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(2) { width: 13% !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(3), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(3) { width: 15% !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(4), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(4) { width: 14% !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(5), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(5) { width: 18% !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(6), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(6) { width: 8% !important; }
+  .billing-Invoices .dataTables_wrapper table tbody tr { padding: 11px 12px 7px; }
+  .billing-Invoices .dataTables_wrapper table thead tr { padding: 15px 12px 28px; }
+  .My-dasboard .billing-section .billing-Invoices { width: calc(100% - 355px); margin-left: -18px; }
+  .billing-Invoices .dataTables_wrapper table thead tr th::before { width: 6px; height: 15px; right: 10px; }
+  .billing-Invoices .dataTables_wrapper table thead tr th::after { width: 7px; height: 15px; }
+  .billing-Invoices .dataTables_wrapper table thead tr th { font-size: 15px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(1), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(1) { width: 16% !important; text-align: left !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(2), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(2) { width: 24% !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(3), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(3) { width: 20% !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(4), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(4) { width: 14% !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(5), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(5) { width: 15% !important; }
+  .billing-Invoices .dataTables_wrapper table tbody tr td a.open-btn { font-size: 10px; padding: 7.4px 7px; }
+  .billing-Invoices .Showing-section .Showing-box { padding: 30px 20px 25px 15px; }
+  .My-dasboard .billing-section .Account-quicklinks { width: 350px; padding: 0 25px 50px; }
+  .My-dasboard .billing-section .Account-quicklinks .Title:before { left: -20px; }
+  .My-dasboard .billing-section .Account-quicklinks .Title h2 { padding: 15px 0 41px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li { width: calc(33.333% - 10px); margin-right: 15px; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(1), .Myticket-section .Myticket-box table tbody tr td:nth-child(1) { width: 35% !important; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(2), .Myticket-section .Myticket-box table tbody tr td:nth-child(2) { width: 18% !important; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(3), .Myticket-section .Myticket-box table tbody tr td:nth-child(3) { width: 17% !important; text-align: center; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(4), .Myticket-section .Myticket-box table tbody tr td:nth-child(4) { width: 20% !important; white-space: initial !important; text-align: center; }
+
 
   /* MY PRODUCTS & SERVICES Page */
   .Main-title h2, .Main-title h3 { letter-spacing: 7px; }
@@ -3477,8 +3503,8 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   /* Contact Page */
   .Contact-Page .Main-title .container { max-width: 600px; }
 
-/* Packages & Subscriptions Page */
-/* My Details */
+  /* Packages & Subscriptions Page */
+  /* My Details */
 
 }
 
@@ -3499,46 +3525,65 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 
     header ul.navbar-nav li.item-box { display: none; }
     header ul.navbar-nav li.item-box.Logout { display: block; }
-    header ul.navbar-nav li.account { margin-right: 30px; padding: 5px 0; }
+    header ul.navbar-nav li.account { margin-right: 30px; padding: 8px 0 0; }
     .loginpage header ul.navbar-nav li.item-box.Logout { display: none; }
 
   /* Dasboard Page */
   .innerpage { padding-top: 111px; }
   .My-dasboard .clientarea-normal .box { width: calc(25% - 6px); margin-right: 8px; }
+  .My-dasboard .clientarea-normal .box a span.label { font-size: 70px; padding: 0 0 15px; }
   .My-dasboard .clientarea-normal .box a h4 { font-size: 10.8px; letter-spacing: 3.9px; }
   .My-dasboard .Billing-payment { padding: 30px 16px 10px 0; height: calc(100vh - 313px); }
   .My-dasboard .Billing-payment .Billing-section { width: 100%; float: initial; margin: 0 0 20px; }
   .My-dasboard .Billing-payment .Payment-history { width: 100%; min-height: initial; }
   .My-dasboard .Billing-payment .Payment-history .box-section { padding: 23px 11px 20px 15px; }
-.My-dasboard .Welcome-billing {
-    padding: 40px 16px 50px 18px;
-}
-.My-dasboard .Welcome-section .Welcome-invoices {
-    width: 100%;
-}
-.My-dasboard .Welcome-section .Welcome-invoices .Equal-box { padding: 25px; }
-.My-dasboard .Welcome-section .Welcome-title, .My-dasboard .billing-section .billing-title {
-    padding: 0 0 20px 38px;
-}
-.My-dasboard .Welcome-section .Welcome-info {
-    width: 100%;
-    margin: 20px 0 0;
-}
-.My-dasboard .Welcome-section .Welcome-info .Equal-box { padding: 0 25px 30px; }
-.My-dasboard .Welcome-section .Welcome-info .Title:before {
-    left: -21px;
-}
-.My-dasboard .Welcome-section .Welcome-info .Title h2 {
-    padding: 14px 0 25px;
-}
-.My-dasboard .Welcome-section .Welcome-info a.Update-btn {
-    width: auto;
-    padding: 11.5px 40px;
-}
-
-
-
-
+  .Dasboard-home .Dasboard ul.select li { min-width: 250px; }
+  .Dasboard-home .Dasboard ul.select li:first-child a { font-size: 17px; letter-spacing: 7px; }
+  .My-dasboard .Welcome-billing { padding: 40px 16px 50px 18px; }
+  .My-dasboard .Welcome-section .Welcome-invoices { width: 100%; height: initial !important; }
+  .My-dasboard .Welcome-section .Welcome-invoices .Equal-box { padding: 25px; }
+  .My-dasboard .Welcome-section .Welcome-title, .My-dasboard .billing-section .billing-title { padding: 0 0 20px 38px; }
+  .My-dasboard .Welcome-section .Welcome-info { width: 100%; height: initial !important; margin: 20px 0 0; }
+  .My-dasboard .Welcome-section .Welcome-info .Equal-box { padding: 0 25px 30px; }
+  .My-dasboard .Welcome-section .Welcome-info .Title:before { left: -21px; }
+  .My-dasboard .Welcome-section .Welcome-info .Title h2 { padding: 14px 0 25px; }
+  .My-dasboard .Welcome-section .Welcome-info a.Update-btn { width: auto; padding: 11.5px 40px; }
+  .Dasboard-home { padding: 40px 0 30px; }
+  .My-dasboard .Welcome-billing .Verificationbox { padding: 0 0 35px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner { padding: 30px 25px 20px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 { width: 63%; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last { width: 35%; float: right; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last .btn { padding: 11.5px 40px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 i { margin: 0 15px 0 0; }
+  .My-dasboard .billing-section .billing-Invoices { width: 100%; margin: 0 0 25px; }
+  .My-dasboard .billing-section .Account-quicklinks { width: 100%; padding: 0 30px 40px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li { width: calc(16.666% - 10px); margin-right: 12px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(3n+0) { margin-right: 12px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(n+4) { margin-top: 0;  }
+  .My-dasboard .billing-section .Account-quicklinks ul li:last-child { margin-right: 0; }
+  .billing-Invoices .dataTables_wrapper table thead tr th { display: block !important; }
+  .Myticket-section .Myticket-box .New__ticket { margin: -2px 0 25px; }
+  .Myticket-section .Myticket-box table thead tr th { display: block !important; }
+  .Myticket-section .Myticket-box table thead tr { padding: 15px 13px 30px 26px; }
+  .Myticket-section .Myticket-box table tbody tr td ul { display: none; }
+  .Myticket-section .Myticket-box .dataTables_wrapper table { width: 700px; overflow: hidden; overflow-x: auto; }
+  .Myticket-section .Myticket-box table thead, .Myticket-section .Myticket-box table tbody { width: 870px; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(1), .Myticket-section .Myticket-box table tbody tr td:nth-child(1) { width: 230px !important; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(2), .Myticket-section .Myticket-box table tbody tr td:nth-child(2) { width: 200px !important; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(3), .Myticket-section .Myticket-box table tbody tr td:nth-child(3) { width: 150px !important; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(4), .Myticket-section .Myticket-box table tbody tr td:nth-child(4) { width: 170px !important; }
+  .Myticket-section .Myticket-box table thead tr th:nth-child(5), .Myticket-section .Myticket-box table tbody tr td:nth-child(5) { width: 80px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th { font-size: 17.71px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th::before { width: 8px; height: 19px; right: 12px; }
+  .billing-Invoices .dataTables_wrapper table thead tr th::after { width: 9px; height: 19px; }
+  .billing-Invoices .dataTables_wrapper table tbody tr td a.open-btn { font-size: 10.33px; padding: 7.4px 8.9px; }
+  .Myticket-section.My_project .Myticket-box table thead, .Myticket-section.My_project .Myticket-box table tbody { width: 950px; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(1), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(1) { width: 270px !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(2), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(2) { width: 130px !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(3), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(3) { width: 140px !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(4), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(4) { width: 120px !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(5), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(5) { width: 170px !important; }
+  .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(6), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(6) { width: 80px !important; }
 
   /* MY PRODUCTS & SERVICES Page */
   .main-content .panel .dataTables_wrapper table tbody tr td div, .main-content .panel .dataTables_wrapper table tbody tr td span.label { position: initial; top: initial; -ms-transform: initial; -webkit-transform: initial; transform: initial; }
@@ -3583,35 +3628,34 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 /* Mobile */
 @media (max-width: 767px) {
 
-    /* Login Page */
-    body { height: 100%; }
-    nav.navbar ul.navbar-nav { padding: 0 59px; }
-    nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 7px; margin: 4px 0 0; }
-    nav.navbar ul.navbar-nav li { padding: 11.5px 0; }
-    nav.navbar ul.navbar-nav li a { font-size: 12.1px; }
-    nav.navbar ul.navbar-nav li.fa_star { margin-right: 47px; }
-    nav.navbar ul.navbar-nav li { margin-right: 66px; }
-    nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 67px; }
-    nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 48px; }
+  /* Login Page */
+  body { height: 100%; }
+  nav.navbar ul.navbar-nav { padding: 0 59px; }
+  nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 7px; margin: 4px 0 0; }
+  nav.navbar ul.navbar-nav li { padding: 11.5px 0; }
+  nav.navbar ul.navbar-nav li a { font-size: 12.1px; }
+  nav.navbar ul.navbar-nav li.fa_star { margin-right: 47px; }
+  nav.navbar ul.navbar-nav li { margin-right: 66px; }
+  nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 67px; }
+  nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 48px; }
   header .logo a svg { width: 41px; height: 20px; }
   header .Menu-icon a img { width: auto; height: 12px; }
   header .secondrymenu { margin-right: 0; }
   header .secondrymenu ul.navbar-avatar, header .secondrymenu .navbar-header, header .secondrymenu a.fa-Logout { margin-top: 0; margin-bottom: 0; }
   header .Menu-icon { padding: 0; top: -10px; }
   header .Menu-icon .p-hamburger { width: 32px; height: 20px; }
-    .achieving-dream { padding: 5px 0 15px; }
-    .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 22px; letter-spacing: 16px; }
-    .achieving-dream h2 span { letter-spacing: 22.52px; }
-    .Main-title { margin: 15px 0 12px; }
-    .My-account { width: 90%; padding: 22px 50px; }
-    .My-account h2 { font-size: 14px; letter-spacing: 6.5px; margin: 0 0 15px; }
-    .My-account .star-icon { margin: 0 0 15px; }
-    .My-account form input.btn { font-size: 19.51px; letter-spacing: 8.25px; padding: 15px; margin: 0; }    
-    .My-account .Create-account { margin: 0 0 8px; }
-    .All-rights { padding: 15px 0 12px; }
-    .loginpage .main-content { position: relative; top: initial; left: initial; -webkit-transform: initial; transform: initial; }
+  .achieving-dream { padding: 5px 0 15px; }
+  .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 22px; letter-spacing: 16px; }
+  .achieving-dream h2 span { letter-spacing: 22.52px; }
+  .Main-title { margin: 15px 0 12px; }
+  .My-account { width: 90%; padding: 22px 50px; }
+  .My-account h2 { font-size: 14px; letter-spacing: 6.5px; margin: 0 0 15px; }
+  .My-account .star-icon { margin: 0 0 15px; }
+  .My-account form input.btn { font-size: 19.51px; letter-spacing: 8.25px; padding: 15px; margin: 0; }    
+  .My-account .Create-account { margin: 0 0 8px; }
+  .All-rights { padding: 15px 0 12px; }
+  .loginpage .main-content { position: relative; top: initial; left: initial; -webkit-transform: initial; transform: initial; }
   .Dasboard-home .Dasboard ul.select li { min-width: 330px; }
-  .Dasboard-home .Dasboard ul.select li a { font-size: 16px; letter-spacing: 7px; }
 
   .breadcrumbs ol.breadcrumb li { font-size: 12px; }
   .breadcrumbs ol.breadcrumb li::before { padding: 0 4px; }
@@ -3631,6 +3675,44 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .My-dasboard .Billing-payment .Billing-title h4 span.Billing-icon { top: 0; }
   .My-dasboard .Billing-payment .Payment-history h4 { font-size: 16px; }
   .My-dasboard .Billing-payment .Payment-history:before { right: -2px; }
+  .Myticket-section .Myticket-box .dataTables_wrapper table { width: 500px; }
+  header ul.navbar-nav li i.fas { font-size: 19px; }
+  header ul.navbar-nav li { margin-right: 20px; }
+  header ul.navbar-nav li.account { margin-right: 20px; padding: 3px 0 0; }
+  header ul.navbar-nav li.item-box { padding: 0; }
+  .Dasboard-home { padding: 30px 0; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner { padding: 20px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 { width: auto; float: initial; margin: 0 auto; display: table; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last { width: 100%; float: initial; display: inline-block; text-align: center; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last .btn { padding: 11.5px 30px; }
+  .My-dasboard .Welcome-section .Welcome-title h2, .My-dasboard .billing-section .billing-title h2, .Myticket-section .Myticket-box .Title h2 { letter-spacing: 7px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .Equal-box { padding: 20px; }
+  .billing-Invoices .dataTables_wrapper table { overflow: hidden; overflow-x: auto; width: 499px; }
+  .billing-Invoices .dataTables_wrapper table thead, .billing-Invoices .dataTables_wrapper table tbody tr { width: 770px; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(1), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(1) { width: 110px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(2), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(2) { width: 170px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(3), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(3) { width: 150px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(4), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(4) { width: 110px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(5), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(5) { width: 120px !important; }
+  .billing-Invoices .dataTables_wrapper table thead tr th:nth-child(6), .billing-Invoices .dataTables_wrapper table tbody tr td:nth-child(6) { width: 80px !important; }
+  .billing-Invoices .Showing-section .Showing-box { padding: 22px 15px; }
+  .billing-Invoices .Showing-section .Showing-box .View-invoices a img { margin-left: 10px; margin-top: -2px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li { width: calc(33.333% - 10px); margin-right: 15px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(3n+0) { margin-right: 0; }
+  .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(n+4) { margin-top: 30px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li a br { display: none; }
+  .My-dasboard .Welcome-billing { padding: 30px 16px 40px 18px; }
+  .My-dasboard { padding: 0 0 30px; }
+  .Myticket-section { padding: 30px 20px 40px 0; margin-bottom: 30px; }
+  .Dasboard-home .Dasboard ul.select li:first-child a { font-size: 17px; letter-spacing: 5px; }
+  .Dasboard-home .Dasboard ul.select li { min-width: 225px; }
+  .Dasboard-home .home-dashboard { padding: 2px 0 0; }
+  .Myticket-section .Myticket-box .New__ticket a { padding: 13px 30px 10px 20px; }
+  .Myticket-section .Myticket-box .New__ticket a img { margin-right: 20px; vertical-align: top; margin-top: 1px; }
+  .Myticket-section .Myticket-box .New__ticket { margin: 5px 0 20px; }
+  .Myticket-section .Myticket-box .dataTables_paginate { padding: 22px 0; }
+  .Myticket-section.My_project .Myticket-box .New__ticket a { padding: 13px 30px 10px 20px; }
+  .Myticket-section.My_project .Myticket-box .New__ticket a img { margin-right: 20px; }
 
   /* MY PRODUCTS & SERVICES Page */
   .main-content .panel .panel-footer .paging_simple_numbers { text-align: right; }
@@ -3717,7 +3799,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
     .All-rights { padding: 12px; }
     .loginpage .main-content { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
   .Dasboard-home .Dasboard ul.select li { min-width: 270px; }
-  .Dasboard-home .Dasboard ul.select li a { font-size: 16px; letter-spacing: 4px; }
+  /*.Dasboard-home .Dasboard ul.select li a { font-size: 16px; letter-spacing: 4px; }*/
   .Dasboard-home .Dasboard { width: 100%; display: inline-block; float: initial; margin: 0 0 12px; }
   .Dasboard-home .home-dashboard { width: 100%; display: inline-block; float: initial; }
 
@@ -3751,6 +3833,38 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .My-dasboard .Billing-payment .Payment-history .box-section .box .title { width: 100%; margin: 0 0 5px; }
   .My-dasboard .Billing-payment .Payment-history .box-section .box .date { width: 40%; }
   .My-dasboard .Billing-payment .Payment-history .box-section .box .price { width: 24%; }
+  .billing-Invoices .dataTables_wrapper table { width: 280px; }
+  .Myticket-section .Myticket-box .dataTables_wrapper table { width: 280px; }
+  .Dasboard-home { padding: 20px 0; }
+  .Dasboard-home .Dasboard ul.select li:first-child a { letter-spacing: 4px; }
+  .Dasboard-home .Dasboard ul.select li { min-width: 215px; }
+  .Dasboard-home .home-dashboard { padding: 0; }
+  .My-dasboard .Welcome-section .Welcome-title h2, .My-dasboard .billing-section .billing-title h2, .Myticket-section .Myticket-box .Title h2 { letter-spacing: 5px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .Equal-box { padding: 15px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .box .Title { padding: 0 0 15px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .box p { padding: 0 0 15px; }
+  .My-dasboard .Welcome-section .Welcome-invoices .section-left { margin: 0 0 20px; }
+  .My-dasboard .Welcome-section .Welcome-info .Equal-box { padding: 0 25px 25px; }
+  .My-dasboard .Welcome-section .Welcome-info a.Update-btn { padding: 11px 30px; }
+  .My-dasboard .Welcome-section .Welcome-info .Title h2 { padding: 14px 0 20px; }
+  .My-dasboard .Welcome-section .Welcome-info p { padding: 0 0 15px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner { padding: 15px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 { text-align: center; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-1 i { margin: 0 auto; display: table; float: initial; padding: 0 0 10px; }
+  .My-dasboard .Welcome-billing .Verificationbox .verification-banner .order-md-last .btn { padding: 11px 25px; }
+  .My-dasboard .Welcome-billing .Verificationbox { padding: 0 0 30px; }
+  .billing-Invoices .dataTables_wrapper table thead tr { padding: 15px 12px 22px; }
+  .Myticket-section .Myticket-box table thead tr { padding: 15px 13px 23px 26px; }
+  .billing-Invoices .Showing-section .Showing-box { padding: 15px; }
+  .billing-Invoices .Showing-section .Showing-box .Latest-invoices { padding: 0 0 10px; width: 100%; }
+  .billing-Invoices .Showing-section .Showing-box .View-invoices { float: initial; width: 100%; display: inline; }
+  .My-dasboard .billing-section .Account-quicklinks .Title h2 { padding: 15px 0 30px; }
+  .My-dasboard .billing-section .Account-quicklinks ul li { width: calc(50% - 8px); margin-right: 15px !important; }
+  .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(even) { margin-right: 0 !important; }
+  .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(n+3) { margin-top: 25px; }
+  .Myticket-section .Myticket-box .New__ticket { margin: 10px 0 20px; }
+  .Myticket-section .Myticket-box .dataTables_paginate { padding: 15px 0; }
+
 
   /* MY PRODUCTS & SERVICES Page */
   .main-content .panel .dataTables_wrapper table#tableServicesList, .main-content .panel .dataTables_wrapper table#tableDomainsList { overflow: scroll; overflow-y: hidden; display: inline-block; }
