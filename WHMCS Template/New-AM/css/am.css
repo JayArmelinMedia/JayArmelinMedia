@@ -2836,7 +2836,10 @@ header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-
 /*.page-login .primary-content p, .page-login .primary-content p a { font-family: 'Raleway'; font-weight: 600; font-size: 10px; line-height: 1; color: rgba(255,255,255,0.45); letter-spacing: 0.5px; text-transform: uppercase; margin: 28px 0 20px; }*/
 
 /***** My Dasboard *****/
+body.page-clientareahome #main-body .table-container.clearfix { position: initial; width: 100%; max-width: 100%; margin: initial; display: inline-block; background: transparent; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; border-radius: 0; padding: 0; margin: 0; }
+
 .innerpage { padding-top: 157px; }
+body.innerpage #main-body { width: 100%; display: inline-block; }
 
 .innerpage nav.navbar ul.navbar-nav li:before { background: #ffffff; }
 .innerpage header { width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2) !important; -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2) !important; box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2) !important; padding: 33px 0 24px !important; }
@@ -2862,11 +2865,11 @@ header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-
 .Dasboard-home .Dasboard ul.select { display: inline-block; padding: 0; border-radius: 4px; position: relative; position: absolute; z-index: 9; }
 .Dasboard-home .Dasboard ul.select li { display: none; cursor: pointer; padding: 0; border: none; padding: 3.5px 12px; background: #ffffff; border-left: 1px solid #ddd; border-right: 1px solid #ddd; min-width: 280px; }
 .Dasboard-home .Dasboard ul.select.open li { display: block; }
-.Dasboard-home .Dasboard ul.select li a { position: relative; font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 13.3px; line-height: 1.5; color: #555555; letter-spacing: 0; padding: 0; }
+.Dasboard-home .Dasboard ul.select li a { position: relative; font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 13.3px; line-height: 1.5; color: #555555; letter-spacing: 0; width: 100%; display: inline-block; padding: 0; }
 .Dasboard-home .Dasboard ul.select li:hover { background: #bc2582; box-shadow: none; }
 .Dasboard-home .Dasboard ul.select li:hover a { color: #ffffff; }
 .Dasboard-home .Dasboard ul.select li:first-child { display: block; border-top: 0px; background: transparent; box-shadow: none; border: none; padding: 0 0 5px; }
-.Dasboard-home .Dasboard ul.select li:first-child a { padding-right: 28px; pointer-events: none; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 9px; }
+.Dasboard-home .Dasboard ul.select li:first-child a { padding-right: 28px; pointer-events: none; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 9px; width: auto; }
 .Dasboard-home .Dasboard ul.select li:hover:first-child a { color: #000000; }
 .Dasboard-home .Dasboard ul.select li:first-child a:before { content: ""; position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); right: 0; background: url(../img/select-arrow.png); background-repeat: no-repeat; background-size: cover; width: 11px; height: 7px; }
 .Dasboard-home .Dasboard ul.select li:first-child:hover { background-color: transparent; }
@@ -3005,7 +3008,7 @@ header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-
 .Myticket-section .Myticket-box .New__ticket a img { margin-right: 30px; vertical-align: top; }
 .Myticket-section .Myticket-box .New__ticket a:hover { color: #ffffff; background: #000000; }
 
-.Myticket-section .Myticket-box .dataTables_wrapper { width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); border-radius: 0; margin: 0; }
+.Myticket-section .Myticket-box .dataTables_wrapper { width: 100%; max-width: 100% !important; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); border-radius: 0; margin: 0; }
 .Myticket-section .Myticket-box .dataTables_wrapper table { background: transparent; -webkit-box-shadow: initial; -moz-box-shadow: initial; box-shadow: initial; }
 .Myticket-section .Myticket-box table { width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); border-radius: 0; margin: 0 !important; }
 .Myticket-section .Myticket-box table thead { width: 100%; display: inline-block; margin: 0; }
@@ -3039,17 +3042,17 @@ header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-
 .Myticket-section .Myticket-box table tbody tr td a.open-btn:hover { color: #ffffff !important; background: #000000 !important; }
 .Myticket-section .Myticket-box table tbody tr td a.open-btn img { margin-left: 9px; vertical-align: bottom; }
 
-.Myticket-section .Myticket-box .dataTables_paginate { width: 100%; display: inline-block; text-align: right; box-shadow: inset 0 40px 40px -20px rgb(0,0,0,0.30); padding: 44px 0 55px; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination { width: auto; display: inline-block; padding: 0 10px; margin: 0; list-style: none; white-space: initial; justify-content: initial; border-radius: 0; border: none; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item { padding: 0; margin: 0; list-style: none; float: left; margin-right: 1px; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item a.page-link { width: 35px; height: 35px; border-radius: 50%; display: inline-block; border: none; background: #efefef; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 17.07px; line-height: 1; color: #000000; letter-spacing: 0; text-align: center; padding: 7px; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.active a.page-link { color: #ffffff; background: #be1d82; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.previous a.page-link, .Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.next a.page-link { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; width: auto; height: initial; border-radius: 0; background: transparent; text-transform: uppercase; padding: 10.5px 12px; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.previous a.page-link:hover, .Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.next a.page-link:hover { color: #be1d82; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { width: 100%; max-width: 100%; display: inline-block; text-align: right; box-shadow: inset 0 40px 40px -20px rgb(0,0,0,0.30); padding: 44px 0 55px; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination { width: auto; display: inline-block; padding: 0 10px; margin: 0; list-style: none; white-space: initial; justify-content: initial; border-radius: 0; border: none; box-shadow: none; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item { padding: 0; margin: 0; list-style: none; float: left; margin-right: 1px; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item a.page-link { width: 35px; height: 35px; border-radius: 50%; display: inline-block; border: none; background: #efefef; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 17.07px; line-height: 1; color: #000000; letter-spacing: 0; text-align: center; padding: 7px; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.active a.page-link { color: #ffffff; background: #be1d82; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link, .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.next a.page-link { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; width: auto; height: initial; border-radius: 0; background: transparent; text-transform: uppercase; padding: 10.5px 12px; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:hover, .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.next a.page-link:hover { color: #be1d82; }
 
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.previous a.page-link { position: relative; font-size: 0; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.previous a.page-link:before { content: "Prev"; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; }
-.Myticket-section .Myticket-box .dataTables_paginate ul.pagination li.page-item.previous a.page-link:hover:before { color: #be1d82; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link { position: relative; font-size: 0; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:before { content: "Prev"; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:hover:before { color: #be1d82; }
 
 /* My Project Section */
 .Myticket-section.My_project {  }
@@ -3194,7 +3197,8 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .dataTables_wrapper .dataTables_length label { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0; }
 .table-container .dataTables_wrapper .dataTables_length label select.custom-select { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 18px; line-height: 1; color: #000000; letter-spacing: 9px; border: 1px solid #010001; width: 79px; height: 42px; margin: -5px 7px 0; padding: 9px 17px; }
 
-.table-container .Right-side { width: 310px; float: right; margin: 64px 0 0; }
+.page-clientareainvoices .table-container .Right-side { margin: 66px 0 0; }
+.table-container .Right-side { width: 310px; float: right; margin: 0; }
 .table-container .Right-side .sidebar { width: 100%; display: inline-block; margin: 0 0 0; }
 .table-container .Right-side .sidebar .card-sidebar { width: 100%; display: inline-block; background: #f7f7f7; -webkit-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); -moz-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); border: none; border-radius: 0; padding: 0 26px 0 36px; margin: 0 0 20px; }
 .table-container .Right-side .sidebar .card-sidebar .card-header { position: relative; width: 100%; display: inline-block; border: none; padding: 18px 0; }
@@ -3217,7 +3221,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item span.badge { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; margin-right: -1px; background: transparent; padding: 0; width: 18px; }
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item i.far { font-size: 15px; color: #000000; margin-right: 12px; }
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item span { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; }
-.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item.active { color: #bc2582; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item.active, .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item:hover { color: #bc2582; }
 
 /* BILLING Section */
 .billing-Invoices .dataTables_wrapper { width: 100%; max-width: 748px !important; display: inline-block; margin: 0; }
@@ -3268,6 +3272,119 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .billing-Invoices .Showing-section .Showing-box .View-invoices a { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; }
 .billing-Invoices .Showing-section .Showing-box .View-invoices a img { margin-left: 16px; margin-top: -2px; }
 
+/* Account Details Page */
+
+/*.table-container .Account_details { width: 100%; max-width: 748px; display: inline-block; margin: 0; }*/
+.table-container .Left-side { width: 100%; max-width: 748px; display: inline-block; margin: 0; }
+.table-container .Left-side .card { width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); border: none; border-radius: 0; -ms-flex-direction: initial; flex-direction: initial; min-width: initial; word-wrap: initial; padding: 0; margin: 0 0 30px; }
+.table-container .Left-side .card .card-body { width: 100%; display: inline-block; padding: 20px; }
+.table-container .Left-side .card .card-body h3.card-title { position: relative; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 8.85px; padding: 0 0 0 35px; margin: 0 0 20px; }
+.table-container .Left-side .card .card-body h3.card-title:before { content: ""; position: absolute; top: 1px; left: -20px; width: 43px; height: 18px; background: #bc2582; }
+.table-container .Left-side .card .card-body p { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; margin: 0 0 20px; }
+.table-container .Left-side .btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0 !important; margin-right: 12px !important; padding: 12px 35px !important; }
+.table-container .Left-side .btn:hover { background: #000000; color: #ffffff; }
+.table-container .Left-side .btn:last-child { margin-right: 0 !important; }
+.table-container .Left-side .btn.btn-default { background: #000000; color: #ffffff; }
+.table-container .Left-side .btn.btn-default:hover { background: #be1d82; color: #ffffff; }
+
+.table-container .Left-side .card .card-body .form-group { text-align: left !important; padding: 0; margin: 0 0 25px; }
+.table-container .Left-side .card .card-body .form-group label { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px; text-transform: uppercase; width: 100%; display: inline-block; padding: 0; margin: 0 0 8px; }
+.table-container .Left-side .card .card-body .form-group input, .table-container .Left-side .card .card-body .form-group select { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.table-container .Left-side .card .card-body .form-group select { background-image: url(../img/down-arrow.png); background-repeat: no-repeat; background-size: auto; background-position: top 17px right 15px; cursor: pointer; padding-right: 40px; }
+.table-container .Left-side .card .card-body .form-group .intl-tel-input input { padding-left: 100px !important; }
+.table-container .Left-side .card .card-body .form-group .intl-tel-input .flag-container { padding: 0; }
+
+.table-container .Left-side .card .form-check { padding-left: 25px; }
+.table-container .Left-side .card .form-check label { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; width: 100%; display: inline-block; cursor: pointer; margin: 0 0 8px; }
+.table-container .Left-side .card .form-check label input { width: 16px; height: 16px; margin-top: 2px; margin-left: -25px; outline: none; }
+
+.table-container .Left-side .card .card-body .bootstrap-switch { border: 2px solid #010001; border-radius: 0; box-shadow: none; outline: none; }
+.table-container .Left-side .card .card-body .bootstrap-switch span.bootstrap-switch-handle-on { border-radius: 0; }
+.table-container .Left-side .card .card-body .bootstrap-switch span.bootstrap-switch-handle-off { background: #cccccc; color: #ffffff; border-radius: 0; }
+
+.table-container .Left-side .form-group { width: 100%; text-align: center !important; margin: 0; padding: 0 20px 20px; }
+
+
+/* User Management Page */
+.table-container .Left-side .card .card-body table.table-striped { width: 100%; display: inline-block; background: #f7f7f7; border: none; padding: 0; margin: 0 0 15px; }
+.table-container .Left-side .card .card-body table.table-striped tbody { border: none; }
+.table-container .Left-side .card .card-body table.table-striped tbody tr { background: transparent; border: none; }
+.table-container .Left-side .card .card-body table.table-striped tbody tr th { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 18px; line-height: normal; color: #000000; letter-spacing: 0; padding: 20px 20px 10px; border: none; --tw-border-opacity: none; --tw-bg-opacity: none; background: transparent; margin: 0; }
+.table-container .Left-side .card .card-body table.table-striped tbody tr td { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 18px; line-height: normal; color: #000000; letter-spacing: 0; padding: 15px 20px 20px; }
+.table-container .Left-side .card .card-body table.table-striped tbody tr td a.btn { font-size: 13.71px !important; line-height: 1 !important; width: 100%; text-align: center; margin: 0 0 7px !important; }
+.table-container .Left-side .card .card-body table.table-striped tbody tr td a.btn:last-child { margin: 0 !important; }
+.table-container .Left-side .card .card-body p.m-0 { margin: 0; }
+
+.table-container .Left-side .card .card-body form .form-group { margin: 0 0 20px; }
+.table-container .Left-side .card .card-body form .form-group input.form-control { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.table-container .Left-side .card .card-body form .form-group label.form-check-inline { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; margin: 0; margin-right: 12px; }
+.table-container .Left-side .card .card-body form .form-group label.form-check-inline:last-child { margin: 0; }
+
+.table-container .Left-side .card .card-body form .well { width: 100%; margin: 0 0 15px; }
+.table-container .Left-side .card .card-body form .well label.form-check-inline { position: relative; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px;  text-transform: uppercase; cursor: pointer; margin: 0 0 10px; width: 100%; display: inline-block; padding-left: 20px; }
+.table-container .Left-side .card .card-body form .well label.form-check-inline input.form-check-input { position: absolute; left: 0; }
+
+.table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr th { font-size: 17px; padding: 20px 15px 15px; }
+.table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr td { padding: 15px; font-size: 16px; }
+.table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr td a.btn { width: auto; color: #ffffff; background: #000000; margin: 0 !important; padding: 12px 17px !important; }
+.table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr td a.btn:hover { background: #be1d82; color: #ffffff; }
+.table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr td a.btn.btn-set-default { background: #be1d82; color: #ffffff; }
+.table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr td a.btn.btn-set-default:hover { background: #000000; color: #ffffff; }
+.table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr td a.btn i { padding: 0; padding-right: 5px; }
+
+.table-container .Left-side.User-management .card .card-body form .form-group label.form-check-inline { width: auto; }
+.table-container .Left-side.User-management .card .card-body form .form-group label.form-check-inline input.form-check-input { -webkit-box-shadow: initial; -moz-box-shadow: initial; box-shadow: initial; width: auto; }
+
+/* Contact Details Page */
+.table-container .Left-side .alert-info { width: 100%; display: inline-block; border-radius: 0; border: none; box-shadow: none; padding: 15px 20px; margin: 0 0 20px; }
+.table-container .Left-side .alert-info form label { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px; text-transform: uppercase; padding: 15px; }
+.table-container .Left-side .alert-info form select { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); width: 100%; height: initial; display: inline-block; background-image: url(../img/down-arrow.png); background-repeat: no-repeat; background-size: auto; background-position: top 17px right 15px; cursor: pointer; padding: 15px 15px; padding-right: 40px; }
+.table-container .Left-side .alert-info form button.btn { background: #be1d82; color: #ffffff; position: relative; top: 4px; }
+.table-container .Left-side .alert-info form button.btn:hover { background: #000000; color: #ffffff; }
+
+/* Account Security Page */
+.table-container .Left-side .card .card-body .alert-success { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; width: 100%; display: inline-block; padding: 15px 20px; margin: 0 0 20px; }
+.table-container .Left-side .card .card-body form .p-2 { padding: 0 0 20px !important; }
+
+/* Email History Page */
+.table-container .Left-side .table-container { width: 100%; max-width: 100%; }
+.table-container .Left-side .table-container .dataTables_wrapper table tbody tr td { min-height: 25px; }
+.table-container .Left-side .table-container .dataTables_wrapper table tbody tr td button.btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 9.33px !important; line-height: 1 !important; color: #ffffff !important; background: #bb2581 !important; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; letter-spacing: 0; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; float: right; margin: 0 !important; padding: 7.4px 8.9px !important; }
+.table-container .Left-side .table-container .dataTables_wrapper table tbody tr td button.btn:hover { background: #000000 !important; color: #ffffff !important; }
+.table-container .Left-side .table-container .dataTables_wrapper table thead tr th:nth-child(1), .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(1) { width: 32% !important; }
+.table-container .Left-side .table-container .dataTables_wrapper table thead tr th:nth-child(2), .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { width: 51% !important; }
+.table-container .Left-side .table-container .dataTables_wrapper table thead tr th:nth-child(3), .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(3) { width: 17% !important; text-align: center; }
+.table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(1), .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { text-align: left !important; }
+
+/* support Tickets Page */
+.table-container .Left-side.supporttickets .table-container .dataTables_wrapper table thead tr th:nth-child(1), .table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td:nth-child(1) { width: 29% !important; }
+.table-container .Left-side.supporttickets .table-container .dataTables_wrapper table thead tr th:nth-child(2), .table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { width: 30% !important; }
+.table-container .Left-side.supporttickets .table-container .dataTables_wrapper table thead tr th:nth-child(3), .table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td:nth-child(3) { width: 17% !important; }
+.table-container .Left-side.supporttickets .table-container .dataTables_wrapper table thead tr th:nth-child(4), .table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td:nth-child(4) { width: 24% !important; }
+.table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td span.label.status-open { background: #000000; }
+.table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td { min-height: 38px; }
+.table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td a { border: none !important; padding: 0; }
+
+/* My Quotes Page */
+.table-container .Left-side.My_quotes {  }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th:nth-child(1), .table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td:nth-child(1) { width: 17% !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th:nth-child(2), .table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { width: 17% !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th:nth-child(3), .table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td:nth-child(3) { width: 19% !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th:nth-child(4), .table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td:nth-child(4) { width: 17% !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th:nth-child(5), .table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td:nth-child(5) { width: 15% !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th:nth-child(6), .table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td:nth-child(6) { width: 15% !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td form button.btn i { padding: 0; padding-right: 5px; }
+
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th { font-size: 16.71px !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th::before { right: 10px; width: 6px; height: 17px; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table thead tr th::after { right: 0; width: 6px; height: 17px; }
+
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td span.label.status-delivered { background: #000000; position: relative; z-index: 9; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td span.label.status-delivered:before { content: ""; position: absolute; top: 0; left: 0; width: 58px; height: 24px; border-radius: 50px; background: #bc2582; z-index: -1; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td span.label.status-accepted { background: #1dbe58; color: #ffffff !important; }
+.table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td span.label.status-dead { background: #000000; }
+
+/* My Plans & Services Page */
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -3447,7 +3564,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .Myticket-section .Myticket-box table thead tr th { font-size: 17px !important; }
   .Myticket-section .Myticket-box table thead tr th::before { right: 19px; }
   .Myticket-section .Myticket-box table thead tr th::after { right: 5px; }
-  .Myticket-section .Myticket-box .dataTables_paginate { padding: 35px 0 40px; }
+  .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { padding: 35px 0 40px; }
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(1), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(1) { width: 32% !important; }
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(2), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(2) { width: 13% !important; }
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(3), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(3) { width: 15% !important; }
@@ -3475,7 +3592,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .Myticket-section .Myticket-box table thead tr th:nth-child(2), .Myticket-section .Myticket-box table tbody tr td:nth-child(2) { width: 18% !important; }
   .Myticket-section .Myticket-box table thead tr th:nth-child(3), .Myticket-section .Myticket-box table tbody tr td:nth-child(3) { width: 17% !important; text-align: center; }
   .Myticket-section .Myticket-box table thead tr th:nth-child(4), .Myticket-section .Myticket-box table tbody tr td:nth-child(4) { width: 20% !important; white-space: initial !important; text-align: center; }
-
+  .Myticket-section .Myticket-box table thead tr th:nth-child(5), .Myticket-section .Myticket-box table tbody tr td:nth-child(5) { width: 10% !important; }
 
   /* MY PRODUCTS & SERVICES Page */
   .Main-title h2, .Main-title h3 { letter-spacing: 7px; }
@@ -3710,7 +3827,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .Myticket-section .Myticket-box .New__ticket a { padding: 13px 30px 10px 20px; }
   .Myticket-section .Myticket-box .New__ticket a img { margin-right: 20px; vertical-align: top; margin-top: 1px; }
   .Myticket-section .Myticket-box .New__ticket { margin: 5px 0 20px; }
-  .Myticket-section .Myticket-box .dataTables_paginate { padding: 22px 0; }
+  .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { padding: 22px 0; }
   .Myticket-section.My_project .Myticket-box .New__ticket a { padding: 13px 30px 10px 20px; }
   .Myticket-section.My_project .Myticket-box .New__ticket a img { margin-right: 20px; }
 
@@ -3863,7 +3980,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(even) { margin-right: 0 !important; }
   .My-dasboard .billing-section .Account-quicklinks ul li:nth-child(n+3) { margin-top: 25px; }
   .Myticket-section .Myticket-box .New__ticket { margin: 10px 0 20px; }
-  .Myticket-section .Myticket-box .dataTables_paginate { padding: 15px 0; }
+  .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { padding: 15px 0; }
 
 
   /* MY PRODUCTS & SERVICES Page */

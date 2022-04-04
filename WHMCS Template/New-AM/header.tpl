@@ -59,7 +59,7 @@
                     
                 <li menuItemName="My Dashboard"><a href="clientarea.php">My Dashboard</a></li>
                 <li menuItemName="My Dashboard"><a href="clientarea.php">My Dashboard</a></li>
-                <li menuItemName="My Invoices"><a href="clientarea.php?action=invoice">My Invoices</a></li>
+                <li menuItemName="My Invoices"><a href="clientarea.php?action=invoices">My Invoices</a></li>
                 <li menuItemName="My Tickets"><a href="supporttickets.php">My Tickets</a></li>
                 <li menuItemName="My Quotes"><a href="clientarea.php?action=quotes">My Quotes</a></li>
                 <li menuItemName="My Plans & Services"><a href="clientarea.php?action=services">My Plans & Services</a></li>
@@ -107,3 +107,16 @@
                     </div>
                 {/if} -->
                 <div class="{if  $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}col-lg-12 col-xl-12{else}{/if} primary-content">
+                    <div class="table-container clearfix">
+                        {if $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
+                            <div class="Right-side">
+                                <div class="sidebar">
+                                    {include file="$template/includes/sidebar.tpl" sidebar=$primarySidebar}
+                                </div>
+                                {if !$inShoppingCart && $secondarySidebar->hasChildren()}
+                                    <div class="d-none d-lg-block sidebar">
+                                        {include file="$template/includes/sidebar.tpl" sidebar=$secondarySidebar}
+                                    </div>
+                                {/if}
+                            </div>
+                        {/if}

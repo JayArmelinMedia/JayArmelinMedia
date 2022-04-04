@@ -22,7 +22,7 @@
     });
 </script>
 
-<div class="table-container clearfix">
+
     <table id="tableInvoicesList" class="table table-list w-hidden">
         <thead>
             <tr>
@@ -45,7 +45,7 @@
             {/foreach}
         </tbody>
     </table>
-    <div class="Right-side">
+    <!-- <div class="Right-side">
         <div class="sidebar">
             {include file="$template/includes/sidebar.tpl" sidebar=$primarySidebar}
         </div>
@@ -54,8 +54,7 @@
                 {include file="$template/includes/sidebar.tpl" sidebar=$secondarySidebar}
             </div>
         {/if}
-    </div>
+    </div> -->
     <div class="text-center" id="tableLoading">
         <p><i class="fas fa-spinner fa-spin"></i> {lang key='loading'}</p>
     </div>
-</div>

@@ -1,4 +1,6 @@
                     </div>
+                </div>
+
 
                     <!-- {if !$inShoppingCart && $secondarySidebar->hasChildren()}
                         <div class="d-md-none col-md-3 sidebar sidebar-secondary">
@@ -180,7 +182,19 @@
                         jQuery(window).resize(function(){
                           equalheight('.Welcome-section .equalheight');
                         });
+                        
+                        jQuery(document).ready(function(e) {
+                            jQuery("#main-body .table-container > div").each(function() {
+                                var product_sku = jQuery.trim(jQuery(this).find("strong").text());
+                                console.log(product_sku);
+                                /*var sku_value1 = product_sku.substring(0, 12);*/
+                                if(product_sku == "Dev License:"){
+                                    jQuery(this).find("strong").parent("div").hide();
+                                }
+                            });
+                        });
                     </script>
+
 
                     </body>
 
