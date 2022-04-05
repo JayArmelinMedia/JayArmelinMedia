@@ -38,7 +38,7 @@
 </head>
 
 
-<body class="primary-bg-color{if !$templatefile|strstr:"/"} page-{$templatefile}{/if} {if $flattern_minimal == 1} minimal {/if}{if $client === null}loginpage {else}innerpage {/if}"
+<body class="primary-bg-color {$pagetitle} {if !$templatefile|strstr:"/"} page-{$templatefile}{/if} {if $flattern_minimal == 1} minimal {/if}{if $client === null}loginpage {else}innerpage {/if}"
     data-phone-cc-input="{$phoneNumberInputStyle}">
 
     {$headeroutput}
@@ -92,6 +92,9 @@
             {include file="$template/includes/domain-search.tpl"}
         {/if}
     {/if}
+    
+
+
 
     <section id="main-body">
                 <!-- {if $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
@@ -120,3 +123,5 @@
                                 {/if}
                             </div>
                         {/if}
+                        
+                        

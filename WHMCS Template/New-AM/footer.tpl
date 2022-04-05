@@ -193,6 +193,16 @@
                                 }
                             });
                         });
+
+                        jQuery(document).ready(function(e) {
+                            jQuery(function() {
+                                jQuery(window).resize(function() {
+                                    if (jQuery(window).width() >= 320) {
+                                        jQuery( ".subheadingbox" ).insertBefore( jQuery( "section#main-body" ) );
+                                    }
+                                }).resize();
+                            });
+                        });
                     </script>
 
 

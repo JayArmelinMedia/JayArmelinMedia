@@ -3106,6 +3106,8 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .loginpage .Dasboard-home { display: none; }
 .header-fix { position: fixed; top: 0; left: 0; width: 100%; display: inline-block; z-index: 999; }
 
+.loginpage #main-body .primary-content .table-container { width: 100%; max-width: 100%; margin: 0; display: inline-block; background: transparent; -webkit-box-shadow: initial; -moz-box-shadow: initial; box-shadow: initial; border-bottom-left-radius: initial;  border-bottom-right-radius: initial; padding: 0; position: initial; }
+
 .achieving-dream { width: 100%; display: inline-block; padding: 9px 0 39px; }
 .achieving-dream h2 { font-family: 'Lato', sans-serif; font-weight: 700; font-size: 37.52px; line-height: normal; color: #be1d82; letter-spacing: 26px; text-transform: uppercase; text-align: center; margin: 0; }
 .achieving-dream h2 span { letter-spacing: 37.52px; }
@@ -3385,6 +3387,159 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Left-side.My_quotes .table-container .dataTables_wrapper table tbody tr td span.label.status-dead { background: #000000; }
 
 /* My Plans & Services Page */
+.table-container .Left-side.My_plans_services {  }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr { width: 100%; display: inline-block; padding: 19px 13px 36px 26px; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr th:nth-child(1), .table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td:nth-child(1) { width: 5% !important; display: inline-block; height: 17px; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr th:nth-child(2), .table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { width: 37% !important; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr th:nth-child(3), .table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td:nth-child(3) { width: 17% !important; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr th:nth-child(4), .table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td:nth-child(4) { width: 25% !important; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr th:nth-child(5), .table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td:nth-child(5) { width: 15% !important; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr th { font-size: 17px !important; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table thead tr th::before { right: 17px; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td span.label.status-pending { background: #000000; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td i.fa-solid { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; font-family: "Font Awesome 5 Pro"; font-weight: 900; font-size: 16px; color: #bc2582; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td i.fa-solid:before { content: "\f30d"; }
+.table-container .Left-side.My_plans_services .table-container .dataTables_wrapper table tbody tr td { min-height: 57px; }
+
+/* My Domains Page */
+.table-container .Left-side.My_domains {  }
+.table-container .Left-side.My_domains .tab-content form .btn-group { padding: 0 20px 20px; }
+.table-container .Left-side.My_domains .tab-content form .btn-group button.btn { font-family: 'Raleway', sans-serif; font-weight: 400 !important; font-size: 13.71px !important; line-height: 1 !important; margin-right: 8px !important; border-radius: 10px; padding: 10px 11px !important; background: #be1d82; color: #ffffff; }
+.table-container .Left-side.My_domains .tab-content form .btn-group button.btn:hover { background: #000000; color: #ffffff; }
+.table-container .Left-side.My_domains .tab-content form .btn-group button.btn i.fal { padding: 0; padding-right: 5px; }
+.table-container .Left-side.My_domains .tab-content form .btn-group .btn-group { padding: 0; }
+.table-container .Left-side.My_domains .tab-content form .btn-group .btn-group button { margin: 0 !important; }
+.table-container .Left-side.My_domains .tab-content form .btn-group .btn-group .dropdown-menu { left: auto !important; right: 0; border: 1px solid #dddddd; border-radius: 0; padding: 7px 10px; margin: 10px 0 0; }
+.table-container .Left-side.My_domains .tab-content form .btn-group .btn-group .dropdown-menu:before { content: ""; position: absolute; top: -7px; right: 30px; width: 12px; height: 12px; border-top: 1px solid #dddddd; border-left: 1px solid #dddddd; background: #ffffff; transform: rotate(45deg); }
+.table-container .Left-side.My_domains .tab-content form .btn-group .btn-group .dropdown-menu a.dropdown-item { font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 13.3px; line-height: 1.5; color: #555555; letter-spacing: 0; padding: 3px 15px 3px 12px; margin: 0 0 1px; }
+.table-container .Left-side.My_domains .tab-content form .btn-group .btn-group .dropdown-menu a.dropdown-item:hover { color: #ffffff; background: #be1d82; box-shadow: none !important; }
+.table-container .Left-side.My_domains .tab-content form .btn-group .btn-group .dropdown-menu a.dropdown-item i.fal { margin-right: 5px; }
+
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th:nth-child(1), .table-container .Left-side.My_domains .table-container .dataTables_wrapper table tbody tr td:nth-child(1) { width: 10% !important; height: 20px; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th:nth-child(2), .table-container .Left-side.My_domains .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { width: 10% !important; height: 20px; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th:nth-child(3), .table-container .Left-side.My_domains .table-container .dataTables_wrapper table tbody tr td:nth-child(3) { width: 16% !important; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th:nth-child(4), .table-container .Left-side.My_domains .table-container .dataTables_wrapper table tbody tr td:nth-child(4) { width: 26% !important; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th:nth-child(5), .table-container .Left-side.My_domains .table-container .dataTables_wrapper table tbody tr td:nth-child(5) { width: 23% !important; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th:nth-child(6), .table-container .Left-side.My_domains .table-container .dataTables_wrapper table tbody tr td:nth-child(6) { width: 15% !important; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th { font-size: 17px !important; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table thead tr th::before { right: 17px; }
+.table-container .Left-side.My_domains .table-container .dataTables_wrapper table tbody tr td.dataTables_empty { width: 100% !important; }
+
+/* Profile Page */
+.table-container .Left-side .card .card-body p span.label-success { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 11px; line-height: 1; color: #ffffff !important; letter-spacing: 0; text-transform: uppercase; background: #5cb85c; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; border-radius: 5px; display: inline-block; text-align: center; margin: 0; padding: 7px 10px 6px; }
+
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body .validation-status-container .validation-status-label { font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 14px; line-height: 1; color: #ffffff !important; letter-spacing: 1px; background: #5bc0de; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; border-radius: 5px; display: inline-block; text-align: center; margin: 0; padding: 9px 15px; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body .validation-status-container .validation-submit-div { width: 100%; display: inline-block; margin: 20px 0 10px; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body .validation-status-container .validation-submit-div a.btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 15px !important; line-height: 1 !important; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28) !important; border-radius: 10px; border: none; display: inline-block; text-align: center; width: auto; margin: 0; padding: 11.5px 30px; }
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body .validation-status-container .validation-submit-div a.btn:hover { color: #ffffff; background: #000000; }
+
+/* Change Password Page */
+.table-container .Left-side.Change_password .card .card-body form .form-group label.col-form-label { -ms-flex: initial; flex: initial; max-width: initial; width: 32%; margin: 0; padding: 15px 0; }
+.table-container .Left-side.Change_password .card .card-body form .form-group .col-xl-5 { -ms-flex: initial; flex: initial; max-width: initial; width: 68%; padding: 0; }
+.table-container .Left-side.Change_password .card .card-body form .form-group .progress { background: transparent; height: initial; margin: 10px 0; }
+.table-container .Left-side .card .card-body form .form-group button.btn { width: auto; }
+.table-container .Left-side .card .card-body form .Btn-box { width: 100%; display: inline-block; text-align: center; margin: 0 0 0; }
+
+.modal#modalGeneratePassword { padding: 0 !important; }
+.modal#modalGeneratePassword .modal-dialog { position: relative; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); margin: 0; width: 100%; }
+.modal#modalGeneratePassword .modal-dialog .modal-content { border: none; border-radius: 0; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-header { border-radius: 0; padding: 15px; border: none; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-header h4.modal-title { position: relative; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #ffffff; text-transform: uppercase; letter-spacing: 8px; padding: 0; margin: 0; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-header button.close { padding: 0; margin: 0; opacity: 1; outline: none; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-header button.close span { opacity: 1; color: #ffffff; box-shadow: none; text-shadow: none; outline: none; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body { padding: 15px; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .form-group { margin: 0 0 20px; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .form-group label.col-form-label { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px;  line-height: normal; color: #000000; letter-spacing: 1px; text-transform: uppercase; width: 100%; display: inline-block; -ms-flex: initial; flex: initial; max-width: initial; width: 30%; padding: 15px 0; margin: 0; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .form-group.row .col-sm-8 { -ms-flex: initial; flex: initial; max-width: initial; width: 70%; padding: 0; } 
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .form-group input { font-family: 'Raleway', sans-serif; font-weight: 500;  font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .row { margin-right: 0; margin-left: 0; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .row .col-sm-8 { -ms-flex: initial; flex: initial; max-width: initial; width: 70%; padding: 0; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .row .col-sm-8.offset-sm-4 { margin-left: 30%; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px !important; line-height: 1 !important; color: #333; letter-spacing: 0; text-transform: uppercase; background: transparent; border: 1px solid #cccccc; border-radius: 10px; display: inline-block; text-align: center; margin: 0 !important; margin-right: 8px !important; padding: 12px 20px 10px; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn:last-child { margin-right: 0 !important; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn:hover { border: 1px solid #be1d82; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn i.fas, .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn img { padding: 0; margin-right: 5px; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-footer { padding: 15px; border: none; border-radius: 0; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-footer button.btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0 !important; margin-right: 12px !important; padding: 12px 22px; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-footer button.btn:last-child { margin-right: 0 !important; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-footer button.btn:hover { background: #000000; color: #ffffff; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-footer button.btn.btn-default { background: #000000; color: #ffffff; }
+.modal#modalGeneratePassword .modal-dialog .modal-content .modal-footer button.btn.btn-default:hover { background: #be1d82; color: #ffffff; }
+
+/* Security Settings Page */
+.table-container .Left-side.Security_settings {  }
+.table-container .Left-side.Security_settings p { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 17px; line-height: normal; color: #000000; letter-spacing: 0; padding: 0; margin: 0 20px 20px; }
+
+/* My Projects Page */
+body.Projects.Overview #main-body .table-container .table-container { width: 100%; max-width: 100%; }
+body.Projects.Overview #main-body .table-container .table-container .dataTables_wrapper { width: 100%; max-width: 100% !important; }
+body.Projects.Overview #main-body .table-container .table-container .dataTables_wrapper .dataTables_paginate { width: 100%; max-width: 100%; }
+
+
+/* Cart Page */
+.page-viewcart {  }
+.page-viewcart .table-container { padding: 33px 20px 50px; }
+#order-standard_cart { width: 100%; display: inline-block; padding: 0 0 30px; }
+#order-standard_cart .cart-sidebar .card-sidebar { width: 100%; display: inline-block; background: #f7f7f7; -webkit-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); -moz-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); border: none; border-radius: 0; padding: 0 20px; margin: 0 0 20px; }
+#order-standard_cart .cart-sidebar .card-sidebar .panel-heading { position: relative; width: 100%; display: inline-block; border: none; padding: 18px 0; }
+#order-standard_cart .cart-sidebar .card-sidebar .panel-heading:before { content: ""; position: absolute; top: 0; left: -15px; width: 10px; height: 45px; background: #0c0c0c; }
+#order-standard_cart .cart-sidebar .card-sidebar .panel-heading h3.panel-title { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0; }
+#order-standard_cart .cart-sidebar .card-sidebar .panel-heading h3.panel-title i.fas { display: inline-block; font-size: 17px; color: #000000; }
+#order-standard_cart .cart-sidebar .card-sidebar .panel-heading h3.panel-title i.fas.fa-chevron-up { cursor: pointer; margin: 0; }
+#order-standard_cart .cart-sidebar .card-sidebar .list-group { width: 100%; padding: 0 0 20px; }
+#order-standard_cart .cart-sidebar .card-sidebar .list-group a.list-group-item { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; background: transparent; border: none; padding: 0; margin: 0 0 8px; }
+#order-standard_cart .cart-sidebar .card-sidebar .list-group a.list-group-item:hover, #order-standard_cart .cart-sidebar .card-sidebar .list-group a.list-group-item.active { color: #bc2582; }
+
+#order-standard_cart .cart-body .header-lined { width: 100%; display: inline-block; margin: 0 0 0; }
+#order-standard_cart .cart-body .header-lined h1 { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 7px; padding: 0; margin: 0 0 20px; }
+#order-standard_cart .cart-body .secondary-cart-body form .view-cart-items-header { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: normal; color: #ffffff; letter-spacing: 0; width: 100%; display: inline-block; padding: 10px 15px; border-radius: 0; }
+#order-standard_cart .cart-body .secondary-cart-body form .view-cart-items .view-cart-empty { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; text-align: center; padding: 30px 15px; }
+
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs { width: 100%; display: inline-block; margin: 0 0 20px; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs ul.nav-tabs { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: 1; color: #000000; letter-spacing: 0; padding: 0 15px; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content { width: 100%; display: inline-block; background: #f7f7f7; padding: 15px; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form .form-group { margin: 0 0 12px; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form .form-group label.field-icon { width: 46px; height: 46px; margin: 0; display: table; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form .form-group label.field-icon i.fas { color: #bc2582; font-size: 16px; display: table-cell; vertical-align: middle; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form .form-group input { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); width: 100%; height: initial; display: inline-block; padding: 15px 15px; padding-left: 46px; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form button.btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0; padding: 12px 35px; }
+#order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form button.btn:hover { background: #000000; color: #ffffff; }
+
+#order-standard_cart .secondary-cart-sidebar .order-summary h2 { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #ffffff; background: #bc2582; text-transform: uppercase; letter-spacing: 3px; padding: 10px 15px; }
+#order-standard_cart .secondary-cart-sidebar .summary-container { width: 100%; display: inline-block; background: #f7f7f7; border-radius: 0; padding: 15px; }
+#order-standard_cart .secondary-cart-sidebar .summary-container .subtotal, #order-standard_cart .secondary-cart-sidebar .summary-container .recurring-totals { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 16px; line-height: normal; }
+#order-standard_cart .secondary-cart-sidebar .summary-container .subtotal span#subtotal { font-weight: 700; }
+#order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today { text-align: right; margin: 20px 0; }
+#order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 15px; line-height: normal; color: #000000; }
+#order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span.amt { font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 24px; line-height: normal; color: #000000; display: inline-block; margin: 0 0 5px; }
+#order-standard_cart .secondary-cart-sidebar .summary-container a.btn-checkout { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13px !important; line-height: 1 !important; color: #ffffff; background: #bb2581; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); letter-spacing: 1px; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 15px 23px; }
+#order-standard_cart .secondary-cart-sidebar .summary-container a.btn-checkout i.fas { margin-left: 8px; opacity: 1; }
+#order-standard_cart .secondary-cart-sidebar .summary-container a.btn-checkout:hover { background: #000000; color: #ffffff; }
+#order-standard_cart .secondary-cart-sidebar .summary-container a.btn-continue-shopping { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; border: none; border-radius: 0; padding: 10px 0 0; }
+#order-standard_cart .secondary-cart-sidebar .summary-container a.btn-continue-shopping:hover { color: #bb2581; }
+#order-standard_cart .secondary-cart-sidebar .order-summary { border-bottom: 3px solid #be1d82; border-radius: 4px; }
+
+/* Inner Title Box */
+.subheadingbox { width: 100%; max-width: 1098px; margin: 0 auto; display: table; padding: 0 0 24px; }
+.subheadingbox .Inner-box { width: 100%; display: inline-block; background: rgb(141,37,102); background: -moz-linear-gradient(110deg, rgb(1,1,1) 40%, rgba(181,30,125,1) 110%, rgba(190,29,130,1) 100%); background: -webkit-linear-gradient(110deg, rgb(1,1,1) 40%, rgba(181,30,125,1) 110%, rgba(190,29,130,1) 100%); background: linear-gradient(110deg, rgb(1,1,1) 40%, rgba(181,30,125,1) 110%, rgba(190,29,130,1) 100%); -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: 1px solid #390525; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; padding: 86px 55px 57px; }
+.subheadingbox .Inner-box h2 { position: relative; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 17.71px; line-height: normal; color: #ffffff; letter-spacing: 8.85px; text-transform: uppercase; margin: 0 0 24px; }
+.subheadingbox .Inner-box h2:before { content: ""; position: absolute; top: 1px; left: -55px; width: 43px; height: 18px; background: #bc2582; }
+.subheadingbox .Inner-box h2 svg { width: auto; height: 20px; margin-top: -5px; margin-right: 15px; }
+.subheadingbox .Inner-box h2 svg path { fill: #ffffff; }
+.subheadingbox .Inner-box p { font-family: 'Raleway', sans-serif; font-weight: 100; font-size: 16px; line-height: 12px; color: #ffffff; letter-spacing: 0; margin: 0; padding: 0 0 0; }
+
+/* AM WEB 360° Page */
+#order-standard_cart .cart-body .products { width: 100%; display: inline-block; margin: 0 0 0; }
+#order-standard_cart .cart-body .products .row-eq-height:nth-child(n+2) { margin-top: 30px; }
+#order-standard_cart .cart-body .products .product { width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.2); border: none; border-radius: 0; padding: 0; margin: 0; }  
+#order-standard_cart .cart-body .products .product header { width: 100%; display: inline-block; background: #f7f7f7; margin: 0 !important; padding: 15px !important; }
+#order-standard_cart .cart-body .products .product header span { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; }
+#order-standard_cart .cart-body .products .product footer { margin: 15px 0; }
+#order-standard_cart .cart-body .products .product footer .product-pricing { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; margin: 0 0 10px; }
+#order-standard_cart .cart-body .products .product footer .product-pricing span.price { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 18px; line-height: normal; color: #000000; letter-spacing: 0; display: inline-block; margin: 0 0 4px; }
+#order-standard_cart .cart-body .products .product footer a.btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px !important; line-height: 1 !important; color: #ffffff; letter-spacing: 0; text-transform: initial; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border-radius: 10px; display: inline-block; text-align: center; margin: 0; padding: 11px 20px; }
+#order-standard_cart .cart-body .products .product footer a.btn i.fas { padding: 0; margin: 0; opacity: 1; margin-right: 4px; }
+#order-standard_cart .cart-body .products .product footer a.btn:hover { background: #000000; color: #ffffff; }
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -3402,45 +3557,36 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 
 
 
-/* Responsive */
+/**************************** Responsive ****************************/
 @media (max-width: 1700px) {
 
-    /* Login Page */
-    .achieving-dream { padding: 9px 0 30px; }
-    .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 35px; }
-    .My-account { padding: 48px 160px 38px 180px; }
+  /* Login Page */
+  .achieving-dream { padding: 9px 0 30px; }
+  .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 35px; }
+  .My-account { padding: 48px 160px 38px 180px; }
 
   /* Dasboard Page */
-  /* Packages & Subscriptions Page */
-  .Packages-subscriptions .Title { margin: 20px 0 100px; }
-  .Packages-subscriptions .Title h2 { margin: 0 0 90px; }
 
-/* My Details */
 
 }
 
 @media (max-width: 1600px) {
 
-    /* Login Page */
-    header { padding: 12px 0 0; }
-    .achieving-dream { padding: 5px 0 20px; }
-    .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 28px; letter-spacing: 21px; }
-    .achieving-dream h2 span { letter-spacing: 31.52px; }
-    .My-account { padding: 35px 140px 25px 160px; }
-    .My-account h2 { margin: 0 0 20px; }
-    .My-account .star-icon { margin: 0 0 25px; }
-    .My-account form { margin: 0 0 20px; }
-    .My-account .Sign-in { margin: 0 0 20px; }
-    .My-account .Create-account { margin: 0 0 10px; }
-    .All-rights { padding: 15px 0 10px; }
+  /* Login Page */
+  header { padding: 12px 0 0; }
+  .achieving-dream { padding: 5px 0 20px; }
+  .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 28px; letter-spacing: 21px; }
+  .achieving-dream h2 span { letter-spacing: 31.52px; }
+  .My-account { padding: 35px 140px 25px 160px; }
+  .My-account h2 { margin: 0 0 20px; }
+  .My-account .star-icon { margin: 0 0 25px; }
+  .My-account form { margin: 0 0 20px; }
+  .My-account .Sign-in { margin: 0 0 20px; }
+  .My-account .Create-account { margin: 0 0 10px; }
+  .All-rights { padding: 15px 0 10px; }
 
   /* Dasboard Page */
-  /* Packages & Subscriptions Page */
-  .Packages-subscriptions .Title { margin: 20px 0 50px; }
-  .Packages-subscriptions .Title h2 { margin: 0 0 50px; }
-  .Packages-subscriptions .Get-a-free { margin: 0 auto 60px; }
 
-/* My Details */
 
 }
 
@@ -3449,44 +3595,37 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   /* Dasboard Page */
   .innerpage { padding-top: 140px; }
   .innerpage header { padding: 20px 0 !important; }
-  /*.My-dasboard { padding: 25px 0 0; }*/
-  /*.My-dasboard .clientarea-normal { margin: 22px 0 20px; }*/
   .My-dasboard .clientarea-normal .box { height: 180px; }
   .My-dasboard .clientarea-normal .box a span.label { font-size: 100px; padding: 0 0 15px; }
   .My-dasboard .clientarea-normal .box a img { height: 115px; }
   .My-dasboard .Billing-payment { padding: 50px 16px 10px 0; height: calc(100vh - 411px) }
 
-/* Packages & Subscriptions Page */
-/* My Details */
-
 }
 
 @media (max-width: 1366px) {
 
-    /* Login Page */
-    header { padding: 10px 0 0; }
-    .achieving-dream { padding: 0 0 15px; }
-    .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 25px; letter-spacing: 18px; }
-    .achieving-dream h2 span { letter-spacing: 25.52px; }
-    .My-account { width: 650px; padding: 20px 120px 20px 140px; }
-    .My-account h2 { margin: 0 0 10px; }
-    .My-account .star-icon { margin: 0 0 12px; }
-    .My-account form .form-group { margin: 0 0 12px; }
-    .My-account form .form-group input { padding: 16px 25px; }
-    .My-account form input.btn { font-size: 20.51px; letter-spacing: 9.25px; padding: 15px; margin: 0; }
-    .My-account form { margin: 0 0 15px; }
-    .My-account .Sign-in { margin: 0 0 15px; }
-    .My-account .Create-account { margin: 0 0 8px; }
-    .My-account .Create-account p { font-size: 14px; }
-    .My-account .Sign-in h3 { font-size: 14px; margin: 0 0 5px; }
+  /* Login Page */
+  header { padding: 10px 0 0; }
+  .achieving-dream { padding: 0 0 15px; }
+  .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 25px; letter-spacing: 18px; }
+  .achieving-dream h2 span { letter-spacing: 25.52px; }
+  .My-account { width: 650px; padding: 20px 120px 20px 140px; }
+  .My-account h2 { margin: 0 0 10px; }
+  .My-account .star-icon { margin: 0 0 12px; }
+  .My-account form .form-group { margin: 0 0 12px; }
+  .My-account form .form-group input { padding: 16px 25px; }
+  .My-account form input.btn { font-size: 20.51px; letter-spacing: 9.25px; padding: 15px; margin: 0; }
+  .My-account form { margin: 0 0 15px; }
+  .My-account .Sign-in { margin: 0 0 15px; }
+  .My-account .Create-account { margin: 0 0 8px; }
+  .My-account .Create-account p { font-size: 14px; }
+  .My-account .Sign-in h3 { font-size: 14px; margin: 0 0 5px; }
 
   /* Dasboard Page */
   .innerpage { padding-top: 124px; }
   .innerpage header { padding: 12px 0 !important; }
-  /*.My-dasboard { padding: 18px 0 0; }*/
   .Dasboard-home .Dasboard span { font-size: 15px; letter-spacing: 7px; }
   .Dasboard-home .Dasboard span img { width: 25px; }
-  /*.My-dasboard .clientarea-normal { margin: 18px 0 15px; }*/
   .My-dasboard .Billing-payment { padding: 30px 16px 10px 0; height: calc(100vh - 332px); }
   .My-dasboard .Billing-payment .Billing-title { margin: 0 0 20px; }
   .My-dasboard .Billing-payment .Billing-section .box-section { padding: 15px 0 0; min-height: 149px; }
@@ -3497,22 +3636,6 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .My-dasboard .Billing-payment .Payment-history .box-section .box:nth-child(n+2) { margin-top: 15px; }
   .My-dasboard .Billing-payment .Payment-history { min-height: 200px; }
 
-  /* Contact Page */
-  .Contact-Page .Main-title .container { max-width: 650px; }
-
-  /* Packages & Subscriptions Page */
-  .Packages-subscriptions .Title { margin: 10px 0 30px; }
-  .Packages-subscriptions .Title h2 { font-size: 32.52px; letter-spacing: 32.52px; margin: 0 0 30px; }
-  .Packages-subscriptions .Title h2 b { letter-spacing: 21.26px; }
-  .Packages-subscriptions .Title p { font-size: 43px; }
-  .Packages-subscriptions .Title p span { letter-spacing: 3.8px; margin: 3px 0 0; }
-  .Packages-subscriptions .Get-a-free { width: 550px; margin: 0 auto 30px; padding: 20px 0 15px; }
-  .Packages-subscriptions .Get-a-free span.Get-span { font-size: 35.42px; letter-spacing: 11.2px; }
-  .Packages-subscriptions .Get-a-free h2 { font-size: 78.64px; letter-spacing: 35.82px; margin: 0 -25px -3px 0; }
-  .Packages-subscriptions .Get-a-free p { font-size: 35.42px; letter-spacing: 2.84px; }
-
-/* My Details */
-
 
 
 }
@@ -3520,26 +3643,27 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 @media (max-width: 1280px) {}
 @media (max-width: 1150px) {
 
-    /* Login Page */
-    nav.navbar ul.navbar-nav { width: auto; margin: 0 auto; display: table; padding: 0 24px; }
-    nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 14px; margin: 5px 0 0; }
-    nav.navbar ul.navbar-nav li.fa_star { margin-right: 159px; margin-left: 0; }
-    nav.navbar ul.navbar-nav li { margin-right: 150px; }
-    nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 161px; }
-    nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 173px; }
-    nav.navbar ul.navbar-nav li a { font-size: 17.7px; }
-    nav.navbar ul.navbar-nav li { padding: 21px 0 21px; }
-    header { padding: 15px 0 0; }
-    .achieving-dream { padding: 9px 0 20px; }
-    .My-account { width: 600px; padding: 30px 90px; }
-    .My-account h2 { margin: 0 0 20px; }
-    .My-account .star-icon { margin: 0 0 22px; }
-    .My-account form { margin: 0 0 21px; }
-    .My-account .Sign-in { margin: 0 0 20px; }
-    .My-account .Create-account { margin: 0 0 10px; }
-    .My-account .Sign-in h3 { font-size: 14px; margin: 0 0 9px; }
-    .All-rights { padding: 20px 0 15px; }
-    .loginpage .main-content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+  /* Login Page */
+  nav.navbar ul.navbar-nav { width: auto; margin: 0 auto; display: table; padding: 0 24px; }
+  nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 14px; margin: 5px 0 0; }
+  nav.navbar ul.navbar-nav li.fa_star { margin-right: 159px; margin-left: 0; }
+  nav.navbar ul.navbar-nav li { margin-right: 150px; }
+  nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 161px; }
+  nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 173px; }
+  nav.navbar ul.navbar-nav li a { font-size: 17.7px; }
+  nav.navbar ul.navbar-nav li { padding: 21px 0 21px; }
+  header { padding: 15px 0 0; }
+  .achieving-dream { padding: 9px 0 20px; }
+  .My-account { width: 600px; padding: 30px 90px; }
+  .My-account h2 { margin: 0 0 20px; }
+  .My-account .star-icon { margin: 0 0 22px; }
+  .My-account form { margin: 0 0 21px; }
+  .My-account .Sign-in { margin: 0 0 20px; }
+  .My-account .Create-account { margin: 0 0 10px; }
+  .My-account .Sign-in h3 { font-size: 14px; margin: 0 0 9px; }
+  .All-rights { padding: 20px 0 15px; }
+  .loginpage .main-content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+
   /* Dasboard Page */
   .innerpage { padding-top: 121px; }
   .My-dasboard { padding: 0 0 40px; }
@@ -3594,56 +3718,28 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .Myticket-section .Myticket-box table thead tr th:nth-child(4), .Myticket-section .Myticket-box table tbody tr td:nth-child(4) { width: 20% !important; white-space: initial !important; text-align: center; }
   .Myticket-section .Myticket-box table thead tr th:nth-child(5), .Myticket-section .Myticket-box table tbody tr td:nth-child(5) { width: 10% !important; }
 
-  /* MY PRODUCTS & SERVICES Page */
-  .Main-title h2, .Main-title h3 { letter-spacing: 7px; }
-
-  /* Network Status Page */
-  .Network-status .Box-section .box { height: 180px; }
-  .Network-status .Box-section .box .well { padding: 15px; }
-  .Network-status .Box-section .box .well span.label { font-size: 100px; padding: 0 0 10px; }
-  .Network-status .Server-status { margin: 0 0 40px; }
-
-  /* Review Checkout Page */
-  .Order-standardcart { margin: 30px 0; }
-  .Order-standardcart .container { width: 98%; }
-  #order-standard_cart .header-lined h1 { letter-spacing: 7px; }
-  #order-standard_cart .cart-body .sidebar-collapsed { border-radius: 0; padding: 0; margin: 0 0 25px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel { width: calc(50% - 8px); float: left; margin: 0; margin-right: 16px; border-radius: 0; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel:nth-child(even) { margin-right: 0; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-heading { background: #000000; padding: 10px 15px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-heading h3 { font-family: Raleway, sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #ffffff; text-transform: uppercase; letter-spacing: 5px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-heading h3 i.fas { margin-right: -12px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-body { width: 100%; display: inline-block; padding: 15px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-body form select.form-control { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 15px; line-height: 1; color: #000000; background: transparent; border: 1px solid #000000; border-radius: 0; width: 100% !important; height: initial; box-shadow: none !important; display: inline-block; padding: 10px 15px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-body form select.form-control option { font-weight: 500; }
-
-  /* Contact Page */
-  .Contact-Page .Main-title .container { max-width: 600px; }
-
-  /* Packages & Subscriptions Page */
-  /* My Details */
 
 }
 
 @media (max-width: 999px) {
 
-    /* Login Page */
-    nav.navbar ul.navbar-nav { padding: 0 18px; }
-    nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 10px; margin: 3px 0 0; }
-    nav.navbar ul.navbar-nav li { margin-right: 113px; }
-    nav.navbar ul.navbar-nav li { padding: 16px 0; }
-    nav.navbar ul.navbar-nav li.fa_star { margin-right: 120px; }
-    nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 121px; }
-    nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 130px; }
-    nav.navbar ul.navbar-nav li a { font-size: 13.2px; }
-    
-    .Main-title .breadcrumbs { width: 100%; display: inline-block; float: initial; margin: 0 0 10px; }
-    .Main-title .Title { width: 100%; display: inline-block; float: initial; }
+  /* Login Page */
+  nav.navbar ul.navbar-nav { padding: 0 18px; }
+  nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 10px; margin: 3px 0 0; }
+  nav.navbar ul.navbar-nav li { margin-right: 113px; }
+  nav.navbar ul.navbar-nav li { padding: 16px 0; }
+  nav.navbar ul.navbar-nav li.fa_star { margin-right: 120px; }
+  nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 121px; }
+  nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 130px; }
+  nav.navbar ul.navbar-nav li a { font-size: 13.2px; }
+  
+  .Main-title .breadcrumbs { width: 100%; display: inline-block; float: initial; margin: 0 0 10px; }
+  .Main-title .Title { width: 100%; display: inline-block; float: initial; }
 
-    header ul.navbar-nav li.item-box { display: none; }
-    header ul.navbar-nav li.item-box.Logout { display: block; }
-    header ul.navbar-nav li.account { margin-right: 30px; padding: 8px 0 0; }
-    .loginpage header ul.navbar-nav li.item-box.Logout { display: none; }
+  header ul.navbar-nav li.item-box { display: none; }
+  header ul.navbar-nav li.item-box.Logout { display: block; }
+  header ul.navbar-nav li.account { margin-right: 30px; padding: 8px 0 0; }
+  .loginpage header ul.navbar-nav li.item-box.Logout { display: none; }
 
   /* Dasboard Page */
   .innerpage { padding-top: 111px; }
@@ -3701,43 +3797,6 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(4), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(4) { width: 120px !important; }
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(5), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(5) { width: 170px !important; }
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(6), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(6) { width: 80px !important; }
-
-  /* MY PRODUCTS & SERVICES Page */
-  .main-content .panel .dataTables_wrapper table tbody tr td div, .main-content .panel .dataTables_wrapper table tbody tr td span.label { position: initial; top: initial; -ms-transform: initial; -webkit-transform: initial; transform: initial; }
-  .main-content .panel .dataTables_wrapper table tbody tr td span.label { display: inline-block; }
-  .main-content .panel .dataTables_wrapper table tbody tr td ul { margin: 5px 0 0; }
-  .main-content .panel .dataTables_wrapper table tbody tr td ul li:nth-child(n+2) { margin-top: 5px; }
-
-  /* My Support Tickets Page */
-  .New-ticket-btn { margin: 0 auto 15px 0; display: table; }
-
-  /* Network Status Page */
-  .Network-status .Box-section .box { height: 150px; }
-  .Network-status .Box-section .box .well span.label { font-size: 80px; padding: 0 0 5px; }
-  .Network-status .Box-section { margin: 0 0 30px; }
-  .Network-status .pagination_p { padding: 20px; margin: 0 0 30px; }
-  .Network-status .Server-status { padding: 20px; margin: 0 0 30px; }
-  .Network-status .Server-status .table-responsive table tbody tr td, .Network-status .Server-status .table-responsive table tbody tr td a { font-size: 14px; padding: 5px; }
-  .Network-status .pagination_p p small, .Network-status .Server-status p { font-size: 12px; }
-
-  /* Review Checkout Page */
-  #order-standard_cart .cart-body .secondary-cart-body { margin: 0 0 25px; }
-  #order-standard_cart .cart-body .secondary-cart-sidebar { width: 100%; }
-  #order-standard_cart .header-lined .breadcrumbs { width: 100%; display: inline-block; float: initial; margin: 0 0 10px; }
-  #order-standard_cart .header-lined .Title { width: 100%; display: inline-block; float: initial; }
-
-  /* Packages & Subscriptions Page */
-  /* My Details */
-  /* View Ticket Page */
-  .view_ticket .Project-discussion .form-group { margin: 0 0 20px; }
-  .view_ticket .Project-discussion .col-md-4:last-child .form-group { margin: 0; }
-
-  /* The AM Express Complete Web Solution Page */
-  .Web-solution .tab-content .tab-pane .panel { min-height: initial; }
-
-/* Domain Renewal Page */
-.Order-standardcart.Domain-renewal #order-standard_cart .cart-body .secondary-cart-body { width: 64%; float: left; }
-.Order-standardcart.Domain-renewal #order-standard_cart .cart-body .secondary-cart-sidebar { width: 36%; float: right; }
 
 
 }
@@ -3831,92 +3890,34 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .Myticket-section.My_project .Myticket-box .New__ticket a { padding: 13px 30px 10px 20px; }
   .Myticket-section.My_project .Myticket-box .New__ticket a img { margin-right: 20px; }
 
-  /* MY PRODUCTS & SERVICES Page */
-  .main-content .panel .panel-footer .paging_simple_numbers { text-align: right; }
-  .main-content .panel .panel-footer .dataTables_length { text-align: left; }
-
-  /* Add New Payment Method Page */
-  #frmManagePaymentMethod { padding: 20px; }
-
-  /* Open Ticket Page */
-  form.Open_ticket { padding: 20px; }
-
-  /* Add new billing address Pop Up */
-  .modal .modal-dialog .modal-content .modal-header h4 { font-size: 17px; letter-spacing: 7px; }
-
-  /* Network Status Page */
-  .Network-status .Box-section .box { height: 120px; }
-  .Network-status .Box-section .box .well { padding: 12px; }
-  .Network-status .Box-section .box .well span.label { font-size: 60px; padding: 0 0 5px; }
-  .Network-status .Server-status .table-responsive table { margin: 0 0 10px; }
-  .Network-status .Server-status .table-responsive table tbody tr td, .Network-status .Server-status .table-responsive table tbody tr td a { font-size: 15px; padding: 8px; }
-
-  /* Review Checkout Page */
-  .Order-standardcart { margin: 25px 0; }
-
-  /* Contact Page */
-  .Contact-Page .Main-title .container { width: 90%; max-width: 100%; }
-
-  /* Packages & Subscriptions Page */
-  .Packages-subscriptions .Title h2 { font-size: 29.52px; letter-spacing: 29.52px; margin: 0 0 20px; }
-  .Packages-subscriptions .Title h2 b { letter-spacing: 18.26px; }
-  .Packages-subscriptions .Title p { font-size: 32px; }
-  .Packages-subscriptions .Title p span { letter-spacing: 2.5px; margin: 3px 0 0; }
-  .Packages-subscriptions .Title { margin: 10px 0 20px; }
-  .Packages-subscriptions .Get-a-free { width: 100%; overflow: hidden; margin: 0 auto 12px; padding: 20px 0 15px; }
-  .Packages-subscriptions .Get-a-free span.Get-span { font-size: 32.42px; letter-spacing: 10.2px; }
-  .Packages-subscriptions .Get-a-free h2 { font-size: 73.64px; letter-spacing: 30.82px; margin: 0 -25px -3px 0; }
-  .Packages-subscriptions .Get-a-free p { font-size: 32.42px; letter-spacing: 3px; }
-
-  /* My Details */
-  .Box--shadow { padding: 20px; margin: 0 0 30px; }
-  ul.nav-tabs li a { font-size: 11px; padding: 7px; }
-  .Box--shadow form .well .form-group .checkbox label { font-size: 15px; }
-  .Box--shadow form .form-group .checkbox label { font-size: 15px; }
-  .Box--shadow form .form-group.Save-change-cancel input.btn { margin-right: 10px; }
-
-  /* View Ticket Page */
-  .view_ticket { margin: 30px 0; }
-  .view_ticket .breadcrumbs { margin: 0 0 10px; }
-  .view_ticket .Project-discussion { margin: 0 0 20px; }
-  .view_ticket .Project-discussion h4 { font-size: 16px; letter-spacing: 4px; }
-  .view_ticket .Reply-section { margin: 0 0 12px; }
-  .view_ticket .panel-ticket .pull-right.flip { float: initial !important; width: 100%; display: inline-block; margin: 0 0 5px; }
-  .view_ticket .panel-ticket h4.panel-title { font-size: 15px; }
-
-  /* The AM Express Complete Web Solution Page */
-  .Web-solution .tab-content .tab-pane .panel { margin: 0 0 20px; }
-
-
 
 }
 
 @media (max-width: 479px) {
 
-    /* Login Page */
-    body { height: 100vh; }
-    nav.navbar ul.navbar-nav li a { font-size: 2.91667vw; }
-    nav.navbar ul.navbar-nav li.fa_star { margin-right: 20px; }
-    nav.navbar ul.navbar-nav { padding: 0 20px; margin: 0 auto; display: table; width: auto; }
-    nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 2.91667vw; margin: 0 0 0; }
-    nav.navbar ul.navbar-nav li { padding: 15px 0; }
-    nav.navbar ul.navbar-nav li { margin-right: 12.5px; }
-    nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 12.5px; }
-    nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 20px; }
-    header { padding: 10px 0 0; }
-    .achieving-dream { padding: 5px 0 10px; }
-    .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 20px; letter-spacing: 14px; }
-    .achieving-dream h2 span { letter-spacing: 20px; }
-    .My-account { padding: 20px; }
-    .My-account h2 { font-size: 14px; letter-spacing: 5.5px; margin: 0 0 10px; }
-    .My-account .star-icon { margin: 0 0 10px; }
-    .My-account form .form-group { margin: 0 0 10px; }
-    .My-account form .form-group input { padding: 12px 18px; }
-    .My-account form input.btn { font-size: 17px; letter-spacing: 7px; padding: 12px; margin: 0; }
-    .All-rights { padding: 12px; }
-    .loginpage .main-content { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+  /* Login Page */
+  body { height: 100vh; }
+  nav.navbar ul.navbar-nav li a { font-size: 2.91667vw; }
+  nav.navbar ul.navbar-nav li.fa_star { margin-right: 20px; }
+  nav.navbar ul.navbar-nav { padding: 0 20px; margin: 0 auto; display: table; width: auto; }
+  nav.navbar ul.navbar-nav li.fa_star a, nav.navbar ul.navbar-nav li.fa_cube a { font-size: 2.91667vw; margin: 0 0 0; }
+  nav.navbar ul.navbar-nav li { padding: 15px 0; }
+  nav.navbar ul.navbar-nav li { margin-right: 12.5px; }
+  nav.navbar ul.navbar-nav li:nth-child(3) { margin-right: 12.5px; }
+  nav.navbar ul.navbar-nav li:nth-child(4) { margin-right: 20px; }
+  header { padding: 10px 0 0; }
+  .achieving-dream { padding: 5px 0 10px; }
+  .achieving-dream h2, .Contact-Page .Main-title h2 { font-size: 20px; letter-spacing: 14px; }
+  .achieving-dream h2 span { letter-spacing: 20px; }
+  .My-account { padding: 20px; }
+  .My-account h2 { font-size: 14px; letter-spacing: 5.5px; margin: 0 0 10px; }
+  .My-account .star-icon { margin: 0 0 10px; }
+  .My-account form .form-group { margin: 0 0 10px; }
+  .My-account form .form-group input { padding: 12px 18px; }
+  .My-account form input.btn { font-size: 17px; letter-spacing: 7px; padding: 12px; margin: 0; }
+  .All-rights { padding: 12px; }
+  .loginpage .main-content { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
   .Dasboard-home .Dasboard ul.select li { min-width: 270px; }
-  /*.Dasboard-home .Dasboard ul.select li a { font-size: 16px; letter-spacing: 4px; }*/
   .Dasboard-home .Dasboard { width: 100%; display: inline-block; float: initial; margin: 0 0 12px; }
   .Dasboard-home .home-dashboard { width: 100%; display: inline-block; float: initial; }
 
@@ -3983,84 +3984,6 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { padding: 15px 0; }
 
 
-  /* MY PRODUCTS & SERVICES Page */
-  .main-content .panel .dataTables_wrapper table#tableServicesList, .main-content .panel .dataTables_wrapper table#tableDomainsList { overflow: scroll; overflow-y: hidden; display: inline-block; }
-  .Main-title h2, .Main-title h3 { font-size: 16px; letter-spacing: 4px; margin: 0 0 8px; }
-  .Main-title p { font-size: 12px; }
-  .main-content .panel .panel-footer .paging_simple_numbers { width: 100%; float: initial; display: inline-block; text-align: center; margin: 0 0 10px; }
-  .main-content .panel .panel-footer .dataTables_length { width: 100%; display: inline-block; float: initial; text-align: center; }
-
-  /* My Invoices Page */
-  /* Add New Payment Method Page */
-  #frmManagePaymentMethod { padding: 15px; margin: 0 0 20px; }
-  #frmManagePaymentMethod .form-group { margin: 0 0 12px; }
-  #frmManagePaymentMethod .fieldgroup-creditcard .cc-details .form-group { width: 100%; margin-right: 0; }
-  #frmManagePaymentMethod .form-group .label-box label.radio-inline { margin: 0 0 0 20px; }
-
-  /* Open Ticket Page */
-  form.Open_ticket { padding: 15px; margin: 0 0 20px; }
-  form.Open_ticket .form-group { margin: 0 0 12px; }
-  form.Open_ticket .form-group span.input-group-btn a.btn-file { font-size: 13px; padding: 12.5px 10px; }
-  form.Open_ticket .Attachments-file .input-group { margin: 0 0 12px; }
-
-  /* Add new billing address Pop Up */
-  .modal .modal-dialog .modal-content .modal-header h4 { font-size: 16px; letter-spacing: 4px; margin: 0 0 8px; }
-
-  /* Network Status Page */
-  .Network-status .Box-section { margin: 0 0 25px; }
-  .Network-status .Box-section .box { width: calc(50% - 5px); margin-right: 10px; height: 120px; }
-  .Network-status .Box-section .box:nth-child(even) { margin-right: 0; }
-  .Network-status .Box-section .box:nth-child(n+3) { margin-top: 12px; }
-  .Network-status .pagination_p { padding: 15px; margin: 0 0 25px; }
-  .Network-status .Server-status { padding: 15px; margin: 0 0 25px; }
-
-  /* Review Checkout Page */
-  .Order-standardcart { margin: 20px 0; }
-  .Order-standardcart .container { width: 100%; }
-  #order-standard_cart .header-lined h1 { font-size: 16px; letter-spacing: 4px; margin: 0 0 8px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel { width: 100%; margin: 0 0 20px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel:nth-child(even) { margin: 0; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-heading h3 { font-size: 15px; letter-spacing: 4px; }
-  #order-standard_cart .cart-body .sidebar-collapsed .panel .panel-heading h3 i.fas { margin-right: -10px; }
-  #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form button.btn { padding: 12px; }
-  #order-standard_cart .cart-body .secondary-cart-sidebar .order-summary h2 { font-size: 16px; letter-spacing: 4px; }
-  #order-standard_cart .cart-body .secondary-cart-sidebar .order-summary .summary-container .total-due-today span.amt { font-size: 23px; }
-  #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs ul.nav-tabs li.nav-item { width: 100%; }
-  #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs ul.nav-tabs li.nav-item a.nav-link { border: none !important; }
-  #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs ul.nav-tabs { padding: 0 5px; }
-
-  /* Packages & Subscriptions Page */
-  .Packages-subscriptions .Title h2 { font-size: 18px; letter-spacing: 19.52px; margin: 0 0 15px; }
-  .Packages-subscriptions .Title h2 b { letter-spacing: 12.26px; }
-  .Packages-subscriptions .Title p { font-size: 22px; }
-  .Packages-subscriptions .Title p span { letter-spacing: 1.5px; margin: 2px 0 0; }
-  .Packages-subscriptions .Get-a-free { width: 100%; overflow: hidden; margin: 0 auto 10px; padding: 15px 0 12px; }
-  .Packages-subscriptions .Get-a-free span.Get-span { font-size: 25px; letter-spacing: 7.2px; margin: 0 0 -3px; }
-  .Packages-subscriptions .Get-a-free h2 { font-size: 60px; letter-spacing: 20.82px; margin: 0 -15px -2px 0; }
-  .Packages-subscriptions .Get-a-free p { font-size: 22px; letter-spacing: 2px; }
-
-  /* My Details */
-  .Box--shadow { padding: 15px; margin: 0 0 20px; }
-  ul.nav.nav-tabs { border: none; }
-  ul.nav-tabs li { width: calc(50% - 5px); float: left; margin-right: 10px; }
-  ul.nav-tabs li:nth-child(even) { margin-right: 0; }
-  ul.nav-tabs li a { border: none; border-bottom: 1px solid #000000 !important; margin: 0; }
-  ul.nav-tabs li.active a { border: none !important; border-bottom: 1px solid #bb2581 !important; color: #bb2581; }
-  ul.nav-tabs li a:hover { color: #bb2581; border-bottom: 1px solid #bb2581 !important; }
-  .Box--shadow form .well { padding: 10px; margin: 0 0 20px; }
-  .Box--shadow form .well .form-group h4 { font-size: 16px; letter-spacing: 4px; }
-
-  /* Security Settings Page */
-  .Box--shadow h2 { font-size: 16px; letter-spacing: 4px; margin: 3px 0 8px; }
-
-  /* Add Funds Page */
-  .Add-Funds table.table-striped tbody tr td { font-size: 14px; }
-
-  /* The AM Express Complete Web Solution Page */
-  .Web-solution ul.nav-tabs li { width: 100%; margin: 0; }
-  .Web-solution .tab-content .tab-pane .panel .panel-body .cpanel-package-details em, .Web-solution .tab-content .tab-pane .panel .panel-body .cpanel-package-details h4 { font-size: 15px; }
-
-
 }
 
 @media (max-width: 350px) {
@@ -4068,7 +3991,5 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
   .loginpage body { height: 100%; }
   .loginpage .main-content { position: relative; top: initial; -ms-transform: initial; -webkit-transform: initial; transform: initial; }
 
-/* Packages & Subscriptions Page */
-/* My Details */
 
 }

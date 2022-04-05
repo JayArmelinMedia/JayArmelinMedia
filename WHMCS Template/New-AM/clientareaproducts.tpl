@@ -35,15 +35,23 @@
                     <tr onclick="clickableSafeRedirect(event, 'clientarea.php?action=productdetails&amp;id={$service.id}', false)">
                         <td class="py-0 text-center{if $service.sslStatus} ssl-info{/if}" data-element-id="{$service.id}" data-type="service"{if $service.domain} data-domain="{$service.domain}"{/if}>
                             {if $service.sslStatus}
-                                <img src="{$service.sslStatus->getImagePath()}" data-toggle="tooltip" title="{$service.sslStatus->getTooltipContent()}" class="{$service.sslStatus->getClass()}" width="25">
+                                <!-- <img src="{$service.sslStatus->getImagePath()}" data-toggle="tooltip" title="{$service.sslStatus->getTooltipContent()}" class="{$service.sslStatus->getClass()}" width="25"> -->
+                                <p><i class="fa-solid fa-lock-keyhole"></i></p>
                             {elseif !$service.isActive}
-                                <img src="{$BASE_PATH_IMG}/ssl/ssl-inactive-domain.png" data-toggle="tooltip" title="{lang key='sslState.sslInactiveService'}" width="25">
+                                <!-- <img src="{$BASE_PATH_IMG}/ssl/ssl-inactive-domain.png" data-toggle="tooltip" title="{lang key='sslState.sslInactiveService'}" width="25"> -->
+                                <p><i class="fa-solid fa-unlock-keyhole"></i></p>
                             {/if}
                         </td>
-                        <td><strong>{$service.product}</strong>{if $service.domain}<br /><a href="http://{$service.domain}" target="_blank">{$service.domain}</a>{else}<br />-{/if}</td>
-                        <td class="text-center" data-order="{$service.amountnum}">{$service.amount} <small class="text-muted">{$service.billingcycle}</small></td>
-                        <td class="text-center"><span class="w-hidden">{$service.normalisedNextDueDate}</span>{$service.nextduedate}</td>
-                        <td class="text-center"><span class="label status status-{$service.status|strtolower}">{$service.statustext}</span></td>
+                        <td><p><strong>{$service.product}</strong>{if $service.domain}<br /><a href="http://{$service.domain}" target="_blank">{$service.domain}</a>{else}<br />-{/if}</p></td>
+                        <td class="text-center" data-order="{$service.amountnum}">
+                            <p>{$service.amount} <small class="text-muted">{$service.billingcycle}</small></p>
+                        </td>
+                        <td class="text-center">
+                            <p><span class="w-hidden">{$service.normalisedNextDueDate}</span>{$service.nextduedate}</p>
+                        </td>
+                        <td class="text-center">
+                            <p><span class="label status status-{$service.status|strtolower}">{$service.statustext}</span></p>
+                        </td>
                     </tr>
                 {/foreach}
             </tbody>
