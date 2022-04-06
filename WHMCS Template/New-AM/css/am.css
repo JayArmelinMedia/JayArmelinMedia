@@ -2786,15 +2786,27 @@ header .Menu-icon a img { width: 40px; }
 
 header ul.navbar-nav li.envelope { position: relative; }
 header ul.navbar-nav li.envelope a.dropdown-toggle::after { display: none; }
-header ul.navbar-nav li.envelope ul.dropdown-navbar { width: 300px; border: none; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); border-radius: 0; margin: 4px 0 0; padding: 10px; left: auto !important; right: 0; }
+/*header ul.navbar-nav li.envelope ul.dropdown-navbar { width: 300px; border: none; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); border-radius: 0; margin: 4px 0 0; padding: 10px; left: auto !important; right: 0; }
 header ul.navbar-nav li.envelope ul.dropdown-navbar li { padding: 0 0 8px; margin: 0 0 8px; width: 100%; display: inline-block; border-bottom: 1px solid rgba(0,0,0,0.2); }
 header ul.navbar-nav li.envelope ul.dropdown-navbar li:last-child { padding: 0; margin: 0; border: none; text-align: center; }
 header ul.navbar-nav li.envelope ul.dropdown-navbar li a { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; }
 header ul.navbar-nav li.envelope ul.dropdown-navbar li a:hover { color: #bb2581; }
 header ul.navbar-nav li.envelope ul.dropdown-navbar li a span.pull-right { margin-left: 5px; }
 header ul.navbar-nav li.envelope ul.dropdown-navbar li a span.flip i.fas { font-size: 16px; color: #000000; }
-header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-weight: 700; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-weight: 700; }*/
 
+header ul.navbar-nav li.envelope ul.dropdown-navbar { width: 100%; min-width: 350px; border: 1px solid #ddd; border-radius: 0; margin: 0.5rem 0 0 -6px; padding: 7px 10px; left: 50% !important; -webkit-transform: translate(-50%,0) !important; transform: translate(-50%,0) !important; top: 100% !important; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar:before { content: ""; position: absolute; top: -7px; left: 50%; -webkit-transform: translate(-50%,0); transform: translate(-50%,0); width: 12px; height: 12px; border-top: 1px solid #dddddd; border-left: 1px solid #dddddd; background: #ffffff; transform: rotate(45deg); }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li { margin: 0; padding: 5px 0; border-bottom: 1px solid #ddd; width: 100%; display: inline-block; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li a { font-family: 'Open Sans', sans-serif; font-weight: 400; line-height: 1.5; color: #555 !important; font-size: 0.95em; display: block !important; padding: 10px 15px 10px 12px !important; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li a:hover { background: #f6f6f6; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li a span.flip i.fas { font-size: 17px; color: #555555; position: relative; top: 1px; height: initial; width: auto; margin: 0; margin-right: 5px; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li a span.pull-right { margin-left: 5px; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li a span.pull-right.flip i.fas { margin-right: 0; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li:last-child { border: none; padding-bottom: 0; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer { text-align: center; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a { font-weight: 700; text-transform: uppercase; }
+header ul.navbar-nav li.envelope ul.dropdown-navbar li.dropdown-footer a i.fal { margin-left: 5px; width: auto; height: auto; color: #555555; }
 
 /* Login Page */
 .page-login header.shadow-lg { box-shadow: none !important; background: transparent !important; }
@@ -2848,11 +2860,11 @@ body.innerpage #main-body { width: 100%; display: inline-block; }
 
 .My-dasboard { width: 94%; max-width: 1098px; margin: 0 auto; display: table; padding: 0 0 46px; }
 
-.Dasboard-home { width: 100%; display: inline-block; padding: 53px 0 32px; }
+.Dasboard-home { width: 100%; display: inline-block; padding: 41px 0 37px; }
 .Dasboard-home .Dasboard { position: relative; float: left; }
 .Dasboard-home .Dasboard span { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 9px; }
 .Dasboard-home .Dasboard span img { margin-right: 22px; }
-.Dasboard-home .home-dashboard { float: right; }
+.Dasboard-home .home-dashboard { float: right; padding: 12px 0 0; }
 .Dasboard-home .home-dashboard span { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 13px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 1.3px; }
 
 .breadcrumbs { display: inline-block; text-align: right; }
@@ -2933,6 +2945,7 @@ body.innerpage #main-body { width: 100%; display: inline-block; }
 
 .My-dasboard .Welcome-billing .Verificationbox { width: 100%; display: inline-block;  padding: 0 0 50px; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner { width: 100%;display: inline-block;  background: rgb(141,37,102); background: -moz-linear-gradient(141deg, rgba(141,37,102,1) 40%, rgba(181,30,125,1) 60%, rgba(190,29,130,1) 100%); background: -webkit-linear-gradient(141deg, rgba(141,37,102,1) 40%, rgba(181,30,125,1) 60%, rgba(190,29,130,1) 100%); background: linear-gradient(141deg, rgba(141,37,102,1) 40%, rgba(181,30,125,1) 60%, rgba(190,29,130,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8d2566",endColorstr="#be1d82",GradientType=1); -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-top-left-radius: 10px; border-bottom-right-radius: 10px; padding: 41px 38px 29px 35px; }
+.My-dasboard .Welcome-billing .Verificationbox .verification-banner:nth-child(n+2) { margin-top: 30px; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .container { width: 100%; max-width: 100%; padding: 0; margin: 0; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .row { display: inline-block; display: inline-block; -ms-flex-wrap: inline-block; flex-wrap: initial; margin: 0; width: 100%; display: inline-block; }
 .My-dasboard .Welcome-billing .Verificationbox .verification-banner .row .order-3 { display: none; }
@@ -2967,7 +2980,7 @@ body.innerpage #main-body { width: 100%; display: inline-block; }
 .My-dasboard .billing-section .billing-table table.dataTable tbody tr td a.table-btn.Paid { background: #1dbe58; }
 .My-dasboard .billing-section .billing-table table.dataTable tbody tr td a.table-btn.Refunded { background: #000000; }*/
 
-.My-dasboard .billing-section .billing-Invoices { width: calc(100% - 393px); float: left; margin-left: -18px; }
+.My-dasboard .billing-section .billing-Invoices { width: calc(100% - 375px); float: left; margin-left: -18px; }
 .My-dasboard .billing-payment .billing-Invoices { width: 622px; float: left; }
 .My-dasboard .billing-section .billing-Invoices .well { width: 100%; display: inline-block; border: none; border-radius: 0; box-shadow: none; min-height: initial; margin: 0; padding: 0; background: #ffffff; -webkit-box-shadow: 10px 15px 40px 0px rgb(0,0,0,0.1); -moz-box-shadow: 10px 15px 40px 0px rgb(0,0,0,0.1); box-shadow: 10px 15px 40px 0px rgb(0,0,0,0.1); min-height: 320px; padding: 26px 0; }
 .My-dasboard .billing-section .billing-Invoices .well table { background: transparent; padding: 0; margin: 0; }
@@ -3042,7 +3055,7 @@ body.innerpage #main-body { width: 100%; display: inline-block; }
 .Myticket-section .Myticket-box table tbody tr td a.open-btn:hover { color: #ffffff !important; background: #000000 !important; }
 .Myticket-section .Myticket-box table tbody tr td a.open-btn img { margin-left: 9px; vertical-align: bottom; }
 
-.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { width: 100%; max-width: 100%; display: inline-block; text-align: right; box-shadow: inset 0 40px 40px -20px rgb(0,0,0,0.30); padding: 44px 0 55px; }
+.Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { display: none !important; width: 100%; max-width: 100%; display: inline-block; text-align: right; box-shadow: inset 0 40px 40px -20px rgb(0,0,0,0.30); padding: 44px 0 55px; }
 .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination { width: auto; display: inline-block; padding: 0 10px; margin: 0; list-style: none; white-space: initial; justify-content: initial; border-radius: 0; border: none; box-shadow: none; }
 .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item { padding: 0; margin: 0; list-style: none; float: left; margin-right: 1px; }
 .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item a.page-link { width: 35px; height: 35px; border-radius: 50%; display: inline-block; border: none; background: #efefef; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 17.07px; line-height: 1; color: #000000; letter-spacing: 0; text-align: center; padding: 7px; }
@@ -3053,6 +3066,15 @@ body.innerpage #main-body { width: 100%; display: inline-block; }
 .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link { position: relative; font-size: 0; }
 .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:before { content: "Prev"; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; }
 .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:hover:before { color: #be1d82; }
+
+.Myticket-section .Myticket-box .Showing-section { width: 100%; float: initial; display: inline-block; text-align: right; background: #ffffff; -webkit-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); border-radius: 0; padding: 0; }
+.Myticket-section .Myticket-box .Showing-section .Showing-box { width: 100%; display: inline-block; margin: 0; list-style: none; white-space: initial; justify-content: initial; border-radius: 0; border: none; text-align: left; box-shadow: inset 0 40px 40px -30px rgb(0,0,0,0.3); padding: 35px 25px 27px 19px; }
+.Myticket-section .Myticket-box .Showing-section .Showing-box .Latest-invoices { float: left; padding: 8px 0; }
+.Myticket-section .Myticket-box .Showing-section .Showing-box .Latest-invoices p { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0; }
+.Myticket-section .Myticket-box .Showing-section .Showing-box .View-invoices { float: right; }
+.Myticket-section .Myticket-box .Showing-section .Showing-box .View-invoices a { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; }
+.Myticket-section .Myticket-box .Showing-section .Showing-box .View-invoices a img { margin-left: 16px; margin-top: -2px; }
+
 
 /* My Project Section */
 .Myticket-section.My_project {  }
@@ -3090,7 +3112,7 @@ header ul.navbar-nav li.item-box a i.fas.fa-envelope { font-size: 26px; margin-t
 header ul.navbar-nav li:last-child { margin: 0; }
 header ul.navbar-nav li a span.Bell-count, header ul.navbar-nav li a span.Cart-count { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 12px; line-height: normal; color: #be1d82; letter-spacing: initial; position: absolute; }
 
-header ul.navbar-nav li.account { margin-right: 42px; padding: 9px 0; }
+header ul.navbar-nav li.account { margin-right: 25px; margin-left: 10px; padding: 9px 0; }
 header ul.navbar-nav li.account a.dropdown-toggle { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 11.8px; line-height: normal; color: #000000; letter-spacing: 3.74px; }
 header ul.navbar-nav li.account ul.dropdown-menu { width: 100%; min-width: 310px; border: 1px solid #ddd; border-radius: 0; margin: 0.5rem 0 0; padding: 7px 10px; left: 50% !important; -webkit-transform: translate(-50%,0) !important; transform: translate(-50%,0) !important; top: 100% !important; }
 header ul.navbar-nav li.account ul.dropdown-menu:before { content: ""; position: absolute; top: -7px; left: 50%; -webkit-transform: translate(-50%,0); transform: translate(-50%,0); width: 12px; height: 12px; border-top: 1px solid #dddddd; border-left: 1px solid #dddddd; background: #ffffff; transform: rotate(45deg); }
@@ -3113,7 +3135,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .achieving-dream h2 span { letter-spacing: 37.52px; }
 
 .My-account { width: 100%; max-width: 811px; background: #ffffff; -webkit-box-shadow: 30px 30px 30px 0px rgba(0,0,0,0.2); -moz-box-shadow: 30px 30px 30px 0px rgba(0,0,0,0.2); box-shadow: 30px 30px 30px 0px rgba(0,0,0,0.2); margin: 0 auto; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; padding: 52px 160px 42px 180px; }
-.My-account h2 { font-family: 'Raleway', sans-serif; font-weight: normal; font-size: 15px; line-height: 1; color: #000000; letter-spacing: 7.5px; text-align: center; margin: 0 0 26px; }
+.My-account h2 { font-family: 'Raleway', sans-serif; font-weight: normal; font-size: 15px; line-height: 1; color: #000000; letter-spacing: 7.5px; text-align: center; text-transform: uppercase; margin: 0 0 26px; }
 .My-account .star-icon { width: 100%; display: inline-block; text-align: center; margin: 0 0 39px; }
 .My-account .star-icon svg.c-star { fill: #000000; }
 .My-account form { width: 100%; display: inline-block; margin: 0 0 36px; }
@@ -3170,16 +3192,20 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .dataTables_wrapper table tbody { width: 100%; display: inline-block; margin: 0; }
 .table-container .dataTables_wrapper table tbody tr { width: 100%; display: inline-block; box-shadow: none; background-image: url('../img/ticket-box-shadow.png'); background-repeat: no-repeat; background-size: cover; background-position: 100% 100%; border: none; margin: 0 0 2px; padding: 12px 13px 7px 26px; }
 .table-container .dataTables_wrapper table tbody tr:last-child { margin: 0 0 13px; }
-.table-container .dataTables_wrapper table tbody tr td { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; background: transparent; border: none; width: auto !important; padding: 0 0 0 !important; float: left; min-height: 38px; display: table !important; }
+.table-container .dataTables_wrapper table tbody tr td { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; background: transparent; border: none; width: auto !important; padding: 0 0 0 !important; float: left; min-height: 24px; display: table !important; }
 .table-container .dataTables_wrapper table tbody tr td p { display: table-cell; vertical-align: middle; padding: 0; margin: 0; }
 .table-container .dataTables_wrapper table tbody tr td a { color: #000000 !important; }
 .table-container .dataTables_wrapper table tbody tr td a b { font-family: 'Raleway', sans-serif; font-weight: 600; }
 .table-container .dataTables_wrapper table tbody tr td a:hover { color: #bb2581 !important; }
 
 .table-container .dataTables_wrapper table tbody tr td span.label { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 11px; line-height: 1; color: #ffffff !important; letter-spacing: 0; text-transform: uppercase; background: #bc2582; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; border-radius: 50px; display: inline-block; text-align: center; width: 102px; margin: 0; padding: 7px 6px 6px; }
+.table-container .dataTables_wrapper table tbody tr td span.label.status-paid { background: #1dbe58; color: #ffffff !important; }
+.table-container .dataTables_wrapper table tbody tr td span.label.status-refunded { color: #ffffff !important; background: #000000; }
 .table-container .dataTables_wrapper table tbody tr td span.label.Open { background: #000000; }
-.table-container .dataTables_wrapper table tbody tr td span.label.status-unpaid { background: #000000; position: relative; z-index: 9; }
-.table-container .dataTables_wrapper table tbody tr td span.label.status-unpaid:before { content: ""; position: absolute; top: 0; left: 0; width: 58px; height: 24px; border-radius: 50px; background: #bc2582; z-index: -1; }
+.table-container .dataTables_wrapper table tbody tr td span.label.status-custom { background: #000000 !important; position: relative; z-index: 9; }
+.table-container .dataTables_wrapper table tbody tr td span.label.status-custom:before { content: ""; position: absolute; top: 0; left: 0; width: 58px; height: 24px; border-radius: 50px; background: #bc2582; z-index: -1; }
+/*.table-container .dataTables_wrapper table tbody tr td span.label.status-unpaid { background: #000000; position: relative; z-index: 9; }
+.table-container .dataTables_wrapper table tbody tr td span.label.status-unpaid:before { content: ""; position: absolute; top: 0; left: 0; width: 58px; height: 24px; border-radius: 50px; background: #bc2582; z-index: -1; }*/
 .table-container .dataTables_wrapper table tbody tr td a.open-btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 10.33px; line-height: 1; color: #ffffff !important; background: #bb2581 !important; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; letter-spacing: 0; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; float: right; margin: 0; padding: 7.4px 11.4px; }
 .table-container .dataTables_wrapper table tbody tr td a.open-btn:hover { color: #ffffff !important; background: #000000 !important; }
 .table-container .dataTables_wrapper table tbody tr td a.open-btn img { margin-left: 9px; vertical-align: bottom; }
@@ -3187,22 +3213,22 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .dataTables_wrapper .dataTables_paginate { width: 100%; max-width: 748px; float: initial; display: inline-block; text-align: right; background: #ffffff; -webkit-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); border-radius: 0; padding: 0; }
 .table-container .dataTables_wrapper .dataTables_paginate ul.pagination { width: 100%; display: inline-block; margin: 0; list-style: none; white-space: initial; justify-content: initial; border-radius: 0; border: none; box-shadow: inset 0 40px 40px -20px rgb(0,0,0,0.3); padding: 44px 10px 55px; text-align: right; }
 .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item { padding: 0; margin: 0; list-style: none; display: inline-block; margin-right: 1px; }
-.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item a.page-link { width: 35px; height: 35px; border-radius: 50%; display: inline-block; border: none; background: #efefef; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 17.07px; line-height: 1; color: #000000; letter-spacing: 0; text-align: center; padding: 7px; }
+.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item a.page-link { width: 35px; height: 35px; border-radius: 50%; display: inline-block; border: none; background: #efefef; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.07px; line-height: 1; color: #000000; letter-spacing: 0; text-align: center; padding: 7px; }
 .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.active a.page-link { color: #ffffff; background: #be1d82; }
-.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link, .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.next a.page-link { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; width: auto; height: initial; border-radius: 0; background: transparent; text-transform: uppercase; padding: 10.5px 12px; }
+.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link, .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.next a.page-link { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; width: auto; height: initial; border-radius: 0; background: transparent; text-transform: uppercase; padding: 10.5px 12px; }
 .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:hover, .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.next a.page-link:hover { color: #be1d82; }
 .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link { position: relative; font-size: 0; }
-.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:before { content: "Prev"; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; }
+.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:before { content: "Prev"; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: 1; color: #000000; letter-spacing: 0; }
 .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:hover:before { color: #be1d82; }
 
 .table-container .dataTables_wrapper .dataTables_length { width: 300px; display: inline-block; position: relative; margin: -92px 20px 0; }
-.table-container .dataTables_wrapper .dataTables_length label { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0; }
-.table-container .dataTables_wrapper .dataTables_length label select.custom-select { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 18px; line-height: 1; color: #000000; letter-spacing: 9px; border: 1px solid #010001; width: 79px; height: 42px; margin: -5px 7px 0; padding: 9px 17px; }
+.table-container .dataTables_wrapper .dataTables_length label { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0; }
+.table-container .dataTables_wrapper .dataTables_length label select.custom-select { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 18px; line-height: 1; color: #000000; letter-spacing: 9px; border: 1px solid #010001; width: 79px; height: 42px; margin: -5px 7px 0; padding: 9px 17px; }
 
 .page-clientareainvoices .table-container .Right-side { margin: 66px 0 0; }
 .table-container .Right-side { width: 310px; float: right; margin: 0; }
 .table-container .Right-side .sidebar { width: 100%; display: inline-block; margin: 0 0 0; }
-.table-container .Right-side .sidebar .card-sidebar { width: 100%; display: inline-block; background: #f7f7f7; -webkit-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); -moz-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); border: none; border-radius: 0; padding: 0 26px 0 36px; margin: 0 0 20px; }
+.table-container .Right-side .sidebar .card-sidebar { width: 100%; display: inline-block; background: #f7f7f7; /*-webkit-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); -moz-box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1); box-shadow: 0px 0 10px 0px rgb(0,0,0,0.1);*/ border: none; border-radius: 0; padding: 0 26px 0 36px; margin: 0 0 20px; }
 .table-container .Right-side .sidebar .card-sidebar .card-header { position: relative; width: 100%; display: inline-block; border: none; padding: 18px 0; }
 .table-container .Right-side .sidebar .card-sidebar .card-header:before { content: ""; position: absolute; top: 0; left: -27px; width: 12px; height: 45px; background: #0c0c0c; }
 .table-container .Right-side .sidebar .card-sidebar .card-header h3.card-title { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0; }
@@ -3224,6 +3250,12 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item i.far { font-size: 15px; color: #000000; margin-right: 12px; }
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item span { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; }
 .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item.active, .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item:hover { color: #bc2582; }
+
+.table-container .Right-side .sidebar.d-lg-block .card-sidebar .card-header h3.card-title i.far { display: inline-block; font-size: 17.71px; color: #000000; margin-right: 5px; }
+.table-container .Right-side .sidebar.d-lg-block .card-sidebar .collapsable-card-body .list-group { padding: 35px 0 40px; }
+.table-container .Right-side .sidebar.d-lg-block .card-sidebar .collapsable-card-body .list-group a.list-group-item { margin: 0 0 10px; }
+.table-container .Right-side .sidebar.d-lg-block .card-sidebar .collapsable-card-body .list-group a.list-group-item i.fas { margin-right: 9px; }
+
 
 /* BILLING Section */
 .billing-Invoices .dataTables_wrapper { width: 100%; max-width: 748px !important; display: inline-block; margin: 0; }
@@ -3269,9 +3301,9 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .billing-Invoices .Showing-section { width: 100%; max-width: 748px; float: initial; display: inline-block; text-align: right; background: #ffffff; -webkit-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); box-shadow: 0 40px 45px 0px rgb(0,0,0,0.2); border-radius: 0; padding: 0; }
 .billing-Invoices .Showing-section .Showing-box { width: 100%; display: inline-block; margin: 0; list-style: none; white-space: initial; justify-content: initial; border-radius: 0; border: none; text-align: left; box-shadow: inset 0 40px 40px -30px rgb(0,0,0,0.3); padding: 35px 25px 27px 19px; }
 .billing-Invoices .Showing-section .Showing-box .Latest-invoices { float: left; padding: 8px 0; }
-.billing-Invoices .Showing-section .Showing-box .Latest-invoices p { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0; }
+.billing-Invoices .Showing-section .Showing-box .Latest-invoices p { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0; }
 .billing-Invoices .Showing-section .Showing-box .View-invoices { float: right; }
-.billing-Invoices .Showing-section .Showing-box .View-invoices a { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; }
+.billing-Invoices .Showing-section .Showing-box .View-invoices a { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; }
 .billing-Invoices .Showing-section .Showing-box .View-invoices a img { margin-left: 16px; margin-top: -2px; }
 
 /* Account Details Page */
@@ -3279,10 +3311,10 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 /*.table-container .Account_details { width: 100%; max-width: 748px; display: inline-block; margin: 0; }*/
 .table-container .Left-side { width: 100%; max-width: 748px; display: inline-block; margin: 0; }
 .table-container .Left-side .card { width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); -moz-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); border: none; border-radius: 0; -ms-flex-direction: initial; flex-direction: initial; min-width: initial; word-wrap: initial; padding: 0; margin: 0 0 30px; }
-.table-container .Left-side .card .card-body { width: 100%; display: inline-block; padding: 20px; }
+.table-container .Left-side .card .card-body { width: 100%; display: inline-block; overflow: initial; padding: 20px; }
 .table-container .Left-side .card .card-body h3.card-title { position: relative; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 8.85px; padding: 0 0 0 35px; margin: 0 0 20px; }
 .table-container .Left-side .card .card-body h3.card-title:before { content: ""; position: absolute; top: 1px; left: -20px; width: 43px; height: 18px; background: #bc2582; }
-.table-container .Left-side .card .card-body p { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; margin: 0 0 20px; }
+.table-container .Left-side .card .card-body p { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: 24px; color: #000000; letter-spacing: 0; margin: 0 0 20px; }
 .table-container .Left-side .btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0 !important; margin-right: 12px !important; padding: 12px 35px !important; }
 .table-container .Left-side .btn:hover { background: #000000; color: #ffffff; }
 .table-container .Left-side .btn:last-child { margin-right: 0 !important; }
@@ -3291,7 +3323,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 
 .table-container .Left-side .card .card-body .form-group { text-align: left !important; padding: 0; margin: 0 0 25px; }
 .table-container .Left-side .card .card-body .form-group label { font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px; text-transform: uppercase; width: 100%; display: inline-block; padding: 0; margin: 0 0 8px; }
-.table-container .Left-side .card .card-body .form-group input, .table-container .Left-side .card .card-body .form-group select { font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.table-container .Left-side .card .card-body .form-group input, .table-container .Left-side .card .card-body .form-group select { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 10px 0px 50px 0px rgb(0,0,0,0.2); -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2); box-shadow: 10px 0px 50px 0px rgb(0,0,0,0.2); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
 .table-container .Left-side .card .card-body .form-group select { background-image: url(../img/down-arrow.png); background-repeat: no-repeat; background-size: auto; background-position: top 17px right 15px; cursor: pointer; padding-right: 40px; }
 .table-container .Left-side .card .card-body .form-group .intl-tel-input input { padding-left: 100px !important; }
 .table-container .Left-side .card .card-body .form-group .intl-tel-input .flag-container { padding: 0; }
@@ -3323,7 +3355,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Left-side .card .card-body form .form-group label.form-check-inline:last-child { margin: 0; }
 
 .table-container .Left-side .card .card-body form .well { width: 100%; margin: 0 0 15px; }
-.table-container .Left-side .card .card-body form .well label.form-check-inline { position: relative; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px;  text-transform: uppercase; cursor: pointer; margin: 0 0 10px; width: 100%; display: inline-block; padding-left: 20px; }
+.table-container .Left-side .card .card-body form .well label.form-check-inline { position: relative; font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px; text-transform: none; cursor: pointer; margin: 0 0 10px; width: 100%; display: inline-block; padding-left: 20px; }
 .table-container .Left-side .card .card-body form .well label.form-check-inline input.form-check-input { position: absolute; left: 0; }
 
 .table-container .Left-side.Payment_methods .card .card-body table.table-striped tbody tr th { font-size: 17px; padding: 20px 15px 15px; }
@@ -3357,6 +3389,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Left-side .table-container .dataTables_wrapper table thead tr th:nth-child(2), .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { width: 51% !important; }
 .table-container .Left-side .table-container .dataTables_wrapper table thead tr th:nth-child(3), .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(3) { width: 17% !important; text-align: center; }
 .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(1), .table-container .Left-side .table-container .dataTables_wrapper table tbody tr td:nth-child(2) { text-align: left !important; }
+.table-container .Left-side .table-container .dataTables_wrapper table tbody tr td span.ticket-subject { font-family: 'Raleway', sans-serif; font-weight: 600; }
 
 /* support Tickets Page */
 .table-container .Left-side.supporttickets .table-container .dataTables_wrapper table thead tr th:nth-child(1), .table-container .Left-side.supporttickets .table-container .dataTables_wrapper table tbody tr td:nth-child(1) { width: 29% !important; }
@@ -3526,6 +3559,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .subheadingbox .Inner-box h2:before { content: ""; position: absolute; top: 1px; left: -55px; width: 43px; height: 18px; background: #bc2582; }
 .subheadingbox .Inner-box h2 svg { width: auto; height: 20px; margin-top: -5px; margin-right: 15px; }
 .subheadingbox .Inner-box h2 svg path { fill: #ffffff; }
+.subheadingbox .Inner-box h2 i.fas { margin-right: 10px; font-size: 19px; line-height: 1; color: #ffffff; }
 .subheadingbox .Inner-box p { font-family: 'Raleway', sans-serif; font-weight: 100; font-size: 16px; line-height: 12px; color: #ffffff; letter-spacing: 0; margin: 0; padding: 0 0 0; }
 
 /* AM WEB 360° Page */
@@ -3540,6 +3574,95 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 #order-standard_cart .cart-body .products .product footer a.btn { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px !important; line-height: 1 !important; color: #ffffff; letter-spacing: 0; text-transform: initial; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); border-radius: 10px; display: inline-block; text-align: center; margin: 0; padding: 11px 20px; }
 #order-standard_cart .cart-body .products .product footer a.btn i.fas { padding: 0; margin: 0; opacity: 1; margin-right: 4px; }
 #order-standard_cart .cart-body .products .product footer a.btn:hover { background: #000000; color: #ffffff; }
+
+
+/*.dashboard-heading{display:none;}*/
+.dashboard-heading-dropdown {
+    display: block;
+    position: relative;
+    margin: 0;
+}
+.dashboard-heading-dropdown .drop-down {
+    position: relative;
+    z-index: 9;
+    margin: 0;
+}
+.dashboard-heading-dropdown .drop-down .selected a {
+    position: relative;
+    padding-right: 28px;
+    pointer-events: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 17.71px;
+    line-height: normal;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 8.855px;
+    width: auto;
+}
+.dashboard-heading-dropdown .drop-down .selected a:before {
+    content: "";
+    content: "";
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    background: url(../img/select-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 11px;
+    height: 7px;
+}
+.dashboard-heading-dropdown .drop-down .selected a i.fas {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 400;
+    margin-right: 19px;
+    position: relative;
+    top: 4px;
+}
+
+.dashboard-heading-dropdown .drop-down .option{ position:relative; }
+/*.dashboard-heading-dropdown .drop-down .options ul{ background:#fff; display:none; list-style:none;  position:absolute; left:0px; top:45px; width: 100%; text-align: center; padding: 10px; box-shadow: 10px 0 50px 1px #ddd; }
+.dashboard-heading-dropdown .drop-down .selected span.value, dashboard-heading-dropdown .drop-down .options span.value{ display: none; }
+.dashboard-heading-dropdown .drop-down .options ul li a{ padding: 10px; display: block; text-decoration: none; color: #223131; font-size: 14px; font-weight: 500; }
+.dashboard-heading-dropdown .drop-down .options ul li a:hover, dashboard-heading-dropdown .drop-down .options ul li a:focus{ background:#fff; color: #223131; transition:0.2s ease; }*/
+
+.dashboard-heading-dropdown .drop-down .options ul {
+    width: 100%;
+    min-width: 310px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin: 0.5rem 0 0;
+    padding: 7px 10px;
+    position: absolute;
+    left: 50% !important;
+    -webkit-transform: translate(-50%,0) !important;
+    transform: translate(-50%,0) !important;
+    top: 100% !important;
+    display: none;
+}
+.dashboard-heading-dropdown .drop-down .options ul:before { content: ""; position: absolute; top: -7px; left: 50%; -webkit-transform: translate(-50%,0); transform: translate(-50%,0); width: 12px; height: 12px; border-top: 1px solid #dddddd; border-left: 1px solid #dddddd; background: #ffffff; transform: rotate(45deg); }
+.dashboard-heading-dropdown .drop-down .options ul li { padding: 0; margin: 0 0 1px; width: 100%; display: inline-block; float: initial; }
+.dashboard-heading-dropdown .drop-down .options ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13.3px;
+    line-height: 1.5;
+    color: #555555;
+    letter-spacing: 0;
+    padding: 3px 15px 3px 12px !important;
+    width: 100%;
+    display: block;
+}
+.dashboard-heading-dropdown .drop-down .options ul li a i.fas {
+    display: none;
+}
+.dashboard-heading-dropdown .drop-down .options ul li a:hover, .dashboard-heading-dropdown .drop-down .options ul li a.active { color: #ffffff; background: #be1d82 !important; box-shadow: none !important; }
+
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -3697,7 +3820,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(6), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(6) { width: 8% !important; }
   .billing-Invoices .dataTables_wrapper table tbody tr { padding: 11px 12px 7px; }
   .billing-Invoices .dataTables_wrapper table thead tr { padding: 15px 12px 28px; }
-  .My-dasboard .billing-section .billing-Invoices { width: calc(100% - 355px); margin-left: -18px; }
+  .My-dasboard .billing-section .billing-Invoices { width: calc(100% - 348px); margin-left: -18px; }
   .billing-Invoices .dataTables_wrapper table thead tr th::before { width: 6px; height: 15px; right: 10px; }
   .billing-Invoices .dataTables_wrapper table thead tr th::after { width: 7px; height: 15px; }
   .billing-Invoices .dataTables_wrapper table thead tr th { font-size: 15px !important; }
@@ -3738,7 +3861,8 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 
   header ul.navbar-nav li.item-box { display: none; }
   header ul.navbar-nav li.item-box.Logout { display: block; }
-  header ul.navbar-nav li.account { margin-right: 30px; padding: 8px 0 0; }
+  header ul.navbar-nav li.account { padding: 8px 0 0; }
+  header ul.navbar-nav li.item-box { padding: 3px 0 0; }
   .loginpage header ul.navbar-nav li.item-box.Logout { display: none; }
 
   /* Dasboard Page */
@@ -3837,6 +3961,9 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .breadcrumbs ol.breadcrumb li::before { padding: 0 4px; }
   .breadcrumbs.full { margin: 12px 0 0; }
 
+  .dashboard-heading-dropdown .drop-down .selected a { letter-spacing: 6px; font-size: 17px; }
+
+
   /* Dasboard Page */
   .innerpage { padding-top: 95px; }
   .Dasboard-home .Dasboard span { font-size: 13px; letter-spacing: 6px; }
@@ -3854,7 +3981,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .Myticket-section .Myticket-box .dataTables_wrapper table { width: 500px; }
   header ul.navbar-nav li i.fas { font-size: 19px; }
   header ul.navbar-nav li { margin-right: 20px; }
-  header ul.navbar-nav li.account { margin-right: 20px; padding: 3px 0 0; }
+  header ul.navbar-nav li.account { margin-right: 20px; margin-left: 0; padding: 3px 0 0; }
   header ul.navbar-nav li.item-box { padding: 0; }
   .Dasboard-home { padding: 30px 0; }
   .My-dasboard .Welcome-billing .Verificationbox .verification-banner { padding: 20px; }
@@ -3882,7 +4009,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .Myticket-section { padding: 30px 20px 40px 0; margin-bottom: 30px; }
   .Dasboard-home .Dasboard ul.select li:first-child a { font-size: 17px; letter-spacing: 5px; }
   .Dasboard-home .Dasboard ul.select li { min-width: 225px; }
-  .Dasboard-home .home-dashboard { padding: 2px 0 0; }
+  .Dasboard-home .home-dashboard { padding: 14px 0 0; }
   .Myticket-section .Myticket-box .New__ticket a { padding: 13px 30px 10px 20px; }
   .Myticket-section .Myticket-box .New__ticket a img { margin-right: 20px; vertical-align: top; margin-top: 1px; }
   .Myticket-section .Myticket-box .New__ticket { margin: 5px 0 20px; }
@@ -3983,6 +4110,8 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .Myticket-section .Myticket-box .New__ticket { margin: 10px 0 20px; }
   .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { padding: 15px 0; }
 
+.dashboard-heading-dropdown .drop-down .selected a { letter-spacing: 5px; font-size: 16px; }
+.dashboard-heading-dropdown .drop-down .selected a i.fas { margin-right: 8px; font-size: 25px; }
 
 }
 

@@ -1,3 +1,10 @@
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.clientareanavsecurity}<h2><i class="fas fa-address-card"></i>{$LANG.clientareanavsecurity}</h2>{/if}
+        {if $LANG.clientareanavsecurityintro}<p>{$LANG.clientareanavsecurityintro}</p>{/if}
+    </div>
+</div>
+
 {if $showSsoSetting}
     <div class="Left-side Account_security">
         <div class="card">

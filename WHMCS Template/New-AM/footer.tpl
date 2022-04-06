@@ -113,7 +113,7 @@
                     {include file="$template/includes/generate-password.tpl"}
 
                     {$footeroutput}
-                    <script type="text/javascript">
+                    <!-- <script type="text/javascript">
                         jQuery(".select").click(function() {
                           var is_open = jQuery(this).hasClass("open");
                           if (is_open) {
@@ -143,7 +143,7 @@
                           }
 
                         });
-                    </script>
+                    </script> -->
                     <script type="text/javascript">
                         equalheight = function(container){
                         var currentTallest = 0,
@@ -202,6 +202,31 @@
                                     }
                                 }).resize();
                             });
+                        });
+
+                        //Toggling Nested Ul
+                        jQuery(".drop-down .selected").click(function () {
+                            jQuery(".drop-down .options ul").toggle();
+                        });
+
+                        // Text Add Onclick In Dropdown Menu
+                        jQuery(function(jQuery) {
+                         let url = window.location.href;
+                          jQuery('.drop-down .options ul li a').each(function() {
+                           if (this.href === url) {
+                           jQuery(this).addClass('active');
+                           var text = jQuery(this).html();
+                           jQuery(".drop-down .selected a").html(text);
+                          }
+                         });
+                        });
+
+
+                        //Hide Options If Clicked Anywhere Else On Page
+                        jQuery(document).bind('click', function (e) {
+                            var $clicked = jQuery(e.target);
+                            if (!$clicked.parents().hasClass("drop-down"))
+                                jQuery(".drop-down .options ul").hide();
                         });
                     </script>
 

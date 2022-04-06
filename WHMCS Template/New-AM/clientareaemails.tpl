@@ -1,3 +1,10 @@
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.clientareaemails}<h2><i class="fas fa-address-card"></i>{$LANG.clientareaemails}</h2>{/if}
+        {if $LANG.emailstagline}<p>{$LANG.emailstagline}</p>{/if}
+    </div>
+</div>
+
 {include file="$template/includes/tablelist.tpl" tableName="EmailsList" noSortColumns="-1"}
 
 <script>

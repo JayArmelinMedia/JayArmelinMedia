@@ -1,3 +1,10 @@
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.clientareanavdetails}<h2><i class="fas fa-address-card"></i>{$LANG.clientareanavdetails}</h2>{/if}
+        {if $LANG.clientareanavintro}<p>{$LANG.clientareanavintro}</p>{/if}
+    </div>
+</div>
+
 {if $successful}
     {include file="$template/includes/alert.tpl" type="success" msg="{lang key='changessavedsuccessfully'}" textcenter=true}
 {/if}

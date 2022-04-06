@@ -44,10 +44,10 @@
         <tbody>
             {foreach $invoices as $invoice}
                 <tr onclick="clickableSafeRedirect(event, 'viewinvoice.php?id={$invoice.id}', false)">
-                    <td>{$invoice.invoicenum}</td>
-                    <td><span class="w-hidden">{$invoice.normalisedDateCreated}</span>{$invoice.datecreated}</td>
-                    <td><span class="w-hidden">{$invoice.normalisedDateDue}</span>{$invoice.datedue}</td>
-                    <td data-order="{$invoice.totalnum}">{$invoice.total}</td>
+                    <td><p>{$invoice.invoicenum}</p></td>
+                    <td><p><span class="w-hidden">{$invoice.normalisedDateCreated}</span>{$invoice.datecreated}</p></td>
+                    <td><p><span class="w-hidden">{$invoice.normalisedDateDue}</span>{$invoice.datedue}</p></td>
+                    <td data-order="{$invoice.totalnum}"><p>{$invoice.total}</p></td>
                     <td><span class="label status status-{$invoice.statusClass}">{$invoice.status}</span></td>
                 </tr>
             {/foreach}

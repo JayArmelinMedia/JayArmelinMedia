@@ -1,8 +1,14 @@
-{if $warnings}
-    {include file="$template/includes/alert.tpl" type="warning" msg=$warnings textcenter=true}
-{/if}
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.clientareanavdomains}<h2><i class="fas fa-globe fa-fw"></i>{$LANG.clientareanavdomains}</h2>{/if}
+        {if $LANG.clientareadomainsintro}<p>{$LANG.clientareadomainsintro}</p>{/if}
+    </div>
+</div>
 
 <div class="Left-side My_domains">
+    {if $warnings}
+        {include file="$template/includes/alert.tpl" type="warning" msg=$warnings textcenter=true}
+    {/if}
     <div class="tab-content">
         <div class="tab-pane fade show active" id="tabOverview">
             {include file="$template/includes/tablelist.tpl" tableName="DomainsList" noSortColumns="0, 1" startOrderCol="2" filterColumn="5"}

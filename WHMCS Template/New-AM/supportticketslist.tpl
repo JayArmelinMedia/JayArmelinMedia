@@ -1,3 +1,10 @@
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.clientareanavsupporttickets}<h2><i class="fas fa-ticket-alt fa-fw"></i>{$LANG.clientareanavsupporttickets}</h2>{/if}
+        {if $LANG.supportticketsintro}<p>{$LANG.supportticketsintro}</p>{/if}
+    </div>
+</div>
+
 {include file="$template/includes/tablelist.tpl" tableName="TicketsList" filterColumn="2"}
 
 <script>

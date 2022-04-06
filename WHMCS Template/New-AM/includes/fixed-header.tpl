@@ -61,11 +61,7 @@
 
             <ul class="items-center navbar-nav toolbar">
                 {if $loggedin}
-
-                    {if $loggedin}
-                        {include file="$template/includes/navbar.tpl" navbar=$secondaryNavbar rightDrop=true}
-                    {/if}
-                    
+                  
                     <li class="item-box">
                         {$link_back="systpl=`$template`&amp;"}
                         <a href="{$currentpagelinkback|replace:$link_back:''}systpl=am-dark"
@@ -104,7 +100,7 @@
                           </ul>
                     </li>
                     <li class="item-box">
-                        <a href="supporttickets.php"><i class="fas fa-briefcase"></i></a>
+                        <a href="index.php?m=project_management&a=view&id=1"><i class="fas fa-briefcase"></i></a>
                     </li>
 
                     <li class="item-box">
@@ -164,6 +160,10 @@
                 <li class="item-box Logout">
                     <a href="logout.php" class="fa-Logout"><i class="fas fa-sign-out-alt"></i></a>
                 </li>
+
+                {if $loggedin}
+                    {include file="$template/includes/navbar.tpl" navbar=$secondaryNavbar rightDrop=true}
+                {/if}
                 
                 <!-- <li class="ml-3 xl:ml-6 nav-item d-xl-none">
                     <button

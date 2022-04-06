@@ -308,7 +308,7 @@
                             <p>SHOWING 3 LATEST INVOICES</p>
                         </div>
                         <div class="View-invoices">
-                            <a href="clientarea.php?action=invoice">VIEW ALL INVOICES<img src="/templates/New-AM/img/View-invoices-arrow.png"></a>
+                            <a href="clientarea.php?action=invoices">VIEW ALL INVOICES<img src="/templates/New-AM/img/View-invoices-arrow.png"></a>
                         </div>
                     </div>
                 </div>
@@ -441,7 +441,17 @@
                 {/foreach}
             </tbody>
         </table>
-    </div>
+        <div class="Showing-section">
+            <div class="Showing-box">
+                <div class="Latest-invoices">
+                    <p>SHOWING 8 LATEST INVOICES</p>
+                </div>
+                <div class="View-invoices">
+                    <a href="supporttickets.php">VIEW ALL INVOICES<img src="/templates/New-AM/img/View-invoices-arrow.png"></a>
+                </div>
+            </div>
+        </div>
+</div>
 </div>
 
 <div class="Myticket-section My_project">
@@ -521,6 +531,16 @@
                 </tr>
             </tbody>
         </table>
+        <div class="Showing-section">
+            <div class="Showing-box">
+                <div class="Latest-invoices">
+                    <p>SHOWING 4 LATEST INVOICES</p>
+                </div>
+                <div class="View-invoices">
+                    <a href="index.php?m=project_management">VIEW ALL INVOICES<img src="/templates/New-AM/img/View-invoices-arrow.png"></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

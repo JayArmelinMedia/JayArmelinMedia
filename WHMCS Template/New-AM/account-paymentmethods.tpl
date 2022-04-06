@@ -1,3 +1,10 @@
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.paymentMethods.title}<h2><i class="fas fa-address-card"></i>{$LANG.paymentMethods.title}</h2>{/if}
+        {if $LANG.paymentMethods.intro}<p>{$LANG.paymentMethods.intro}</p>{/if}
+    </div>
+</div>
+
 {if $createSuccess}
     {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.addedSuccess'}"}
 {elseif $createFailed}
@@ -21,7 +28,7 @@
         <div class="card-body">
 
             <h3 class="card-title">{lang key='paymentMethods.title'}</h3>
-            <p>{lang key='paymentMethods.intro'}</p>
+            <!-- <p>{lang key='paymentMethods.intro'}</p> -->
 
             <p>
                 {if $allowCreditCard}
