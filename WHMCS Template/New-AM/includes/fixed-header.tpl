@@ -100,7 +100,7 @@
                           </ul>
                     </li>
                     <li class="item-box">
-                        <a href="index.php?m=project_management&a=view&id=1"><i class="fas fa-briefcase"></i></a>
+                        <a href="https://sandbox.accounts.armelin.media/index.php?m=project_management"><i class="fas fa-briefcase"></i></a>
                     </li>
 
                     <li class="item-box">
