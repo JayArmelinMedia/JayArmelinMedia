@@ -3188,9 +3188,9 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .dataTables_wrapper table tbody tr td:nth-child(5) { text-align: right; }
 
 .table-container .dataTables_wrapper table tbody { width: 100%; display: inline-block; margin: 0; }
-.table-container .dataTables_wrapper table tbody tr { width: 100%; display: inline-block; box-shadow: none; background-image: url('../img/ticket-box-shadow.png'); background-repeat: no-repeat; background-size: cover; background-position: 100% 100%; border: none; margin: 0 0 2px; padding: 12px 13px 7px 26px; }
-.table-container .dataTables_wrapper table tbody tr:last-child { margin: 0 0 13px; }
-.table-container .dataTables_wrapper table tbody tr td { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; background: transparent; border: none; width: auto !important; padding: 0 0 0 !important; float: left; min-height: 24px; display: table !important; }
+.table-container .dataTables_wrapper table tbody tr { width: 100%; /*display: inline-block;*/ display:flex; box-shadow: none; background-image: url('../img/ticket-box-shadow.png'); background-repeat: no-repeat; background-size: cover; background-position: 100% 100%; border: none; margin: 0 0 2px; padding: 12px 13px 7px 26px; }
+.table-container .dataTables_wrapper table tbody tr:last-child { margin: 0 0 13px; } 
+.table-container .dataTables_wrapper table tbody tr td { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; background: transparent; border: none; width: auto !important; padding: 0 0 0 !important; float: left; min-height: 24px; /*display: table !important;*/  display: flex !important; justify-content: center; align-items: center; }
 .table-container .dataTables_wrapper table tbody tr td p { display: table-cell; vertical-align: middle; padding: 0; margin: 0; }
 .table-container .dataTables_wrapper table tbody tr td a { color: #000000 !important; }
 .table-container .dataTables_wrapper table tbody tr td a b { font-family: 'Raleway', sans-serif; font-weight: 600; }
@@ -3327,7 +3327,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Left-side .card .card-body .form-group .intl-tel-input .flag-container { padding: 0; }
 
 .table-container .Left-side .card .form-check { padding-left: 25px; }
-.table-container .Left-side .card .form-check label { font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; width: 100%; display: inline-block; cursor: pointer; margin: 0 0 8px; }
+.table-container .Left-side .card .form-check label { font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: normal; color: #000000; letter-spacing: 0; width: 100%; display: inline-block; cursor: pointer; margin: 0 0 8px; }
 .table-container .Left-side .card .form-check label input { width: 16px; height: 16px; margin-top: 2px; margin-left: -25px; outline: none; }
 
 .table-container .Left-side .card .card-body .bootstrap-switch { border: 2px solid #010001; border-radius: 0; box-shadow: none; outline: none; }
@@ -3670,7 +3670,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .page-viewticket .view-ticket .card-body.p-3{}
 .page-viewticket .view-ticket .card-body.p-3 p{ font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase; width: 50%; padding: 14px 0 12px 33px; margin:0;}
 .page-viewticket .view-ticket .card-body.p-3 p strong{font-weight: 400;}
-.page-viewticket .view-ticket .ticket-actions .btn{ margin: 0 !important; padding: 14px 17px 10px !important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; background: #be1d82; color: #ffffff;}
+.page-viewticket .view-ticket .ticket-actions .btn{ margin: 0 !important; padding: 14px 17px 12px !important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; background: #be1d82; color: #ffffff;}
 .page-viewticket .view-ticket .ticket-actions .btn i{ padding: 0; padding-right: 5px;}
 .page-viewticket .view-ticket .ticket-actions .btn:hover{color: #ffffff; background: #000000;}
 .page-viewticket .view-ticket .ticket-actions .btn-danger{ color: #ffffff; background: #000000;}
@@ -3698,7 +3698,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .page-viewticket .d-print-none form .custom-file label{ font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); width: 100%; height: initial; display: inline-block; padding: 15px 15px;}
 .page-viewticket .d-print-none form .attachment-group{margin:0 0 5px;}
 .page-viewticket .d-print-none form .attachment-group .custom-file label:after{font-size:13.71px; padding:14px; height:100%; background:#000; color:#fff;}
-.page-viewticket .d-print-none form .attachment-group .btn.btn-default{ margin: 0 !important; padding: 18px 17px !important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 0; display: inline-block; background: #be1d82; color: #ffffff; height:46px;}
+.page-viewticket .d-print-none form .attachment-group .btn.btn-default{ margin: 0 !important; padding: 17px 17px !important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 0; display: inline-block; background: #be1d82; color: #ffffff; height:46px;}
 .page-viewticket .d-print-none form .attachment-group .btn.btn-default i{ padding: 0; padding-right: 5px;}
 .page-viewticket .d-print-none form .form-group > .btn{margin: 0 !important; padding: 13px 17px 11px!important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; background: #be1d82; color: #ffffff;}
 .page-viewticket .d-print-none form .form-group > .btn:hover{background:#000;}
@@ -3752,9 +3752,89 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .projectmanagement .col-lg-4 > div .card-footer a{display: inline-block; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 12px; line-height: 1; color: #ffffff !important; letter-spacing: 0; text-transform: uppercase; background: #bc2582; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; border-radius: 50px; padding: 7px 10px 6px;}
 .projectmanagement .col-lg-4 > div .btn{margin: 0 ; padding: 13px 17px 11px ; width: auto; font-size: 13.71px ; line-height: 1 ; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; background: #be1d82; color: #ffffff;} 
 .projectmanagement .col-lg-4 > div .btn i{ padding: 0; padding-right: 5px; font-size: 13.71px;}
+
+/* 8-4-22 Knowledgebase */
+.Knowledgebase .table-container .Left-side .input-group .btn{border-radius:0;}
+.Knowledgebase .table-container .Left-side form .input-group{flex-wrap: nowrap;}
+.Knowledgebase .table-container .Left-side form .input-group .form-control{ ont-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.Knowledgebase .table-container .Left-side .back-btn{margin-left:20px !important;}
+.Knowledgebase .table-container .Left-side{margin:0 0 40px;}
+
+/* 8-4-22 Server Status */
+.page-serverstatus .pagination .page-item .page-link{margin: 0 ; padding: 13px 17px 9px; width: auto; font-size: 13.71px ; line-height: 1 ; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; display: inline-block; background: #be1d82; color: #ffffff; border: 1px solid #e14ca9;}
+.page-serverstatus .pagination .page-item .page-link:hover{background:#000; color:#fff;}
+.page-serverstatus .pagination .page-item:last-child .page-link { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+.page-serverstatus .pagination .page-item:first-child .page-link { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+
+/* 8-4-22 Suppoort Ticket Submit */
+.page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body h3.card-title{margin:0 0 40px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body .form-group{padding:0 15px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body .form-group select{appearance: none; -webkit-appearance: none; -moz-appearance: none;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn{ border-top-right-radius: 0; border-bottom-right-radius: 0; border-width: 1px; --tw-border-opacity: 1; border-color: rgb(213 215 223 / var(--tw-border-opacity)); --tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); color: rgb(0 0 0 / var(--tw-text-opacity)); padding-top: 0.5rem !important; padding-bottom: 0.5rem!important; padding-left: 0.75rem!important; padding-right: 0.75rem!important; font-size: 0.75rem !important; line-height: 1rem !important; margin:0 !important; box-shadow:none !important; border: 1px solid #ddd;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn.btn-primary{border-width: 1px; border-color: transparent; --tw-bg-opacity: 1; background-color: rgb(188 37 130 / var(--tw-bg-opacity)); --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); font-weight: 700;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn:not(:first-child), .page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn-group:not(:first-child) > .btn { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn:last-child{ border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem;}
+
+
+.page-supportticketsubmit-steptwo .table-container .Left-side form .custom-file{height:auto;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body .form-group .custom-file label{ font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); width: 100%; height: initial; display: inline-block; padding: 15px 15px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group{margin:0 0 5px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group .custom-file label:after{font-size:13.71px; padding:14px; height:100%; background:#000; color:#fff;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group .btn.btn-default{ margin: 0 !important; padding: 17px 17px !important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 0; display: inline-block; background: #be1d82; color: #ffffff; height:46px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group .btn.btn-default i{ padding: 0; padding-right: 5px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .form-group > .btn{margin: 0 !important; padding: 13px 17px 11px!important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; background: #be1d82; color: #ffffff;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .form-group > .btn:hover{background:#000;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .form-group > .btn.btn-default{background: #000; color: #ffffff;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .form-group > .btn.btn-default:hover{background: #be1d82;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .bottom-btn .btn{margin:0 !important; padding: 13px 17px 11px!important;}
+
+/* Sidebar Recent Ticket 8-4-22 */
+.table-container .Right-side .sidebar .recent-ticket .truncate{font-weight:500; margin:0 0 5px;}
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item .recent-ticket span{font-size:12px;}
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item .recent-ticket { border-bottom: 1px solid #ddd; padding: 0 0 10px; }
+
+/* Add Payment method 8-4-22 */
+.page-account-paymentmethods-manage .table-container .Left-side .card .card-body h3.card-title{margin:0 0 40px;}
+.page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-group .col-md-8 .input-group{flex-wrap: nowrap;}
+.page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-group .col-md-8 .input-group .input-group-text{background: #010101; font-weight: 700; border: 0;}
+.page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-control{font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); width: 100%; height: initial; display: inline-block; padding: 15px 15px;}
+.page-account-paymentmethods-manage  .table-container .Left-side .card .card-body .form-group label{padding: 16px 0 0; margin:0;}
+.page-account-paymentmethods-manage .fieldgroup-creditcard .col-sm-7{ flex: 0 0 66.666667%; max-width: 66.666667%;}
+.page-account-paymentmethods-manage .cc-billing-address .col-sm-2 + .col-sm-4{ flex: 0 0 50%; max-width: 50%; margin:6px 0 0;}
+.page-account-paymentmethods-manage .cc-billing-address .col-sm-2 + .col-sm-4 .btn-link { background: transparent; box-shadow: none; color: #be1d82; font-weight: bold; text-decoration: underline; font-size: 16px; padding: 0 !important; margin: 12px 0 0 !important; }
+
+/* Product Details 8-4-22 */
+.page-clientareaproductdetails .tab-content.margin-bottom{width: 100%; max-width: 748px; display: inline-block; margin: 0;}
+.page-clientareaproductdetails .tab-content.margin-bottom .tab-pane .panel{width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 10px 45px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 10px 45px 0px rgb(0,0,0,0.2); box-shadow: 0px 10px 45px 0px rgb(0 0 0 / 20%); border: none; border-radius: 0; -ms-flex-direction: initial; flex-direction: initial; min-width: initial; word-wrap: initial; padding: 0; margin: 0 0 30px; font-size:14px;}
+.page-clientareaproductdetails .tab-content .panel-heading{border-bottom:1px solid #ddd;}
+.page-clientareaproductdetails .tab-content .panel-title { position: relative; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 8.85px; padding: 0 0 0 35px; margin: 0; }
+.page-clientareaproductdetails .tab-content .panel-title:before { content: ""; position: absolute; top: 1px; left: -20px; width: 43px; height: 18px; background: #bc2582; }
+.page-clientareaproductdetails #cPanelBillingOverviewPanel .col-md-5, .page-clientareaproductdetails #cPanelBillingOverviewPanel .col-md-7{ flex: 0 0 50%; max-width: 50%;}
+.page-clientareaproductdetails .cpanel-package-details{margin:20px 0 35px;}
+.page-clientareaproductdetails .cpanel-package-details h4{ font-size: 22px; font-weight: 700; margin:10px 0 !important;}
+.page-clientareaproductdetails .cpanel-package-details  a{font-size:16px;}
+.page-clientareaproductdetails .btn{ font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px !important; line-height: 1 !important; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0 !important; margin-right: 12px !important; padding: 12px 35px !important;}
+.page-clientareaproductdetails .tab-content.margin-bottom .tab-pane .panel .col-xs-6.col-6.text-right{font-weight:bold;}
+.page-clientareaproductdetails .cpanel-usage-stats .limit-near{font-size:14px;}
+.page-clientareaproductdetails .tab-content .alert{margin:0 0 30px;}
+
+/* Add funds 8-4-22 */
+.page-clientareaaddfunds .table-container .Left-side .card .card{ box-shadow: none; border: 1px solid #ddd; background: #fff; margin: 15px 0;}
+.page-clientareaaddfunds .table-container .Left-side .card .card .table{ background:#f7f7f7; margin:0; }
+.page-clientareaaddfunds .table-container .Left-side .card .card .table tr td + td{ border-left:1px solid #ddd; }
+.page-clientareaaddfunds .table-container .Left-side .card .card .table tr + tr td{ border-top:1px solid #ddd; }
+.page-clientareaaddfunds .table-container .Left-side .card .card .btn-block{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13px !important; line-height: 1 !important; color: #ffffff; background: #bb2581; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); letter-spacing: 1px; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 15px 23px; float:right; width:auto;}
+.page-clientareaaddfunds .table-container .Left-side .card .card .card-footer{border-top:1px solid #ddd; background: #f7f7f7;}
+.page-clientareaaddfunds .table-container .Left-side .card .card .card-footer small{color:#000; font-size:14px;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
+/* Domain Register */
+.domain-pricing .tld-filters .badge{ font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 10.33px; line-height: 1; color: #ffffff !important; background-color: #28a745; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; letter-spacing: 0; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 7.4px 19px; }
+.domain-pricing .tld-pricing-header .col-md-4, .domain-pricing .tld-pricing-header .col-4{ font-family: 'Raleway', sans-serif ; font-weight: 500 ; font-size: 17.71px ; line-height: normal ; color: #000000 ; letter-spacing: 0 ; text-transform: initial ;     padding: 20px 0 !important; background:#f7f7f7; }
+.page-domainregister .domain-pricing .tld-pricing-header div:nth-child(odd) { border-color: #bc2582; background-color: #f5f5f5; }
+.page-domainregister .domain-pricing .tld-pricing-header .col-sm-2, .page-domainregister .domain-pricing .tld-pricing-header .col-sm-4, .page-domainregister .domain-pricing .tld-pricing-header .col-xs-2, .page-domainregister .domain-pricing .tld-pricing-header .col-xs-4{border-bottom: 6px solid #e174b7;}
+.domain-pricing{ width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); border: none; border-radius: 0; padding: 20px; margin: 0;}
 
 
 

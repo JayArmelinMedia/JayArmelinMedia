@@ -5,28 +5,27 @@
     </div>
 </div>
 
-{if $createSuccess}
-    {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.addedSuccess'}"}
-{elseif $createFailed}
-    {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-times fa-fw'></i> {lang key='paymentMethods.addFailed'}"}
-{elseif $saveSuccess}
-    {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.updateSuccess'}"}
-{elseif $saveFailed}
-    {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.saveFailed'}"}
-{elseif $setDefaultResult === true}
-    {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.defaultUpdateSuccess'}"}
-{elseif $setDefaultResult === false}
-    {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-times fa-fw'></i> {lang key='paymentMethods.defaultUpdateFailed'}"}
-{elseif $deleteResult === true}
-    {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.deleteSuccess'}"}
-{elseif $deleteResult === false}
-    {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-times fa-fw'></i> {lang key='paymentMethods.deleteFailed'}"}
-{/if}
-
 <div class="Left-side Payment_methods">
     <div class="card">
         <div class="card-body">
-
+  
+            {if $createSuccess}
+              {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.addedSuccess'}"}
+          {elseif $createFailed}
+              {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-times fa-fw'></i> {lang key='paymentMethods.addFailed'}"}
+          {elseif $saveSuccess}
+              {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.updateSuccess'}"}
+          {elseif $saveFailed}
+              {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.saveFailed'}"}
+          {elseif $setDefaultResult === true}
+              {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.defaultUpdateSuccess'}"}
+          {elseif $setDefaultResult === false}
+              {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-times fa-fw'></i> {lang key='paymentMethods.defaultUpdateFailed'}"}
+          {elseif $deleteResult === true}
+              {include file="$template/includes/alert.tpl" type="success" msg="<i class='fas fa-check fa-fw'></i> {lang key='paymentMethods.deleteSuccess'}"}
+          {elseif $deleteResult === false}
+              {include file="$template/includes/alert.tpl" type="warning" msg="<i class='fas fa-times fa-fw'></i> {lang key='paymentMethods.deleteFailed'}"}
+          {/if}
             <h3 class="card-title">{lang key='paymentMethods.title'}</h3>
             <!-- <p>{lang key='paymentMethods.intro'}</p> -->
 

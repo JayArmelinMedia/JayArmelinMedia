@@ -5,20 +5,19 @@
     </div>
 </div>
 
-{if $successful}
-    {include file="$template/includes/alert.tpl" type="success" msg="{lang key='changessavedsuccessfully'}" textcenter=true}
-{/if}
-
-{if $errormessage}
-    {include file="$template/includes/alert.tpl" type="error" errorshtml=$errormessage}
-{/if}
-
 <script type="text/javascript" src="{$BASE_PATH_JS}/StatesDropdown.js"></script>
 
     <div class="Left-side Account_details">
         <form method="post" action="?action=details" role="form">
             <div class="card">
                 <div class="card-body">
+                {if $successful}
+                      {include file="$template/includes/alert.tpl" type="success" msg="{lang key='changessavedsuccessfully'}" textcenter=true}
+                  {/if}
+
+                  {if $errormessage}
+                      {include file="$template/includes/alert.tpl" type="error" errorshtml=$errormessage}
+                  {/if}
                     <h3 class="card-title">{lang key='clientareanavdetails'}</h3>
 
                     <div class="row d-md-block">
