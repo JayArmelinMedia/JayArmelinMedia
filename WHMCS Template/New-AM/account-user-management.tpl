@@ -1,5 +1,11 @@
-{include file="$template/includes/flashmessage.tpl"}
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.paymentMethods.title}<h2><i class="fas fa-user"></i>{$LANG.navUserManagement}</h2>{/if}
+    </div>
+</div>
 
+
+{include file="$template/includes/flashmessage.tpl"}
 <div class="Left-side User-management">
     <div class="card">
         <div class="card-body">

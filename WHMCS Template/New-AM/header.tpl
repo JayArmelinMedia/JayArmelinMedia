@@ -65,13 +65,13 @@
                     </div>
                     <div class="options">
                       <ul>
-                        <li menuItemName="My Dashboard"><a href="clientarea.php" class="value"><i class="fas fa-chart-bar"></i>My Dashboard</a></li>
-                        <li menuItemName="My Invoices"><a href="clientarea.php?action=invoices" class="value"><i class="fas fa-file-invoice-dollar"></i>My Invoices</a></li>
-                        <li menuItemName="My Tickets"><a href="supporttickets.php" class="value"><i class="fas fa-ticket-alt fa-fw"></i>My Tickets</a></li>
-                        <li menuItemName="My Quotes"><a href="clientarea.php?action=quotes" class="value"><i class="fas fa-file-invoice"></i>My Quotes</a></li>
-                        <li menuItemName="My Plans & Services"><a href="clientarea.php?action=services" class="value"><i class="fas fa-folder-open"></i>My Plans & Services</a></li>
-                        <li menuItemName="My Projects"><a href="index.php?m=project_management" class="value"><i class="fas fa-briefcase"></i>My Projects</a></li>
-                        <li menuItemName="My Domains"><a href="clientarea.php?action=domains" class="value"><i class="fas fa-globe fa-fw"></i>My Domains</a></li>
+                        <li menuItemName="My Dashboard"><a href="/clientarea.php" class="value"><i class="fas fa-chart-bar"></i>My Dashboard</a></li>
+                        <li menuItemName="My Invoices"><a href="/clientarea.php?action=invoices" class="value"><i class="fas fa-file-invoice-dollar"></i>My Invoices</a></li>
+                        <li menuItemName="My Tickets"><a href="/supporttickets.php" class="value"><i class="fas fa-ticket-alt fa-fw"></i>My Tickets</a></li>
+                        <li menuItemName="My Quotes"><a href="/clientarea.php?action=quotes" class="value"><i class="fas fa-file-invoice"></i>My Quotes</a></li>
+                        <li menuItemName="My Plans & Services"><a href="/clientarea.php?action=services" class="value"><i class="fas fa-folder-open"></i>My Plans & Services</a></li>
+                        <li menuItemName="My Projects"><a href="/index.php?m=project_management" class="value"><i class="fas fa-briefcase"></i>My Projects</a></li>
+                        <li menuItemName="My Domains"><a href="/clientarea.php?action=domains" class="value"><i class="fas fa-globe fa-fw"></i>My Domains</a></li>
                       </ul>
                     </div>
                   </div>
@@ -104,9 +104,6 @@
         {/if}
     {/if}
     
-
-
-
     <section id="main-body">
                 <!-- {if $templatefile neq 'clientareahome' && !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
                     <div class="col-lg-4 col-xl-3">
@@ -134,5 +131,3 @@
                                 {/if}
                             </div>
                         {/if}
-                        
-                        

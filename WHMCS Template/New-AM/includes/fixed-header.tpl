@@ -48,7 +48,7 @@
     <header class="pb-5 bg-white shadow-lg">
         <div class="container flex flex-wrap items-center justify-between">
             <div class="logo">
-                <a href="clientarea.php">
+                <a href="/clientarea.php">
                     <svg class="dark:text-white" xmlns="http://www.w3.org/2000/svg" role="img"
                         aria-labelledby="undefined-title" width="72" height="31" viewBox="0 0 93.6 40.3"
                         class="c-armelin-media-logo">

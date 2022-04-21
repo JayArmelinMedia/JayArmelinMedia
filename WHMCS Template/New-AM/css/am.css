@@ -3472,7 +3472,7 @@ header ul.navbar-nav li.account ul.dropdown-menu .dropdown-divider { margin: 3px
 .table-container .Left-side .card .card-body form .Btn-box { width: 100%; display: inline-block; text-align: center; margin: 0 0 0; }
 
 .modal#modalGeneratePassword { padding: 0 !important; }
-.modal#modalGeneratePassword .modal-dialog { position: relative; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); margin: 0; width: 100%; }
+.modal#modalGeneratePassword .modal-dialog { position: relative; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); margin: 0; width: 94%; }
 .modal#modalGeneratePassword .modal-dialog .modal-content { border: none; border-radius: 0; }
 .modal#modalGeneratePassword .modal-dialog .modal-content .modal-header { border-radius: 0; padding: 15px; border: none; }
 .modal#modalGeneratePassword .modal-dialog .modal-content .modal-header h4.modal-title { position: relative; font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px; line-height: normal; color: #ffffff; text-transform: uppercase; letter-spacing: 8px; padding: 0; margin: 0; }
@@ -3707,6 +3707,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 
 .requestor-type-owner{-webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; border-top-left-radius: 10px; border-bottom-right-radius: 10px; padding: 5.4px 8.9px; margin: 0;}
 .page-viewticket .sidebar .collapsable-card-body .list-group-item{ background: transparent; border-bottom: 1px solid #ddd; padding: 0 0 15px; margin: 0 0 10px;}
+.page-viewticket .sidebar .collapsable-card-body .list-group-item span.title{font-weight:600;}
 .page-viewticket .sidebar .collapsable-card-body span.label{ -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; border-top-left-radius: 10px; border-bottom-right-radius: 10px; padding: 5.4px 8.9px; margin: 0; background: #bd1d82 !important;}
 .page-viewticket .sidebar .card-footer .btn{margin: 0 !important; padding: 14px 17px 10px !important; width: auto; font-size: 13.71px !important; line-height: 1 !important; text-align: center; font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; background: #be1d82; color: #ffffff;}
 .page-viewticket .sidebar .card-footer .btn i{padding:0; padding-right:5px;}
@@ -3756,7 +3757,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 /* 8-4-22 Knowledgebase */
 .Knowledgebase .table-container .Left-side .input-group .btn{border-radius:0;}
 .Knowledgebase .table-container .Left-side form .input-group{flex-wrap: nowrap;}
-.Knowledgebase .table-container .Left-side form .input-group .form-control{ ont-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.Knowledgebase .table-container .Left-side form .input-group .form-control{ font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
 .Knowledgebase .table-container .Left-side .back-btn{margin-left:20px !important;}
 .Knowledgebase .table-container .Left-side{margin:0 0 40px;}
 
@@ -3770,8 +3771,8 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body h3.card-title{margin:0 0 40px;}
 .page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body .form-group{padding:0 15px;}
 .page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body .form-group select{appearance: none; -webkit-appearance: none; -moz-appearance: none;}
-.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn{ border-top-right-radius: 0; border-bottom-right-radius: 0; border-width: 1px; --tw-border-opacity: 1; border-color: rgb(213 215 223 / var(--tw-border-opacity)); --tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); color: rgb(0 0 0 / var(--tw-text-opacity)); padding-top: 0.5rem !important; padding-bottom: 0.5rem!important; padding-left: 0.75rem!important; padding-right: 0.75rem!important; font-size: 0.75rem !important; line-height: 1rem !important; margin:0 !important; box-shadow:none !important; border: 1px solid #ddd;}
-.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn.btn-primary{border-width: 1px; border-color: transparent; --tw-bg-opacity: 1; background-color: rgb(188 37 130 / var(--tw-bg-opacity)); --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); font-weight: 700;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn{ border-top-right-radius: 0; border-bottom-right-radius: 0; border-width: 1px;  background-color: #fff; color: #000; padding-top: 0.5rem !important; padding-bottom: 0.5rem!important; padding-left: 0.75rem!important; padding-right: 0.75rem!important; font-size: 0.75rem !important; line-height: 1rem !important; margin:0 !important; box-shadow:none !important; border: 1px solid #ddd;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn.btn-primary{border-width: 1px; border-color: transparent; background-color:#bc2582; color:#fff; font-weight: 700;}
 .page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn:not(:first-child), .page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn-group:not(:first-child) > .btn { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn:last-child{ border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem;}
 
@@ -3814,6 +3815,7 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .page-clientareaproductdetails .cpanel-package-details h4{ font-size: 22px; font-weight: 700; margin:10px 0 !important;}
 .page-clientareaproductdetails .cpanel-package-details  a{font-size:16px;}
 .page-clientareaproductdetails .btn{ font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px !important; line-height: 1 !important; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0 !important; margin-right: 12px !important; padding: 12px 35px !important;}
+.page-clientareaproductdetails .btn:hover{background:#000;}
 .page-clientareaproductdetails .tab-content.margin-bottom .tab-pane .panel .col-xs-6.col-6.text-right{font-weight:bold;}
 .page-clientareaproductdetails .cpanel-usage-stats .limit-near{font-size:14px;}
 .page-clientareaproductdetails .tab-content .alert{margin:0 0 30px;}
@@ -3823,29 +3825,148 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .page-clientareaaddfunds .table-container .Left-side .card .card .table{ background:#f7f7f7; margin:0; }
 .page-clientareaaddfunds .table-container .Left-side .card .card .table tr td + td{ border-left:1px solid #ddd; }
 .page-clientareaaddfunds .table-container .Left-side .card .card .table tr + tr td{ border-top:1px solid #ddd; }
-.page-clientareaaddfunds .table-container .Left-side .card .card .btn-block{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13px !important; line-height: 1 !important; color: #ffffff; background: #bb2581; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); letter-spacing: 1px; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 15px 23px; float:right; width:auto;}
+.page-clientareaaddfunds .table-container .Left-side .card .card .btn-block{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13px !important; line-height: 1 !important; color: #ffffff; background: #bb2581; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); letter-spacing: 1px; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 10px 23px !important; float:right; width:auto;}
+.page-clientareaaddfunds .table-container .Left-side .card .card .btn-block:hover{background:#000;}
 .page-clientareaaddfunds .table-container .Left-side .card .card .card-footer{border-top:1px solid #ddd; background: #f7f7f7;}
 .page-clientareaaddfunds .table-container .Left-side .card .card .card-footer small{color:#000; font-size:14px;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
 /* Domain Register */
+.domain-pricing h4{ font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 17.71px !important; line-height: normal; color: #000000; text-transform: uppercase; letter-spacing: 7px; margin:0 0 20px;}
 .domain-pricing .tld-filters .badge{ font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 10.33px; line-height: 1; color: #ffffff !important; background-color: #28a745; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26) !important; box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%) !important; letter-spacing: 0; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 7.4px 19px; }
 .domain-pricing .tld-pricing-header .col-md-4, .domain-pricing .tld-pricing-header .col-4{ font-family: 'Raleway', sans-serif ; font-weight: 500 ; font-size: 17.71px ; line-height: normal ; color: #000000 ; letter-spacing: 0 ; text-transform: initial ;     padding: 20px 0 !important; background:#f7f7f7; }
 .page-domainregister .domain-pricing .tld-pricing-header div:nth-child(odd) { border-color: #bc2582; background-color: #f5f5f5; }
 .page-domainregister .domain-pricing .tld-pricing-header .col-sm-2, .page-domainregister .domain-pricing .tld-pricing-header .col-sm-4, .page-domainregister .domain-pricing .tld-pricing-header .col-xs-2, .page-domainregister .domain-pricing .tld-pricing-header .col-xs-4{border-bottom: 6px solid #e174b7;}
-.domain-pricing{ width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); border: none; border-radius: 0; padding: 20px; margin: 0;}
+.page-domainregister .domain-pricing{ width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); border: none; border-radius: 0; padding: 20px; margin: 10px 0;}
+.page-domainregister .domain-pricing .two-row-center{border-right: 2px solid #e174b7; text-align:center; font-size: 16px;}
+.page-domainregister .domain-pricing .tld-row.highlighted { background: #ffecf8; }
+.page-domainregister .domain-pricing .filtered-row .col-md-8 { font-size:15px; }
+.page-domainregister .domain-pricing .filtered-row .col-md-8 small{ font-weight:bold; color: #bc2582; }
+.page-domainregister .domain-promo-box{ width: 100%; display: inline-block; background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); border: none; border-radius: 0; padding: 20px;}
+.page-domainregister .domain-promo-box .text-primary{ color: #bc2582 !important; }
+.page-domainregister .domain-promo-box .btn{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: inherit; border: none; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%) !important; -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28) !important; box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%) !important; border-radius: 10px; display: inline-block; text-align: center; margin: 0; padding: 10px 17px; background: #be1d82;}
+.page-domainregister .domain-promo-box .btn:hover{background:#000;}
+.page-domainregister .domain-promo-box .btn.btn-warning{background:#000;}
+.page-domainregister .domain-promo-box .btn.btn-warning:hover{background: #be1d82;}
+.page-domainregister .domain-promo-box h3{margin:0 0 5px; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 17px !important; line-height: normal; color: #000000; letter-spacing: 0; text-transform: uppercase;}
+.page-domainregister .domain-promo-box .clearfix{margin:0 0 10px;}
+.page-domainregister .domain-checker-container { margin: 20px 0; padding: 0; background-color: #ffce44; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; background: -webkit-gradient(linear,0 0,0 100%,from(e174b7),to(#bc2582)); background: -webkit-linear-gradient(top,#bc2582,#e174b7); background: -moz-linear-gradient(top,#bc2582,#e174b7); background: -ms-linear-gradient(top,#bc2582,#e174b7); background: -o-linear-gradient(top,#bc2582,#e174b7); }
+.page-domainregister .domain-checker-bg{background-repeat: no-repeat; background-position: 110% -5px; background-image: url(../img/globe-pink.png);}
+.page-domainregister .domain-checker-container .form-control{font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2) !important; box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; width: 100%; height: initial; display: inline-block; padding: 15px 15px;}
+.page-domainregister .domain-checker-container .input-group-box{ flex-wrap: nowrap;}
+.page-domainregister .domain-checker-container .input-group-box .btn{ -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%) !important; -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28) !important; box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%) !important; background: #be1d82; outline:0; border: 0;}
+.page-domainregister .domain-checker-container .input-group-box .btn:hover{background:#000;}
 
+/* Page Addon and Domain reneiw*/
+.page-addons .btn.btn-default, .page-domain-renewals .btn.btn-default{ font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0; padding: 12px 35px;}
+.page-addons .btn.btn-default i, .page-domain-renewals .btn.btn-default i{padding-right: 5px !important;}
+.page-addons .btn.btn-default:hover,  .page-domain-renewals .btn.btn-default:hover{background:#000; color:#fff;}
 
+/* Transfer Domain */
+.page-domaintransfer .cart-body form label{font-family: 'Raleway', sans-serif; font-weight: 600 !important; font-size: 14px !important; line-height: normal; color: #000000 !important; letter-spacing: 1px; text-transform: uppercase; width: 100%; display: inline-block; padding: 0; margin: 0 0 8px;}
+.page-domaintransfer .cart-body form .form-control{font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2) !important; box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.page-domaintransfer .cart-body form .form-group{margin: 0 0 25px;}
+.page-domaintransfer .cart-body form .panel-heading{background:#f7f7f7; padding:15px !important;}
+.page-domaintransfer .cart-body form .panel-heading h3{font-size:20px !important; margin:0 !important;}
+.page-domaintransfer .cart-body form .panel{border:1px solid #ddd; background: #fff;}
+.page-domaintransfer .cart-body form .btn{ font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13px !important; line-height: 1 !important; color: #ffffff; background: #bb2581; border: none !important; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); letter-spacing: 1px; text-transform: uppercase; text-decoration: none !important; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 10px 23px !important; float: right; width: auto;}
+.page-domaintransfer .cart-body form .btn:hover{background:#000;}
+.page-domaintransfer .cart-body .text-center h2{font-size:24px !important;}
+.page-domaintransfer .cart-body .text-center p{font-size:14px; margin:0;}
+.page-domaintransfer .cart-body  .header-lined{margin:0 0 20px !important;}
 
+/* Login 19-4-22 */
+.loginpage .master-breadcrumb{ margin: 50px 0 30px; background: transparent;}
+.loginpage .primary-content{max-width:1100px; margin:0 auto; display:block; padding:0;}
+.page-clientregister.loginpage #main-body .primary-content .table-container{position: relative; background: #ffffff; -webkit-box-shadow: 10px 20px 100px -10px rgb(0 0 0 / 30%); -moz-box-shadow: 10px 20px 100px -10px rgb(0,0,0,0.3); box-shadow: 10px 20px 100px -10px rgb(0 0 0 / 30%); border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; padding: 33px 20px 71px 0; margin-bottom: 40px;}
+.page-clientregister.loginpage .sidebar div.list-group-item-action{margin:0 0 10px;}
 
+/* Password Reset */
+.page-password-reset-container.loginpage #main-body .primary-content .table-container{padding:0 30px;}
+.page-password-reset-container .table-container h6{font-family: 'Raleway', sans-serif; font-weight: normal; font-size: 15px; line-height: 1; color: #000000; letter-spacing: 7.5px; text-align: center; text-transform: uppercase; margin: 0 0 26px;}
+.page-password-reset-container .table-container .text-muted{font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 16px; line-height: normal; color: #000!important; margin:0 0 50px !important;}
+.page-password-reset-container .table-container label{font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 1px; text-transform: uppercase; width: 100%; display: inline-block; padding: 0; margin: 0 0 8px;}
+.page-password-reset-container .table-container .form-control{    font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2); box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%); width: 100%; height: initial; display: inline-block; padding: 15px 15px; }
+.page-password-reset-container .table-container .card{width: 100%; max-width: 640px; background: #ffffff; -webkit-box-shadow: 30px 30px 30px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 30px 30px 30px 0px rgba(0,0,0,0.2); box-shadow: 30px 30px 30px 0px rgb(0 0 0 / 20%); margin: 0 auto; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; padding: 50px;}
+.page-password-reset-container .table-container .card .input-group{flex-wrap: nowrap;}
+.page-password-reset-container .table-container .card .btn{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0 !important; margin-right: 12px !important; padding: 12px 35px !important;}
 
+/* Choose Domain */
+.page-configureproductdomain #order-standard_cart .domain-selection-options{background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);}
+.page-configureproductdomain #order-standard_cart .domain-selection-options .option{border-radius:0; background:transparent;}
+.page-configureproductdomain #order-standard_cart .domain-selection-options .option label{font-size:14px; font-weight:400;}
+.page-configureproductdomain #order-standard_cart .domain-selection-options .option-selected { background-color: #f7f7f7; border-bottom: 1px solid #ddd; }
+.page-configureproductdomain #order-standard_cart .field, .page-configureproductdomain #order-standard_cart .form-control{border-radius:0;     -webkit-box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2) !important; box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; font-size: 14px; font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; padding: 15px 15px; height: auto;}
+.page-configureproductdomain .domain-input-group .btn{    font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13px !important; line-height: 1 !important; color: #ffffff; background: #bb2581; border: none; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); letter-spacing: 1px; text-transform: uppercase; text-decoration: none; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 17.5px 12px; float: right; width: 100%;}
+.page-configureproductdomain .domain-input-group .btn:hover{background:#000;}
+.page-configureproductdomain .domain-input-group .input-group-text{font-size:14px; padding:0 8px; font-family: 'Raleway', sans-serif; border-radius: 0;}
+.page-configureproductdomain .domain-input-group .form-control-static{margin: 0; background: #e9eaee; height: 100%; border: 1px solid #ddd; text-align: center; margin-right: -4px; border-right: 0; display: flex; justify-content: center; align-items: center; line-height: normal; font-family: 'Raleway', sans-serif; font-size: 14px;}
+.page-configureproductdomain #order-standard_cart .domain-lookup-primary-results .headline{font-size:18px;}
+.page-configureproductdomain #order-standard_cart .domain-price{font-size:14px;}
+.page-configureproductdomain #order-standard_cart .domain-price .price{color: #bb2581;}
+.page-configureproductdomain #order-standard_cart .btn-add-to-cart{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 12px !important; line-height: 1 !important; color: #ffffff; background: #bb2581; border: none; -webkit-box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); -moz-box-shadow: 4px 7px 10px 0px rgb(0,0,0,0.26); box-shadow: 4px 7px 10px 0px rgb(0 0 0 / 26%); letter-spacing: 1px; text-transform: uppercase; text-decoration: none; display: inline-block; border-radius: 0; border-top-left-radius: 10px; border-bottom-right-radius: 10px; transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s; margin: 0; padding: 6.5px 10px;}
+.page-configureproductdomain #order-standard_cart .btn-add-to-cart:hover{background:#000;}
+.page-configureproductdomain .btn-lg{padding: 10px 20px; font-size:13px !important;}
+.page-configureproductdomain .btn-lg:hover{background:#000;}
 
+.page-configureproduct .btn-lg{padding: 10px 20px; font-size:13px !important;}
+.page-configureproduct .btn-lg:hover{background:#000;}
+.page-configureproduct #order-standard_cart .product-info p.product-title{font-size:16px;}
+.page-configureproduct #order-standard_cart label{font-size:14px; font-weight:700;}
+.page-configureproduct #order-standard_cart label > span{font-weight:normal;}
+.page-configureproduct #order-standard_cart .addon-promo-container h3{font-size:20px;}
+.page-configureproduct #order-standard_cart .addon-promo-container{background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);}
+.page-configureproduct #order-standard_cart .form-control{font-size:14px;}
+.page-configureproduct #order-standard_cart .sub-heading span{color: #bc2582;}
 
+/* Domain Configiration */
+.page-configuredomains .btn-lg{padding: 10px 20px; font-size:13px !important;}
+.page-configuredomains .btn-lg:hover{background:#000;}
+.page-configuredomains #order-standard_cart label{font-weight:400; font-size:14px; margin:0 0 5px;}
+.page-configuredomains #order-standard_cart .sub-heading span{color: #bc2582;}
+.page-configuredomains #order-standard_cart .panel-addon{background: #ffffff; -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%); padding: 15px 10px; margin: 0 0 20px;}
+.page-configuredomains #order-standard_cart .panel-addon .panel-body{margin:0 0 10px; font-size:12px;}
+.page-configuredomains #order-standard_cart .prepend-icon .field { -webkit-box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2) !important; box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; padding: 10px 15px 10px 36px; font-size: 14px; width: 100%; max-width: 300px; }
+.page-configuredomains #order-standard_cart .prepend-icon .field-icon{left:0; top:13px;     width: 36px; height: auto; margin: 0;}
+.page-configuredomains .form-group span{font-size:14px;}
+.page-configuredomains .icheckbox_square-blue{margin-right:6px;}
 
+/* Cart Page list */
+.page-viewcart #order-standard_cart .view-cart-items .item-title{font-size: 16px; font-weight: 500;}
+.page-viewcart #order-standard_cart .view-cart-items .item-title .btn-link{ color: #bc2582;}
+.page-viewcart #order-standard_cart .view-cart-items .item-price span{ font-size:16px; }
+.page-viewcart #order-standard_cart .view-cart-items .item-price .cycle{font-size:12px;}
+.page-viewcart #order-standard_cart .view-cart-items .item-domain{font-size:12px; font-weight:500; color:#be1d82;}
 
+ /* View Cart */
+.page-viewcart #order-standard_cart .sub-heading span{color:#bc2582; font-size:14px;}  
+.page-viewcart .address, .page-viewcart .address .small{ font-family: 'Raleway', sans-serif; font-weight: 600;}
+.page-viewcart #order-standard_cart label{font-size:14px; font-weight: 500; margin: 0;}
+.page-viewcart #order-standard_cart .account-select-container div{top:-2px;}
+.page-viewcart #order-standard_cart .prepend-icon .field, .page-viewcart #order-standard_cart .field, .page-viewcart #order-standard_cart .form-control{font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2) !important; box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; width: 100%; height: initial; display: inline-block; padding: 15px 15px 15px 40px;}
+.page-viewcart #order-standard_cart .separate-dial-code .form-control{padding-left:85px;}
+.page-viewcart #order-standard_cart .prepend-icon .field-icon{display:table; height:100%;}
+.page-viewcart #order-standard_cart .prepend-icon .field-icon i { color: #bc2582; font-size: 16px; display: table-cell; vertical-align: middle; }
+.page-viewcart .btn-lg{padding: 10px 20px; font-size:13px !important;}
+.page-viewcart .btn-lg:hover{background:#000;}
 
+/* Contact Page */
+.page-contact .card{ max-width: 600px; margin: 20px auto 0; border: 1px solid #ddd;}
+.page-contact .card .card-body{padding:30px 40px;}
+.page-contact .card .card-body .mb-4{margin:0 0 30px !important;}
+.page-contact .card .card-body .mb-4 h6{font-size:26px;}
+.page-contact .card .card-body .mb-4 .text-muted{font-size:14px; color: #000 !important; font-weight: 400;}
+.page-contact .card .form-group{ margin: 0 0 25px;}
+.page-contact .card .col-sm-7, .page-contact .card .col-sm-9{ flex: 0 0 100%; max-width: 100%; padding:0;}
+.page-contact .card label{text-align:left !important; flex: 0 0 100%; max-width: 100%; font-family: 'Raleway', sans-serif; font-weight: 600 !important; font-size: 14px !important; line-height: normal; color: #000000 !important; letter-spacing: 1px; text-transform: uppercase; width: 100%; display: inline-block; padding: 0; margin: 0 0 8px;}
+.page-contact .card .form-control{ font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 14px; line-height: normal; color: #000000; background: #ffffff; letter-spacing: 1px; border: none; border-radius: 0; -webkit-box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; -moz-box-shadow: 10px 0px 50px 0px rgba(0,0,0,0.2) !important; box-shadow: 10px 0px 50px 0px rgb(0 0 0 / 20%) !important; width: 100%; height: initial; display: inline-block; padding: 15px 15px;}
+.page-contact .card .btn{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 13.71px; line-height: 1; color: #ffffff; letter-spacing: 0; text-transform: uppercase; background: #be1d82; -webkit-box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); -moz-box-shadow: 10px 18px 49px 0px rgb(0,0,0,0.28); box-shadow: 10px 18px 49px 0px rgb(0 0 0 / 28%); border: none; border-radius: 10px; display: inline-block; text-align: center; margin: 0; padding: 12px 35px ;}
+.page-contact .card .btn:hover{background:#000;}
 
+/* Rigister */
+.page-clientregister .alert-danger{max-width:748px;}
+.innerpage .p-hamburger-menu-wrapper.is-shown{position:fixed;}
 
 /**************************** Responsive ****************************/
 @media (max-width: 1700px) {
@@ -3930,7 +4051,17 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 
 }
 
-@media (max-width: 1280px) {}
+@media (max-width: 1280px) { 
+
+  /* Am Web 360deg */
+ .table-container #order-standard_cart .cart-sidebar{display:block; width:25%;}
+ .table-container #order-standard_cart .cart-body{width:75%;}
+ .table-container #order-standard_cart .sidebar-collapsed{display:none;}
+  /* Cart */
+ .page-viewcart #order-standard_cart .secondary-cart-sidebar{width:35%;}
+ .page-viewcart #order-standard_cart .secondary-cart-body{width:65%;}
+  
+}
 @media (max-width: 1150px) {
 
   /* Login Page */
@@ -4008,7 +4139,100 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .Myticket-section .Myticket-box table thead tr th:nth-child(4), .Myticket-section .Myticket-box table tbody tr td:nth-child(4) { width: 20% !important; white-space: initial !important; text-align: center; }
   .Myticket-section .Myticket-box table thead tr th:nth-child(5), .Myticket-section .Myticket-box table tbody tr td:nth-child(5) { width: 10% !important; }
 
+  /* My Invoice */
+  .subheadingbox{padding:0 15px 25px;}
+  .subheadingbox .Inner-box{width:94%; margin:0 auto; display:table; padding: 76px 55px 47px;}
+  .table-container .Right-side .sidebar .card-sidebar{ padding: 0 15px 0 30px; }
+  .table-container .Right-side .sidebar .card-sidebar .card-header:before{left:-23px; width:10px;}
+  .table-container .Right-side .sidebar .card-sidebar .card-header h3.card-title{font-size:17px;}
+  .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body{font-size:14px; line-height:20px;}
+  .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item span, .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group a.list-group-item{font-size:14px;}
+  .page-clientareainvoices .table-container .Right-side{width:290px;}
+  .page-clientareainvoices .table-container .dataTables_wrapper{width: calc(100% - 305px);}
+  .table-container .Right-side .sidebar .card-sidebar .card-footer a.btn-block{padding:8px 15px;}
+  .table-container .dataTables_wrapper .listtable .dataTables_info{font-size:13px;}
+  .table-container .dataTables_wrapper .listtable .dataTables_filter label input.form-control{font-size:13px; padding: 10px 13px 10px 40px !important;}
+  .table-container .dataTables_wrapper table thead tr th{font-size:17px !important;}
+  .table-container .dataTables_wrapper table tbody tr td, .table-container .dataTables_wrapper table tbody tr td *{font-size:15px;}
+  .table-container .dataTables_wrapper .dataTables_length label{font-size:13px;}
+  .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item a.page-link{font-size:16px;}
+  .table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item a.page-link{height:31px; width:31px;}
+  
+  /* Support Ticket */
+  .table-container .Left-side{width: calc(100% - 305px);}
+  .table-container .Right-side{width:290px;}
+  
+  /* My Quotes */
+  .Left-side.My_quotes .dataTables_wrapper table{overflow: auto; display:inline-block !important;}
+  .Left-side.My_quotes .dataTables_wrapper table tbody,  .Left-side.My_quotes .dataTables_wrapper table thead{min-width:742px !important;}
+  .table-container .Left-side.My_quotes .table-container{display:block;}
+  .table-container .Left-side.My_quotes .dataTables_wrapper table thead tr{ padding: 19px 13px 36px 26px; }
+ 
+  /* My Plan and Services */
+  .table-container .Left-side.My_plans_services .dataTables_wrapper table{overflow: auto; display:inline-block !important;}
+  .table-container .Left-side.My_plans_services .dataTables_wrapper table tbody,  .table-container .Left-side.My_plans_services .dataTables_wrapper table thead{min-width:742px !important;}
+  .page-clientareaproducts .table-container{display:block;}
 
+  /* My Domain */
+  .table-container .Left-side.My_domains .tab-content form .btn-group{display:inline-block;}
+  .table-container .Left-side.My_domains .tab-content form .btn-group .btn{width:48%; margin:0 0 12px !important;}
+  .table-container .Left-side.My_domains .tab-content form .btn-group .btn-group{width:48%; vertical-align:top;}
+  .table-container .Left-side.My_domains .tab-content form .btn-group .btn-group .btn{width:100%;}
+  .table-container .Left-side.My_domains .dataTables_wrapper table{overflow: auto; display:inline-block !important;}
+  .table-container .Left-side.My_domains .dataTables_wrapper table tbody,  .table-container .Left-side.My_domains .dataTables_wrapper table thead{min-width:742px !important;}
+  .table-container .Left-side.My_domains .table-container{display:block;}
+  
+  /* User Management */
+  .table-container .Left-side .card .card-body table.table-striped tbody tr th{font-size:16px; max-width:50%;}
+  .table-container .Left-side .card .card-body table.table-striped tbody tr td{font-size:15px; padding-top:10px;}
+  
+  /* Payment Method */
+  .page-account-paymentmethods .table-container{ display: block;}
+  .page-account-paymentmethods .table-container table{ display: block !important; overflow: auto;}
+  .page-account-paymentmethods .table-container thead, .page-account-paymentmethods .table-container tbody{display:block; min-width:700px;}
+  
+  /* Am Web 360deg */
+  .table-container #order-standard_cart .cart-sidebar{width:30%;}
+  .table-container #order-standard_cart .cart-body{width:70%;}
+  .table-container #order-standard_cart .cart-sidebar .card-sidebar .list-group a.list-group-item{font-size:14px;}
+  .table-container #order-standard_cart .cart-sidebar .card-sidebar .panel-heading h3.panel-title{font-size:17px;}
+  .table-container #order-standard_cart .cart-body .products .product footer{width:50%;}
+  .table-container #order-standard_cart .cart-body .products .product header span{font-size:14px;}
+  .table-container #order-standard_cart .cart-body .products .product footer .product-pricing span.price{font-size:16px;}
+  .table-container #order-standard_cart .cart-body .products .product footer .product-pricing{font-size:13px;}
+  
+  /* Domain Register */
+ .page-domainregister .domain-checker-bg{padding:60px 0; background-size: 30vw;} 
+ .table-container #order-standard_cart .input-group-lg>.form-control{font-size:16px;}
+ .domain-pricing .tld-pricing-header .col-md-4, .domain-pricing .tld-pricing-header .col-4{font-size:17px;}
+ .page-domainregister .domain-promo-box .fas{font-size: 3em;}
+ .page-domainregister .domain-promo-box h3{font-size:16px !important;}
+ .page-domainregister .domain-promo-box .text-primary, .page-domainregister .domain-promo-box p{font-size:11px;}
+ 
+  /* Cart */
+ .page-viewcart #order-standard_cart .secondary-cart-sidebar{width:100%;}
+ .page-viewcart #order-standard_cart .secondary-cart-body{width:100%;}
+ 
+ /* View Tickets */
+ .page-viewticket .view-ticket, .page-viewticket .d-print-none{ width: calc(100% - 305px); }
+ 
+ /* Project Management */
+ .projectmanagement .col-lg-8{width:calc(100% - 305px);}
+ .projectmanagement .col-lg-4{max-width:290px;}
+ .projectmanagement .col-lg-4 > div h4:before{width:10px; left:-23px;}
+ .projectmanagement .col-lg-4 > div{padding: 0 6px 0 30px;}
+ .projectmanagement .table tbody tr td{font-size:15px;}
+ .projectmanagement .col-lg-4 > div p, .projectmanagement .col-lg-4 > div p *{font-size:14px;}
+ 
+ /* Product Details */
+ .page-clientareaproductdetails .tab-content.margin-bottom{ width: calc(100% - 305px);}
+ .page-clientareaproductdetails .tab-content.margin-bottom .tab-pane > .row > .col-md-6{ flex: 0 0 100%; max-width: 100%;}
+ .page-clientareaproductdetails .tab-content.margin-bottom .tab-pane .panel, .page-clientareaproductdetails .tab-content .alert{margin:0 0 15px;}
+  .page-clientareaproductdetails #cPanelBillingOverviewPanel .col-md-5, .page-clientareaproductdetails #cPanelBillingOverviewPanel .col-md-7 { flex: 0 0 100%; max-width: 100%; }
+  
+  /* Rigister */
+.page-clientregister .alert-danger{width:calc(100% - 305px);}
+  
 }
 
 @media (max-width: 999px) {
@@ -4089,6 +4313,78 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(5), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(5) { width: 170px !important; }
   .Myticket-section.My_project .Myticket-box .dataTables_wrapper table thead tr th:nth-child(6), .Myticket-section.My_project .Myticket-box .dataTables_wrapper table tbody tr td:nth-child(6) { width: 80px !important; }
 
+  /* My Invoice */
+  .subheadingbox .Inner-box h2:before{height:16px;}
+  .page-clientareainvoices .table-container .dataTables_wrapper{width:100%; max-width:100% !important; margin:0 0 15px;}
+  .page-clientareainvoices .table-container .Right-side{width:100%; margin:0 0 30px;}
+  .table-container .dataTables_wrapper .dataTables_paginate{max-width:100%;}
+  
+  /* Support Ticket */
+  .table-container .Left-side{width: 100%; max-width:100%;}
+  .table-container .Right-side{width:100%; margin:0 0 30px;}
+  .page-supportticketslist .table-container .Right-side .sidebar{display:block !important;}
+  .page-supportticketslist .table-container .dataTables_wrapper{max-width:100% !important;}
+  .page-supportticketslist .table-list > tbody > tr > td a.border-left{text-align:center;}
+  
+  /* My Quotes */
+ .table-container .Right-side .sidebar{display:block !important;}
+
+  /* My Plan and Services */
+  .table-container .Left-side.My_plans_services{width: 100%; max-width:100% !important;}
+  .table-container .Left-side.My_plans_services .dataTables_wrapper{max-width:100% !important;}
+  
+  /* My Projects */
+  .Projects .table-container{display:block;}
+  .Projects .table-container .dataTables_wrapper table{overflow: auto; display:inline-block !important;}
+  .Projects .table-container .dataTables_wrapper table tbody,  .Projects .table-container .dataTables_wrapper table thead{min-width:800px !important;}
+  .Projects .table-container .dataTables_wrapper table thead tr{ padding: 19px 13px 36px 26px; }
+  
+    /* My Domain */
+  .table-container .Left-side.My_domains .tab-content form .btn-group{display:table; margin:0 auto; max-width:300px;}
+  .table-container .Left-side.My_domains .tab-content form .btn-group button.btn{width:100%; margin: 0 0 6px !important;}
+  .table-container .Left-side.My_domains .tab-content form .btn-group .btn-group{width:100%;}
+  
+    /* Announcements */
+  .page-announcements .table-container .Left-side{width: 100%; max-width:100%;}
+  .table-container .Left-side .card .card-body h3.card-title:before{height:16px;}
+  
+  /* Am Web 360deg */
+  .table-container #order-standard_cart .cart-sidebar{width:100%; margin:0 0 30px;}
+  .table-container #order-standard_cart .cart-body{width:100%;}
+  .table-container #order-standard_cart{padding:0 0 30px 20px;}
+  
+  /* Domain Register */
+  .page-domainregister .domain-promo-box .fas{font-size: 2.6em;}
+  .page-domainregister .domain-promo-box{padding:15px;}
+  
+  /* Domain Transfer */
+  .page-domaintransfer .cart-body .header-lined{margin:0 0 10px!important; }
+  .page-domaintransfer .cart-body .text-center h2 { font-size: 22px !important; }
+  .page-domaintransfer .cart-body .text-center p{font-size:13px;}
+  .page-domaintransfer .cart-body form .panel-heading h3{ font-size: 18px !important; }
+  
+  /* Cart */
+ .page-viewcart #order-standard_cart .cart-body .secondary-cart-body form .view-cart-items .view-cart-empty{ background: #f7f7f7; }
+ 
+  /* View Tickets */
+ .page-viewticket .view-ticket, .page-viewticket .d-print-none{ width:100%; }
+ .page-viewticket .sidebar .collapsable-card-body .list-group-item{ padding: 0 0 10px; margin: 0 0 5px;}
+ .page-viewticket .view-ticket h3.card-title:before, .page-viewticket .d-print-none h3.card-title:before{height:16px;}
+ 
+ /* Project Management */
+ .projectmanagement .col-lg-8{width:100%;}
+ .projectmanagement .col-lg-4{max-width:100%; width:100%; margin:30px 0 0;}
+.projectmanagement .table thead tr th:nth-child(1), .projectmanagement .table tbody tr td:nth-child(1){width:70px;}
+
+ /* Product Details */
+  .page-clientareaproductdetails .tab-content.margin-bottom { width: 100%; }
+  .page-clientareaproductdetails .tab-content .panel-title:before{height:16px;}
+  
+  /* Domain Configirition */
+  .page-configuredomains .cart-body > form{background:#f5f5f5; padding:20px;}
+  
+/* Rigister */
+.page-clientregister .alert-danger { width: 100%; display: inline-block; max-width: 100%; }
 
 }
 
@@ -4183,8 +4479,161 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
   .Myticket-section .Myticket-box .dataTables_wrapper .dataTables_paginate { padding: 22px 0; }
   .Myticket-section.My_project .Myticket-box .New__ticket a { padding: 13px 30px 10px 20px; }
   .Myticket-section.My_project .Myticket-box .New__ticket a img { margin-right: 20px; }
+  
+  /* 11-4-22 Aj */
+  .My-dasboard, .Myticket-section{display:block; overflow:hidden;}
+  .Verificationbox .modal-dialog .modal-body{padding:0;}
+  
+   /* My Invoice */
+  .page-clientareainvoices .table-container .dataTables_wrapper table tbody tr td, .page-clientareainvoices .table-container .dataTables_wrapper table thead tr th { white-space: nowrap; padding: 0 10px !important; }
+  .page-clientareainvoices .table-container .dataTables_wrapper table{ overflow: auto; display:inline-block !important;}
+  .page-clientareainvoices .table-container .dataTables_wrapper table tbody,   .page-clientareainvoices .table-container .dataTables_wrapper table thead{width:800px !important;}
+  .page-clientareainvoices .table-container .dataTables_wrapper table tbody tr td:first-child, .page-clientareainvoices .table-container .dataTables_wrapper table thead tr th:first-child{width:120px !important;}
+  .page-clientareainvoices .table-container .dataTables_wrapper table thead tr{padding: 15px 13px 23px 26px;}
+  .page-clientareainvoices .table-container .dataTables_wrapper table tbody tr td:nth-child(2), .page-clientareainvoices .table-container .dataTables_wrapper table thead tr th:nth-child(2), .page-clientareainvoices .table-container .dataTables_wrapper table tbody tr td:nth-child(3), .page-clientareainvoices .table-container .dataTables_wrapper table thead tr th:nth-child(3), .page-clientareainvoices .table-container .dataTables_wrapper table tbody tr td:nth-child(4), .page-clientareainvoices .table-container .dataTables_wrapper table thead tr th:nth-child(4){width:150px !important;}
+  .page-clientareainvoices .table-container .dataTables_wrapper table tbody tr td:nth-child(5), .page-clientareainvoices .table-container .dataTables_wrapper table thead tr th:nth-child(5){width:80px !important;}
+  .table-container{display:block; padding: 25px 20px 50px 0;}
+  .table-container .dataTables_wrapper .listtable .dataTables_filter label input.form-control{width:100%;}
+  .table-container .dataTables_wrapper .listtable .dataTables_info{width:100%;}
+  .dataTables_wrapper .dataTables_filter{margin:0 0 10px;}
+  .subheadingbox .Inner-box h2{font-size:17px; letter-spacing: 6px;}
+  .subheadingbox .Inner-box p{font-size:15px; line-height:normal;}
+  .table-container .dataTables_wrapper .dataTables_paginate ul.pagination{width:100%; text-align:center; padding: 24px 10px 85px;}
+  .table-container .dataTables_wrapper .dataTables_length{ margin: -60px 0 0; width:100%;}
+  .table-container .Right-side .sidebar .card-sidebar .card-header:before{height:38px;}
+  .table-container .Right-side .sidebar .card-sidebar .card-header{padding:12px 0;}
+  
+   /* Support Ticket */
+   .page-supportticketslist .table-container .dataTables_wrapper table{overflow: auto; display:inline-block !important;}
+   .page-supportticketslist .table-container .dataTables_wrapper table tbody,  .page-supportticketslist .table-container .dataTables_wrapper table thead{width:742px !important;}
+   
+   /* Announcements */
+  .table-container .Right-side .sidebar .card-sidebar{display:block !important;}
+  .table-container .Right-side .sidebar .card.d-block.d-md-none.bg-light{display:none !important;}
+  .table-container .Left-side .card .card-body h3.card-title{font-size:17px; letter-spacing: 6px;}
+  .table-container .Left-side .alert-info, .table-container .Left-side .card .card-body .alert-success{font-size:15px;}
+  .table-container .Left-side .card .card-body p{font-size:15px; line-height:normal;}
+  p{font-size:15px;}
+  
+  /* Lost Password */
+  .page-password-reset-container .table-container .card{padding:30px;}  
+  .page-password-reset-container .table-container h6{margin:0 0 18px;}
+  .page-password-reset-container .table-container .text-muted{font-size:15px; margin: 0 0 40px !important;}
+  
+  /* Account Details */
+  .table-container .Left-side .card .form-check label{font-size:15px;}
+  
+  /* User Management */
+  .page-account-user-management .table-container .Left-side .card .card-body table.table-striped{padding: 15px 10px; display: block !important;}
+  .page-account-user-management  .table-container .Left-side .card .card-body table.table-striped tbody tr th{display:none;}
+  .page-account-user-management .table-container .Left-side .card .card-body table.table-striped tbody tr td{display:block; padding: 6px 10px;}
+  .page-account-user-management .table-container .Left-side.User-management .card .card-body form .form-group label.form-check-inline {margin: 6px 0; display: block; }
+  
+  /* Account Security */
+  .Left-side.Account_security #frmSingleSignOn span{font-size:15px;}
+  .Left-side.Account_security #frmSingleSignOn .p-2{display:inline-block;}
+  .Left-side.Account_security #frmSingleSignOn .p-2 .bootstrap-switch{float:left;}
+  .Left-side.Account_security #frmSingleSignOn .p-2 > span{ width: calc(100% - 130px); float: right;}
+  
+  /* Email History */
+  .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group{padding:0 0 40px;}
+  .Left-side.Email_history .table-container table{display:block !important; overflow:auto;}
+  .Left-side.Email_history .table-container table thead, .Left-side.Email_history .table-container table tbody{min-width:600px;}
+  
+  /* Change Password */
+  .table-container .Left-side.Change_password .card .card-body form .form-group label.col-form-label{width:100%; padding: 7px 0;}
+  .table-container .Left-side.Change_password .card .card-body form .form-group .col-xl-5{width:100%;}
+  .table-container .Left-side.Change_password .alert-info{ margin: 0 0 10px; }
+  .table-container .Left-side.Change_password .card .card-body form .form-group .progress{ margin: 5px 0; }
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .form-group label.col-form-label{width:100%}
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .form-group.row .col-sm-8{width:100%;}
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .row .col-sm-8.offset-sm-4{margin-left:0; width:100%;}
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-header h4.modal-title{font-size:17px; letter-spacing:6px;}
+  
+    /* Add funds */
+  .table-container .Right-side .sidebar.d-lg-block .card-sidebar .collapsable-card-body .list-group{padding:0 0 40px;}
+  
+  /* Am Web 360deg */
+  .table-container #order-standard_cart .cart-body .products .row-eq-height:nth-child(n+2){margin-top:0;}
+  .table-container #order-standard_cart .cart-body .products .row-eq-height .col-md-6{margin-bottom:20px;}
+  .table-container #order-standard_cart .cart-body .products .product footer{max-width:160px;}
+  .table-container #order-standard_cart .cart-body .header-lined h1{font-size:17px; letter-spacing:6px;}
+  .table-container #order-standard_cart .cart-sidebar .card-sidebar .panel-heading:before{height:38px;}
+  .table-container #order-standard_cart .cart-sidebar .card-sidebar .panel-heading{padding:12px 0;}
+  
+  /* Addons */
+  .table-container #order-standard_cart .alert-warning{font-size:15px;}
+  
+  /* Domain Register */
+  .page-domainregister .domain-pricing .two-row-center{border-bottom: 2px solid #e174b7; display: table; width: auto; margin: 10px auto 8px; font-weight: 700; line-height: normal; border-right: 0; padding: 0 10px 0 9px;}
+  .domain-pricing .tld-pricing-header .col-md-4, .domain-pricing .tld-pricing-header .col-4{ padding: 15px 0 !important; }
+  .page-domainregister .domain-checker-bg{padding: 30px 0;}
+  .page-domainregister .domain-checker-bg .col-md-8{width: 100%; max-width: 96%; flex: 0 0 100%; margin: auto;}
+  .page-domainregister .domain-checker-container .input-group-box .input-group-btn{width:100px;}
+  .page-domainregister .domain-checker-container .input-group-box .input-group-btn .btn{border-bottom-left-radius: 0; border-top-left-radius: 0;}
+  .page-domainregister .table-container #order-standard_cart .input-group-lg>.form-control{  border-radius: 6px 0 0 6px !important; margin:0;}
+  .page-domainregister .domain-promo-box { margin-top: 10px; margin-bottom: 10px; }
+    .domain-pricing h4{font-size:17px !important; letter-spacing: 6px;}
+    
+  /* Domain Transfer */
+  .page-domaintransfer .cart-body form .col-sm-8.col-sm-offset-2{ flex: 0 0 100%; max-width: 500px; margin: 0 auto;}
+  .page-domaintransfer .cart-body .header-lined { margin: 0 0 0px!important; }
+  
+  /* Cart */
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .order-summary h2{font-size:17px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span.amt{font-size:22px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span{font-size:14px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container a.btn-continue-shopping{font-size:13px;}
+  .page-viewcart #order-standard_cart .cart-body .secondary-cart-body form .view-cart-items .view-cart-empty{font-size:15px;}
+  .page-viewcart .table-container #order-standard_cart{padding:0 15px 20px;}
+  
+  /* View Tickets */
+ .page-viewticket .view-ticket, .page-viewticket .d-print-none{ padding: 33px 20px 50px 0; margin-bottom:30px;}
+  .page-viewticket .view-ticket .card-body, .page-viewticket .d-print-none .card-body{margin:0 0 20px;}
+ .page-viewticket .view-ticket h3.card-title, .page-viewticket .d-print-none h3.card-title{font-size:17px; letter-spacing: 6px;}
+ .page-viewticket .view-ticket h3.card-title .ticket-actions{display:block; margin:10px 0 0; text-align:right;}
+ .page-viewticket .view-ticket .card-body .ticket-reply .posted-by .requestor-badge{margin-left:5px;}
+ .page-viewticket .view-ticket .card-body.p-3 p{padding:10px; width:100%;}
+ .page-viewticket .view-ticket .card-body .ticket-reply .posted-by{width:100%; margin:0 0 15px;}
+ .page-viewticket .view-ticket .card-body .ticket-reply{padding:0;}
+ .page-viewticket .d-print-none form{padding:0 0 20px;}
+ .page-viewticket .view-ticket .card-body .ticket-reply .message{font-size:15px;}
+ .page-viewticket .view-ticket .card-body .ticket-reply .rating .star:before{font-size:18px;}
+ .page-viewticket .view-ticket .card-body .ticket-reply .rating{margin:0 0;}
+ 
+  /* Project Management */
+ .projectmanagement .col-lg-4{margin:20px 0 0;}
+ .projectmanagement .col-lg-4 .card-body{padding:15px;}
+ .projectmanagement .alert-info{font-size:15px; padding:15px;}
+ .table-container .projectmanagement .infobar{font-size:15px;}
+ .projectmanagement .col-lg-4 > div h4{padding: 12px 0;}
+ .projectmanagement .col-lg-4 > div h4, .projectmanagement .col-lg-4 > div h4 i{font-size:17px;}
+ .projectmanagement .col-lg-4 > div h4:before{height:38px;}
+ .projectmanagement .col-lg-8 h4{font-size:17px; letter-spacing:6px;}
+ 
+ /* Product Details */
+  .page-clientareaproductdetails .tab-content .panel-title:before{height:13px; width:28px;}
+  .page-clientareaproductdetails .tab-content .panel-title{padding: 0 0 0 20px; font-size:17px; letter-spacing:6px;}
+  .page-clientareaproductdetails .cpanel-usage-stats .col-md-6{ width: 50%;}
+  .page-clientareaproductdetails .tab-content .alert{font-size:15px;}
+  
+  /* Add New Payment Method */
+.page-account-paymentmethods-manage .table-container .Left-side .card .card-body .form-group label{padding: 0 0 6px; width: 100%; max-width: 100%; flex: 0 0 100%;}
+.page-account-paymentmethods-manage .fieldgroup-creditcard .col-sm-7{flex: 0 0 100%; max-width: 100%; padding:0;}
+.page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-group .col-sm-2, .page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-group .col-sm-6, .page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-group .col-md-8{padding:0;}
+.page-account-paymentmethods-manage .submit-container .col-md-8.offset-sm-4{float:right; text-align:right;}
 
+  /* Shoping Cart */
+  .page-configureproduct #order-standard_cart .secondary-cart-sidebar .order-summary h2{font-size:17px;}
 
+  /* Contact Page */
+  .page-contact .table-container{ padding-left:20px; }
+  .page-contact .card .card-body { padding: 25px 30px; }
+  .page-contact .card{ margin: 10px auto 0; }
+  .page-contact .card .card-body .mb-4 h6 { font-size: 24px; }
+  
+  /* Rigister */
+.page-clientregister .alert-danger { font-size:15px;}
 }
 
 @media (max-width: 479px) {
@@ -4280,6 +4729,292 @@ body.Projects.Overview #main-body .table-container .table-container .dataTables_
 .dashboard-heading-dropdown .drop-down .selected a { letter-spacing: 5px; font-size: 16px; }
 .dashboard-heading-dropdown .drop-down .selected a i.fas { margin-right: 8px; font-size: 25px; }
 
+ /* My Invoice */
+ html, body{overflow-x: hidden;}
+ .subheadingbox{padding:0 0 20px;}
+ .subheadingbox .Inner-box { display: block; padding: 40px 10px 20px 35px; }
+ .subheadingbox .Inner-box h2{font-size:16px; letter-spacing: 5px; margin:0 0 15px;}
+ .subheadingbox .Inner-box h2 i.fas{font-size:17px; margin-right: 6px;}
+ .subheadingbox .Inner-box p{font-size:14px;}
+.subheadingbox .Inner-box h2:before { height: 13px; left: -36px; width: 28px; }
+.table-container .Right-side .sidebar .card-sidebar .card-header h3.card-title{font-size:16px;}
+.table-container .Right-side .sidebar .card-sidebar{padding: 0 15px 0 30px; margin:0 0 15px;}
+.table-container .Right-side .sidebar .card-sidebar .card-footer a.btn-block { padding: 6px 12px; font-size: 11px !important; }
+.table-container .dataTables_wrapper .listtable .dataTables_info{padding-left:0;}
+.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item a.page-link{font-size:14px; height: 26px; width: 26px; padding: 4px; }
+.table-container .dataTables_wrapper .dataTables_paginate ul.pagination li.page-item.previous a.page-link:before{font-size:13px;}
+.table-container .dataTables_wrapper .dataTables_length label select.custom-select{font-size:16px; height:36px;}
+.primary-content{padding:0;}
+.table-container .dataTables_wrapper .listtable .dataTables_filter{padding-left:20px;}
+.table-container .dataTables_wrapper .listtable .dataTables_filter::before{left:35px;}
+.table-container .Right-side{margin:0 0 20px;}
+
+  /* My Domain */
+  .table-container .Left-side.My_domains .tab-content form .btn-group button.btn{font-size:12px !important;}
+  .table-container .Left-side.My_domains .tab-content form .btn-group{max-width:280px;}
+  .page-clientareadomains .table-container .Right-side{margin:0 0 0;}
+  
+  /* Announcements */
+  .table-container .Left-side .card .card-body h3.card-title{font-size:16px; letter-spacing: 5px; padding: 0 0 0 20px; margin:0 0 15px;}
+  .table-container .Left-side .card .card-body h3.card-title:before{ height: 13px; width: 28px;}
+  .table-container .Left-side .alert-info, .table-container .Left-side .card .card-body .alert-success{font-size:14px;}
+  
+  /* Knowledgebase */
+  .Knowledgebase .table-container .Left-side form .input-group .form-control{font-size:12px; padding: 12px 15px;}  
+  .table-container .Left-side .btn{ padding: 10px 15px !important; font-size: 12px;}
+  .table-container .Left-side .card .card-body p{font-size:14px;}
+  
+  /* Serverstatus */
+  .page-serverstatus .pagination .page-item .page-link{font-size:12px; padding: 10px 15px 8px;}
+  p{font-size:14px;}
+  
+  /* Submit Ticket */
+.page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body h3.card-title { margin: 0 0 25px; }
+.table-container .Left-side .card .card-body .form-group label{font-size:12px; margin:0 0 5px;}
+.table-container .Left-side .card .card-body .form-group{margin:0 0 20px}
+.table-container .Left-side .card .card-body .form-group input, .table-container .Left-side .card .card-body .form-group select{padding:10px; font-size:12px;}
+.table-container .Left-side .card .card-body .form-group select{ background-position: top 14px right 11px; padding-right: 30px; background-size: 10px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .btn-group > .btn{font-size: 11px !important; padding: 7px !important;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group .btn.btn-default{ padding: 10px 10px !important; font-size: 12px !important; height:35px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group{flex-wrap: wrap;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .card .card-body .form-group .custom-file label{padding:10px; font-size:12px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group .custom-file label:after{font-size:12px; padding:9px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .custom-file{width:100%;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group .btn.btn-default{width:100%; padding: 10px 10px !important; font-size: 12px !important; height:30px;}
+.page-supportticketsubmit-steptwo .table-container .Left-side form .attachment-group .input-group-append{width:100%;}
+.page-supportticketsubmit-steptwo .table-container .Left-side .bottom-btn .btn{padding: 10px 17px 8px!important;}
+
+  /* Lost Password */
+  .loginpage .master-breadcrumb{margin:0 0 20px;}
+  .page-password-reset-container .table-container .card{padding:0px;}  
+  .page-password-reset-container .table-container h6{margin:0 0 14px;     letter-spacing: 4px; font-size:14px;}
+  .page-password-reset-container .table-container .text-muted{font-size:14px; margin: 0 0 20px !important;}
+  .page-password-reset-container .table-container .form-control{font-size:12px; padding:10px;}
+  .page-password-reset-container .table-container .fas.fa-user{font-size:14px;}
+  .page-password-reset-container .table-container .card .btn{ font-size: 12px; padding: 10px 30px !important;}
+  
+    /* Account Details */
+  .table-container .Left-side .card .form-check label{font-size:14px;}
+  .table-container .Left-side .card{margin:0 0 20px;}
+  
+  /* User Management */
+  .page-account-user-management .table-container .Left-side .card .card-body table.table-striped tbody tr td { display: block; padding: 5px 5px; font-size:14px;}
+  .page-account-user-management .table-container .Left-side .card .card-body table.table-striped tbody tr td small{ display: block; margin:4px 0 0;}
+  .table-container .Left-side .card .card-body table.table-striped tbody tr td a.btn{font-size:12px !important; padding: 10px 17px 9px!important;}
+  .table-container .Left-side .card .card-body form .form-group input.form-control{font-size:12px; padding: 10px 15px;}
+  .table-container .Left-side .card .card-body form .form-group label.form-check-inline{font-size:12px;}
+  .table-container .Left-side.User-management .card .card-body form .form-group label.form-check-inline input.form-check-input{position:relative; top:2px;}
+  .table-container{padding: 20px 15px 30px 0;}
+  
+  /* Contact */
+  .table-container .Left-side.Contact_details .btn{margin:0 5px 10px !important;}
+  .table-container .Left-side.Contact_details .alert-info form select{background-position: top 14px right 11px; padding-right: 30px; background-size: 10px;     padding: 10px 15px; font-size:12px;}
+  .table-container .Left-side.Contact_details .alert-info form label{padding:7px 15px;}
+  .table-container .Left-side.Contact_details .alert-info .btn{margin:0 !important;}
+  
+  /* Account Security */
+  .Left-side.Account_security #frmSingleSignOn span{font-size:14px;}
+  .Left-side.Account_security #frmSingleSignOn .p-2 > span{ width: 100%; margin:7px 0 0; line-height:normal;}
+  
+  /* User Profile */
+  .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body .validation-status-container .validation-status-label{font-size:12px;     padding: 7px 15px;}
+  .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body .validation-status-container .validation-submit-div a.btn{font-size:13px !important; padding: 9.5px 22px;}
+  .table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .card-body .validation-status-container .validation-submit-div{margin: 15px 0 10px;}
+
+  /* Email History */
+.table-container .Right-side .sidebar .card-sidebar .collapsable-card-body .list-group{padding:0 0 20px;}
+
+  /* Change Password */
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body .form-group input{ padding: 10px; font-size: 12px;}
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-footer button.btn{font-size:12px; padding: 10px 18px; margin: 0 0 8px 4px!important;}
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn{font-size:12px !important; padding: 10px 20px 8px; margin: 0 0 8px !important;}
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn i.fas, .modal#modalGeneratePassword .modal-dialog .modal-content .modal-body button.btn img{height:12px; width:auto; }
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-header h4.modal-title{font-size:16px; letter-spacing:5px;}
+  .modal#modalGeneratePassword .modal-dialog .modal-content .modal-header{align-items: center;}
+  
+  /* Add funds */
+  .table-container .Right-side .sidebar.d-lg-block .card-sidebar .collapsable-card-body .list-group{padding:0 0 20px;}
+  .page-clientareaaddfunds .table-container .Left-side .card .card-body table.table-striped tbody tr td{ padding: 15px 10px 10px; font-size:13px;}
+  .page-clientareaaddfunds .table-container .Left-side .card .card .btn-block{font-size:12px !important; padding: 8px 20px !important;}
+  .page-clientareaaddfunds .table-container .Left-side .card .card-body{padding:10px 15px;}
+  .page-clientareaaddfunds .table-container .Left-side .card .card .card-footer small{font-size:12px;}
+  .page-clientareaaddfunds .table-container .Left-side .card .card{margin:10px 0;}
+  .page-clientareaaddfunds .table-container .Left-side .card .card-body form .form-group { margin: 0 0 15px; }
+    
+  /* Am Web 360deg */
+  .table-container #order-standard_cart .cart-sidebar .card-sidebar .panel-heading h3.panel-title{font-size:16px; padding-left: 5px;}
+  .table-container #order-standard_cart{padding: 0 0 20px 15px;}
+  .table-container #order-standard_cart .cart-body .products .product header span{font-size:13px;}
+  .table-container #order-standard_cart .cart-body .products .product footer a.btn{font-size:12px !important; padding: 9px 15px;}
+  .table-container #order-standard_cart .cart-body .products .product footer .product-pricing span.price{font-size:14px;}
+  .table-container #order-standard_cart .cart-body .products .product footer .product-pricing{font-size:12px;}
+  .table-container #order-standard_cart .cart-body .products .row-eq-height .col-md-6 { margin-bottom: 15px; }
+  .table-container #order-standard_cart .cart-body .products .product header{padding:10px !important;}
+  .table-container #order-standard_cart .cart-body .header-lined h1{font-size:16px; letter-spacing:5px; margin: 0 0 15px;}
+  .table-container #order-standard_cart .cart-sidebar{margin:0 0 20px;}
+  
+  /* Addons */
+  .table-container #order-standard_cart .alert-warning{font-size:14px; line-height: normal;}
+  .page-addons .btn.btn-default, .page-domain-renewals .btn.btn-default{font-size:12px; padding: 10px 20px;}
+  
+  /* Domain Register */
+  .page-domainregister .domain-checker-container{margin:10px 0;}
+  .page-domainregister .table-container #order-standard_cart .input-group-lg>.form-control {height: 30px; font-size: 12px; }
+  .page-domainregister .domain-checker-container .input-group-box .input-group-btn .btn { font-size: 12px; padding: 0; height: 30px; }
+  .page-domainregister .domain-checker-container .input-group-box{padding:6px;}
+  .page-domainregister .domain-checker-bg { padding: 15px 0; }
+  .domain-pricing .tld-pricing-header .col-md-4, .domain-pricing .tld-pricing-header .col-4{font-size:14px; padding: 10px 0 !important;}
+  .page-domainregister .domain-pricing .tld-pricing-header .col-xs-4{border-bottom: 4px solid #e174b7;}
+  .page-domainregister .domain-pricing .tld-pricing-header div:nth-child(odd){ border-color: #bc2582;}
+  .page-domainregister .domain-pricing .two-row-center{font-size:14px;}
+  .page-domainregister .domain-pricing .filtered-row .col-md-8{font-size:13px;}
+  .page-domainregister .domain-pricing .filtered-row .col-md-8 .row{margin:0;}
+  .page-domainregister .domain-pricing .filtered-row .col-md-8 .row .col-xs-4{padding:0 5px;}
+  .page-domainregister .domain-pricing{padding:12px;}
+  .domain-pricing h4{margin:0 0 15px; font-size:16px !important; letter-spacing: 5px;}
+  .page-domainregister .domain-promo-box .fas { font-size: 1.5em; margin-left: 8px;}
+  .page-domainregister .domain-promo-box h3 { font-size: 14px !important;}
+  .page-domainregister .domain-promo-box .btn{font-size:12px; padding: 8px 15px;}
+  .page-domainregister .domain-promo-box .clearfix { margin: 0 0 5px; }
+  .domain-pricing .tld-filters{margin:0 0 20px;}
+
+  /* Domain Transfer */
+  .page-domaintransfer .cart-body .text-center h2 { font-size: 20px !important; margin: 0 0 4px; }
+  .page-domaintransfer .cart-body .text-center p { font-size: 12px; }
+  .page-domaintransfer .cart-body form .panel-heading h3 { font-size: 16px !important; }
+  .page-domaintransfer .cart-body form .panel-heading{padding:10px !important;}
+  .page-domaintransfer .cart-body form label{font-size:12px !important; margin:0 0 5px;}
+  .page-domaintransfer .cart-body form .form-control{padding:10px; font-size:12px;}
+  .page-domaintransfer .cart-body form .btn{font-size:12px !important; padding: 8px 20px !important;}
+  .page-domaintransfer .cart-body p.text-center.small{margin:0;}
+
+  /* Cart */
+  .page-viewcart .table-container{padding: 20px 0 30px 0;}
+  .page-viewcart #order-standard_cart .cart-body .secondary-cart-body form .view-cart-items-header{font-size:14px;}
+  .page-viewcart #order-standard_cart .cart-body .secondary-cart-body form .view-cart-items .view-cart-empty{font-size:14px; padding:20px 10px;}
+  .page-viewcart #order-standard_cart .view-cart-tabs .nav-tabs>li.active>a{font-size:14px;}
+  .page-viewcart #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form .form-group input{font-size:12px; padding: 10px 15px; padding-left: 40px;}
+  .page-viewcart #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form .form-group label.field-icon{width: 40px;
+    height: 34px;}
+  .page-viewcart #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs .tab-content .tab-pane form button.btn{font-size:12px; padding: 10px 35px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .order-summary h2{font-size:16px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container .subtotal,  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container .recurring-totals{font-size:14px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today{margin:15px 0;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span.amt{font-size:20px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span { font-size: 13px; }
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container a.btn-checkout{font-size:12px !important; padding: 11px 18px;}
+  .page-viewcart #order-standard_cart .secondary-cart-sidebar .summary-container a.btn-checkout i.fas{margin-left:5px;}
+  .page-viewcart #order-standard_cart .cart-body .secondary-cart-body .view-cart-tabs{margin:15px 0 15px;}
+  
+  /* View Tickets */
+  .page-viewticket .sidebar .card-footer .btn{padding: 10px 15px 7px !important;}
+  .page-viewticket .table-container .Right-side .sidebar .card-sidebar .card-footer .input-group .form-control{font-size:12px;}
+  .page-viewticket .table-container .Right-side .sidebar .card-sidebar .card-footer .input-group .form-control{font-size:12px; padding:10px;}
+  .page-viewticket .view-ticket h3.card-title:before, .page-viewticket .d-print-none h3.card-title:before{height:13px; width:28px;}
+  .page-viewticket .view-ticket h3.card-title, .page-viewticket .d-print-none h3.card-title{padding: 0 0 0 20px; margin: 0 0 15px;}
+  .page-viewticket .view-ticket .ticket-actions .btn{font-size: 12px !important; padding: 10px 15px 8px !important;}
+  .page-viewticket .view-ticket .card-body.p-3 p{width:100%; font-size:13px;}
+  .page-viewticket .view-ticket .card-body .ticket-reply .posted-by{font-size:13px;}
+  .page-viewticket .view-ticket .card-body .ticket-reply .posted-by .requestor-badge{ padding: 4.4px 8.9px !important;}
+  .page-viewticket .view-ticket .card-body .ticket-reply .message{font-size:14px;}
+  .page-viewticket .view-ticket, .page-viewticket .d-print-none { padding: 33px 20px 30px 0; margin-bottom: 20px; }
+  .page-viewticket .d-print-none form .form-group.col-md-4, .page-viewticket .d-print-none form .form-group.col-md-5{flex: 0 0 100%; max-width: 100%; margin: 0 0 10px;}
+  .page-viewticket .d-print-none form .form-group > label{font-size:12px; padding: 10px 0 6px;}
+  .page-viewticket .d-print-none form .form-group.col-md-4 input, .page-viewticket .d-print-none form .form-group.col-md-5 input{font-size:12px; padding:10px;}
+  .page-viewticket .d-print-none form .btn-toolbar .btn{font-size:11px !important;padding:7px;}
+  .page-viewticket .d-print-none form .custom-file{width:100%;}
+  .page-viewticket .d-print-none form .attachment-group .custom-file label:after{font-size: 12px; padding: 9px;}
+  .page-viewticket .d-print-none form .custom-file label{font-size:12px; padding:10px;}
+  .page-viewticket .d-print-none form .attachment-group .input-group-append{width:100%;}
+  .page-viewticket .d-print-none form .attachment-group .btn.btn-default{ font-size: 12px !important; padding: 10px 10px !important; height: 30px; width:100%;}
+  .page-viewticket .d-print-none form .form-group > .btn{font-size:12px !important; padding: 10px 17px 8px!important;}
+  .page-viewticket .view-ticket .card-body .ticket-reply .rating .star:before{font-size:16px;}
+  .page-viewticket .view-ticket .card-body, .page-viewticket .d-print-none .card-body { margin: 0 0 15px; }
+  
+  /* Project Management */
+  .projectmanagement .table thead tr th:nth-child(1), .projectmanagement .table tbody tr td:nth-child(1){width:30px;}
+  .projectmanagement .table tbody tr{padding: 12px 10px 7px 15px;}
+  .projectmanagement .table thead tr{ padding: 12px 13px 20px 18px; }
+  .table-container .projectmanagement .infobar { margin: 0 0 30px 15px; }
+  .table-container .projectmanagement .infobar { font-size: 14px; padding: 15px; }
+  .projectmanagement .col-lg-8{padding-right:0;}
+  .projectmanagement .col-lg-8 h4{font-size:16px; letter-spacing:5px; margin: 0 0 20px;}
+  .projectmanagement .col-lg-4{padding-right:0;}
+  .projectmanagement .col-lg-4 > div h4, .projectmanagement .col-lg-4 > div h4 i{font-size:16px;}
+  .projectmanagement .col-lg-4 > div .totaltime{font-size:26px;}
+  .projectmanagement .col-lg-4 > div .btn{font-size:12px; padding: 10px 17px 8px;}
+  .projectmanagement .alert-info{font-size:14px; line-height:normal;}
+  
+  /* Product Details */
+  .page-clientareaproductdetails .tab-content .panel-title{font-size: 16px; letter-spacing: 5px;}
+  .page-clientareaproductdetails .cpanel-package-details h4{font-size:20px;}
+  .page-clientareaproductdetails .cpanel-package-details a{font-size:14px;}
+  .page-clientareaproductdetails .btn{ font-size: 12px !important; padding: 10px 25px !important;}
+  .page-clientareaproductdetails .cpanel-package-details { margin: 0 0 20px; }
+  .page-clientareaproductdetails .cpanel-usage-stats .col-md-6{font-size:12px;}
+  .page-clientareaproductdetails .cpanel-usage-stats .limit-near{font-size:12px;}
+  .page-clientareaproductdetails .tab-content .alert{font-size:14px;}
+  .page-clientareaproductdetails .tab-content.margin-bottom .tab-pane .panel .col-xs-6.col-6.text-right{font-size: 12px; padding: 0;}
+  
+   /* Add New Payment Method */
+  .page-account-paymentmethods-manage .table-container .Left-side .card .card-body h3.card-title { margin: 0 0 20px; }
+  .page-account-paymentmethods-manage .cc-billing-address .col-sm-2 + .col-sm-4{max-width:100%; flex: 0 0 100%; padding:0;}
+  .page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-control{font-size:12px; padding:9px;}
+  .page-account-paymentmethods-manage .table-container .Left-side .btn{font-size:12px !important; line-height: normal !important;}
+  .page-account-paymentmethods-manage .table-container .Left-side .card .card-body form .form-group .col-md-8 .input-group .input-group-text{font-size:14px;}
+  
+  /* Choose Domain */
+  .page-configureproductdomain #order-standard_cart .field, .page-configureproductdomain #order-standard_cart .form-control{ padding: 10px 10px; font-size:12px;}
+  .page-configureproductdomain #order-standard_cart select.form-control{ padding: 8.5px 0;}
+  .page-configureproductdomain #order-standard_cart .domain-selection-options .option label{font-size:12px;}
+  .page-configureproductdomain .domain-input-group .btn{font-size:12px !important; padding: 10px 12px;}
+  .page-configureproductdomain .domain-input-group .input-group-text{font-size:12px; padding:0 5px;}
+  .page-configureproductdomain #order-standard_cart .domain-selection-options .option{padding:6px 15px;}
+  .page-configureproductdomain .domain-input-group .form-control-static{font-size:12px;}
+  
+  /* Shoping Cart */
+  .page-configureproduct #order-standard_cart .product-info p.product-title{font-size:15px;}
+  .page-configureproduct #order-standard_cart .secondary-cart-sidebar .order-summary h2{font-size:16px;}
+  .page-configureproduct #order-standard_cart label{font-size:12px;}
+  .page-configureproduct #order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span.amt{font-size:20px;}
+  .page-configureproduct #order-standard_cart .secondary-cart-sidebar .summary-container .total-due-today span{font-size:13px;}
+  .page-configureproduct .btn-lg { padding: 10px 20px; font-size: 12px !important; }
+  .page-configureproduct #order-standard_cart .addon-promo-container h3{display:inline-block; font-size:16px;}
+  .page-configureproduct #order-standard_cart .addon-promo-container .logo{width:100%; text-align:center;}
+  
+  /* Domain Configirition */
+ .page-configuredomains #order-standard_cart label{font-size:12px;}
+ .page-configuredomains #order-standard_cart .prepend-icon .field{font-size:12px; line-height: normal;}
+ .page-configuredomains #order-standard_cart .sub-heading span{font-size:13px;}
+ .page-configuredomains .btn-lg{font-size:12px !important;}
+ .page-configuredomains  .form-group span{font-size:12px;}
+ 
+ /* Cart Page list */
+ .page-viewcart #order-standard_cart .view-cart-items .item-title{font-size:14px;}
+ .page-viewcart #order-standard_cart .view-cart-items .item-price span:not(.cycle){font-size:14px; font-weight:bold;}
+ 
+ /* View Cart Checkout*/
+.page-viewcart .address, .page-viewcart .address .small{line-height: 1.3;}
+.page-viewcart #order-standard_cart label{font-size:12px;}
+.page-viewcart #order-standard_cart .prepend-icon .field, .page-viewcart #order-standard_cart .field, .page-viewcart #order-standard_cart .form-control{font-size:12px; padding: 10px 15px 10px 40px;}
+.page-viewcart .btn-lg{font-size:12px !important;}
+.page-viewcart .table-container #order-standard_cart .alert-warning{padding-left:50px;}
+.page-viewcart #order-standard_cart .checkout-security-msg i { margin-left: -36px; font-size: 1.8em; }
+.page-viewcart #order-standard_cart .apply-credit-container .radio{padding:0 10px;}
+
+/* Contact Page */
+.page-contact .table-container { padding-left: 15px; }
+.page-contact .card .card-body .mb-4 h6{font-size:20px;}
+.page-contact .card .card-body .mb-4 .text-muted{font-size:12px;}
+.page-contact .card .card-body { padding: 10px; }
+.page-contact .card .form-control{font-size:12px; padding:10px;}
+.page-contact .card label{font-size:12px !important; margin:0 0 6px;}
+.page-contact .card .form-group { margin: 0 0 20px; }
+.page-contact .card .btn{font-size:12px; padding: 10px 30px;}
+.page-contact .card { margin: 0 auto 0; }
+
+  /* Rigister */
+.page-clientregister .alert-danger { font-size:14px;}
 }
 
 @media (max-width: 350px) {

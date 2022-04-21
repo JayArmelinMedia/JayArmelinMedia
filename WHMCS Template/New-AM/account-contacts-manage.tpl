@@ -1,4 +1,12 @@
+
+<div class="subheadingbox">
+    <div class="Inner-box">
+        {if $LANG.paymentMethods.title}<h2><i class="fas fa-phone-alt"></i>{$LANG.clientareanavcontacts}</h2>{/if}
+    </div>
+</div>
 <script src="{$BASE_PATH_JS}/StatesDropdown.js"></script>
+
+
 
     <div class="Left-side Contact_details">
         <div class="alert alert-block alert-info">

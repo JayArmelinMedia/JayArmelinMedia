@@ -181,6 +181,22 @@
         </div>
         <div class="Verificationbox"> {include file="$template/includes/validateuser.tpl"}
     {include file="$template/includes/verifyemail.tpl"}</div>
+    
+    
+    <div class="grid grid-cols-1 gap-8 mb-10 xl:grid-cols-2 2xl:grid-cols-3">
+    <div class="relative col-span-3 px-10 py-5 bg-white shadow-xl dark:bg-gray-900 rounded-tl-xl rounded-br-xl">
+        {foreach $panels as $item}
+            {if in_array($item->getName(), $flattern_enabled_panels) && $item->getName()=='pm-addon'}
+                {include file="$template/includes/outputHomePanels_projects.tpl"}
+            {/if}
+            {if in_array($item->getName(),$flattern_enabled_panels) && $item->getName()=='Your Files'}
+                {include file="$template/includes/outputHomePanels_files.tpl"}
+            {/if}
+        {/foreach}
+    </div>
+</div>
+
+
         <div class="billing-section">
             <div class="billing-title">
                 <h2><img src="/templates/New-AM/img/Billing-icon.png">{$LANG.navbilling}</h2>

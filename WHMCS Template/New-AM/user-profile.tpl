@@ -1,6 +1,5 @@
-{include file="$template/includes/flashmessage.tpl"}
-
 <div class="Left-side Profile_section">
+    {include file="$template/includes/flashmessage.tpl"}
     <div class="card">
         <div class="card-body">
             <h3 class="card-title">{lang key='userProfile.profile'}</h3>
